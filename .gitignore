@@ -1,0 +1,8 @@
+# Scraper output: reports, HTTP cache and the seen-events database
+out/
+
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/

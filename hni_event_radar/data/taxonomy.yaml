@@ -1,0 +1,375 @@
+# Signal taxonomy for the HNI relevance model.
+#
+# Everything the scorer knows lives here, so the model can be retuned without
+# touching code. Weights are additive points against a 100-point cap.
+#
+# The central distinction: PROSPECT signals mean the room contains people who
+# could become clients. PEER signals mean the room contains rival wealth
+# managers. A wealth-management summit scores high on peer and low on prospect
+# - still worth attending, but for partnerships and intel, not for AUM.
+
+prospect:
+  # Direct wealth-segment language. If a listing says "family office", the
+  # organiser has already done the qualifying for you.
+  wealth_segment:
+    weight: 15
+    terms:
+      - family office
+      - uhni
+      - ultra high net worth
+      - ultra-high-net-worth
+      - hni
+      - high net worth
+      - private wealth
+      - private banking
+      - private client
+      - succession planning
+      - estate planning
+      - wealth transfer
+      - next gen
+      - next-gen
+      - legacy planning
+      - trust structure
+
+  # Liquidity events. Founders exiting or raising become clients within months.
+  liquidity:
+    weight: 12
+    terms:
+      - angel investor
+      - angel investing
+      - venture capital
+      - private equity
+      - limited partner
+      - family capital
+      - startup funding
+      - fundraising
+      - series a
+      - series b
+      - cap table
+      - exit strategy
+      - acquisition
+      - merger
+      - ipo
+      - listing gains
+      - esop
+      - secondary sale
+      - buyback
+      - founder
+      - promoter
+      - unicorn
+
+  # Capital-export crowd: already thinking cross-border, already complex.
+  capital_export:
+    weight: 11
+    terms:
+      - nri
+      - offshore
+      - gift city
+      - overseas property
+      - international property
+      - dubai property
+      - london property
+      - residency by investment
+      - citizenship by investment
+      - golden visa
+      - global investor
+      - cross-border
+      - lrs
+
+  # Lifestyle spend is the cheapest available proxy for disposable wealth.
+  lifestyle:
+    weight: 9
+    terms:
+      - luxury
+      - ultra-luxury
+      - premium villa
+      - penthouse
+      - art auction
+      - fine art
+      - art fair
+      - collectible
+      - luxury watch
+      - fine jewellery
+      - jewellery exhibition
+      - yacht
+      - private jet
+      - golf
+      - polo
+      - wine tasting
+      - whisky
+      - single malt
+      - supercar
+      - luxury real estate
+      - second home
+      - farmhouse
+      - vineyard
+
+  # Senior corporate wealth: RSU/ESOP-rich salaried HNIs, distinct from promoters.
+  senior_corporate:
+    weight: 8
+    terms:
+      - cxo
+      - c-suite
+      - ceo summit
+      - cfo summit
+      - board of directors
+      - chairman
+      - managing director
+      - leadership summit
+      - gcc leaders
+      - global capability centre
+      # Singular forms only - the matcher already tolerates a plural suffix.
+      - business owner
+      - entrepreneur
+      - entrepreneur summit
+      - industry leader
+
+  # Investment-product rooms: self-selected investors, though sometimes retail.
+  products:
+    weight: 7
+    terms:
+      - pms
+      - portfolio management service
+      - aif
+      - alternative investment
+      - private credit
+      - structured product
+      - reit
+      - invit
+      - bond investment
+      - wealth creation
+      - asset allocation
+      - investment summit
+      - investor summit
+      - capital markets
+
+  # Physical-asset buyers: cash-rich, diversification-ready.
+  real_assets:
+    weight: 6
+    terms:
+      - plot expo
+      - property expo
+      - real estate expo
+      - real estate summit
+      - land investment
+      - plotted development
+      - property show
+      - realty
+      - infrastructure investment
+
+# Rooms full of other advisers. Not disqualifying - repriced as a different play.
+peer:
+  weight: 12
+  terms:
+    - wealth management summit
+    - wealth managers
+    - private banker
+    - relationship manager
+    - financial advisor
+    - financial planner
+    - investment advisor
+    - registered investment adviser
+    - ria
+    - ifa
+    - mutual fund distributor
+    - mfd
+    - amc
+    - asset management company
+    - cfp
+    - certified financial planner
+    - fintech for advisors
+    - distributor meet
+
+# Signals that a wealth manager can actually get in and work the room.
+access:
+  delegate_pass:
+    weight: 22
+    terms:
+      - delegate pass
+      - delegate registration
+      - registration
+      - paid registration
+      - register now
+      - registration fee
+      - buy tickets
+      - book now
+      - book your seat
+      - early bird
+      - tickets
+      - ticketed
+      - passes
+      - rsvp
+  # Membership is the highest-quality access there is: it buys repeated
+  # exposure to the same wealthy cohort instead of a single day among them.
+  membership:
+    weight: 14
+    terms:
+      - membership
+      - charter member
+      - member events
+      - join as a member
+      - annual member
+      - chapter member
+  commercial:
+    weight: 18
+    terms:
+      - sponsorship
+      - sponsor
+      - exhibitor
+      - exhibit
+      - booth
+      - stall
+      - partner with us
+      - speaking slot
+      - become a speaker
+  networking:
+    weight: 16
+    terms:
+      - networking
+      - 1:1 meetings
+      - one-on-one meetings
+      - curated meetings
+      - roundtable
+      - closed door
+      - fireside chat
+      - cocktail
+      - gala dinner
+      - meet investors
+  # Negative access: the room exists but you cannot buy your way in.
+  closed:
+    weight: -20
+    terms:
+      - invite only
+      - invitation only
+      - by invitation
+      - members only
+      - strictly private
+      - closed group
+
+# Hard filters. Anything matching is dropped unless --no-filter is passed.
+disqualify:
+  - concert
+  - dj night
+  - nightlife
+  - stand-up comedy
+  - open mic
+  - karaoke
+  - kids
+  - children
+  - toddler
+  - school admission
+  - entrance exam
+  - job fair
+  - career fair
+  - hiring drive
+  - walk-in interview
+  - marathon
+  - speed dating
+  - matrimony
+  - guaranteed returns
+  - guaranteed profit
+  - assured returns
+  - forex trading course
+  - binary options
+  - intraday trading course
+  - option trading course
+  - network marketing
+  - mlm
+  - work from home opportunity
+  - education fair
+  - study abroad
+  - university fair
+  - college admission
+
+# Soft penalties: still shown, but ranked down.
+penalty:
+  retail_investor:
+    weight: -14
+    terms:
+      - beginners
+      - for beginners
+      - basics of
+      - free webinar
+      - free seminar
+      - learn to trade
+      - trading strategies
+      - intraday
+      - scalping
+      - crash course
+      - certification course
+      - bootcamp
+      - students
+  # Early-stage founder rooms. A pre-revenue founder is not a client yet -
+  # these are worth attending for the long game, not for this quarter's AUM.
+  early_stage:
+    weight: -10
+    terms:
+      - meetup
+      - mixer
+      - pitch night
+      - pitch day
+      - startup pitches
+      - idea stage
+      - aspiring entrepreneur
+      - first-time founder
+      - cofounder
+      - co-founder matching
+      - bootstrapped
+      - community event
+      - open house
+  online:
+    weight: -18
+    terms:
+      - online event
+      - virtual event
+      - webinar
+      - zoom
+
+# Five-star hotels and elite clubs. Venue is a strong proxy for delegate seniority.
+venue_prestige:
+  premium:
+    weight: 12
+    terms:
+      - taj
+      - the leela
+      - leela palace
+      - oberoi
+      - itc gardenia
+      - itc windsor
+      - ritz-carlton
+      - ritz carlton
+      - four seasons
+      - conrad
+      - shangri-la
+      - shangri la
+      - jw marriott
+      - sofitel
+      - st regis
+      - bangalore club
+      - bowring institute
+      - karnataka golf association
+      - golf club
+      - the chancery pavilion
+  mid:
+    weight: 5
+    terms:
+      - marriott
+      - sheraton
+      - hyatt
+      - le meridien
+      - radisson
+      - lalit
+      - hilton
+      - novotel
+      - biec
+      - bangalore international exhibition centre
+      - palace grounds
+
+# Delegate price as a seniority proxy, in INR. Ranges are (min, max, points).
+price_tiers:
+  - [25000, null, 20]
+  - [10000, 25000, 16]
+  - [5000, 10000, 12]
+  - [2000, 5000, 7]
+  - [500, 2000, 3]
+  - [0, 500, -6]

@@ -1,0 +1,206 @@
+# Curated anchor events for the Bengaluru HNI / UHNI circuit.
+#
+# Why this file exists: the highest-value events are run by organisers on
+# their own websites (Equalifi, CFA Society, VCCircle, PMS AIF World, TiE),
+# not on Eventbrite. A generic scraper misses them, so the recurring circuit
+# is tracked by hand here and merged into every run.
+#
+# Fields
+#   confidence: verified        -> details checked against the organiser page
+#               recurring       -> the series is real and annual; next edition
+#                                  date is an expectation, not a confirmed date
+#   audience:   who is actually in the room
+#   access:     how a wealth manager gets in
+#   role:       prospecting  -> the room contains potential clients
+#               peer         -> the room contains competitors; go for intel,
+#                               recruitment, product and referral partnerships
+#
+# Verify dates before booking travel. Re-check anything marked `recurring`.
+meta:
+  city: Bengaluru
+  last_reviewed: 2026-08-02
+
+events:
+  # ---------------------------------------------------------------- prospecting
+  - title: "Alpha Investments for Navigating Future Trends - Bangalore Edition"
+    organizer: "PMS AIF World"
+    url: "https://www.pmsaifworld.com/alpha-investments-for-bangalore-edition-2026/"
+    start_date: "2026-08-22"
+    venue: "Taj MG Road, Bengaluru"
+    city: Bengaluru
+    confidence: verified
+    role: prospecting
+    audience: >-
+      HNIs, NRIs, financial advisors and distributors. The organiser sells PMS
+      and AIF products to HNIs, so the delegate list is unusually close to a
+      qualified prospect list.
+    access: "Paid registration via Townscript; sponsor and speaker slots sold separately."
+    notes: >-
+      Highest prospect-density event on the Bengaluru calendar for a private
+      wealth manager. 9 sessions, single day, 9am-5pm.
+
+  - title: "Venture Capital World Summit - Bengaluru"
+    organizer: "Venture Capital World Summit"
+    url: "https://vcworldsummit.com/tickets/bengaluru-2026/"
+    start_date: "2026-10-07"
+    venue: "TBA, Bengaluru"
+    city: Bengaluru
+    confidence: verified
+    role: prospecting
+    audience: >-
+      Investors, angels, family offices and scaling founders. Founders raising
+      or exiting are the classic source of newly-liquid UHNI clients.
+    access: >-
+      Tiered passes - Entrepreneur / Delegate / Investor / VIP, roughly
+      USD 160 up to sponsorship tiers. Evening networking, elevator pitching,
+      no livestream (in-person only, which raises networking quality).
+    price_min: 13500
+    price_max: 100000
+    notes: "Buy the Investor or VIP tier - Delegate tier sits away from the capital side of the room."
+
+  - title: "Bengaluru Tech Summit"
+    organizer: "Government of Karnataka / KITS"
+    url: "https://bengalurutechsummit.com/"
+    typical_month: November
+    city: Bengaluru
+    confidence: recurring
+    role: prospecting
+    audience: >-
+      Founders, GCC leadership, senior technologists and policymakers. Very
+      large; prospect density per hour is low but the ceiling is high because
+      of post-exit and ESOP-liquidity founders.
+    access: "Delegate passes sold publicly; exhibitor and sponsor packages available."
+    notes: "Work the side events and invite-only dinners, not the main floor."
+
+  - title: "TiE Bangalore - TiECon and member events"
+    organizer: "TiE Bangalore"
+    url: "https://bangalore.tie.org/"
+    typical_month: "Year-round; TiECon usually H1"
+    city: Bengaluru
+    confidence: recurring
+    role: prospecting
+    audience: >-
+      Charter Members are successful entrepreneurs - by definition HNI/UHNI.
+      This is the single best sustained-access community in the city.
+    access: >-
+      Individual events are ticketed, but the real access is TiE membership;
+      Charter Membership puts you in the room with the target segment
+      repeatedly rather than once.
+    notes: "Treat as a membership play, not an event play. Highest ROI per rupee of the list."
+
+  - title: "Bengaluru Plot Expo / premium plotted-development expos"
+    organizer: "Mindsquare Media Exhibitions"
+    url: "https://plotexpo.in/"
+    typical_month: "Multiple editions per year"
+    city: Bengaluru
+    confidence: recurring
+    role: prospecting
+    audience: >-
+      Land and second-home buyers deploying INR 50L-5Cr of cash. Real-estate
+      heavy portfolios are the standard opening for a diversification pitch.
+    access: "Visitor entry is usually free; take a stall rather than a pass."
+    notes: "Exhibit, do not attend. A booth converts here; a lanyard does not."
+
+  - title: "Overseas property showcases (Dubai / London / Portugal)"
+    organizer: "Various - Emaar, Azizi, Sotheby's International Realty and agents"
+    url: "https://allevents.in/bangalore/real-estate"
+    typical_month: "Rolling, most weekends"
+    city: Bengaluru
+    confidence: recurring
+    role: prospecting
+    audience: >-
+      Self-selected HNIs exporting capital - the crowd already thinking about
+      offshore structures, LRS limits, residency-by-investment and succession.
+    access: "Free invite-only previews at five-star hotels; partner with the agent to co-host."
+    notes: >-
+      Best prospect-to-effort ratio in the entire list. Attendees have already
+      raised their hand as cross-border investors.
+
+  - title: "Global CXO / GCC leadership summits"
+    organizer: "Various (Global CXO Accelerator Summit and similar)"
+    url: "https://allevents.in/bangalore/business"
+    typical_month: "Rolling"
+    city: Bengaluru
+    confidence: recurring
+    role: prospecting
+    audience: >-
+      CXOs and GCC heads on large salaries with concentrated RSU and ESOP
+      positions - the salaried-HNI segment, distinct from promoter wealth.
+    access: "Paid delegate passes; sponsorship gives speaking slots."
+    notes: "Pitch concentration risk and RSU diversification, not products."
+
+  - title: "IIM Bangalore conferences and alumni events"
+    organizer: "IIM Bangalore"
+    url: "https://www.iimb.ac.in/iimb_conferences"
+    typical_month: "Year-round"
+    city: Bengaluru
+    confidence: recurring
+    role: prospecting
+    audience: "Senior alumni, promoters, PE/VC practitioners, NSRCEL founders."
+    access: "Conference registration is open; alumni events need an alumni host."
+
+  # ----------------------------------------------------------------- peer rooms
+  - title: "Private Markets Conference - Bengaluru"
+    organizer: "CFA Society India"
+    url: "https://cfasocietyindia.org/events/private-markets-conference-2026-bengaluru/"
+    start_date: "2026-02-07"
+    venue: "Taj MG Road, Bengaluru"
+    city: Bengaluru
+    confidence: verified
+    role: peer
+    audience: >-
+      Investment professionals, VC and PE practitioners, family office
+      representatives. Family-office reps make this a partial prospecting room.
+    access: "Open registration. Members free to INR 2,500; non-members INR 5,000."
+    price_min: 1000
+    price_max: 5000
+    notes: >-
+      The 2nd edition ran 07 Feb 2026 - annual, so watch for the 3rd edition
+      around Q1 2027. Cheap, senior, and family-office adjacent.
+
+  - title: "Indian Wealth Management Summit"
+    organizer: "Equalifi"
+    url: "https://equalifi.org/events/iwms26/"
+    start_date: "2026-08-12"
+    venue: "Mumbai"
+    city: Mumbai
+    national: true
+    confidence: verified
+    role: peer
+    audience: >-
+      ~350 senior delegates - private bank CEOs, business heads, family office
+      leaders, product gatekeepers.
+    access: "Delegate pass; complimentary for Equalifi Charter or Corporate members."
+    notes: >-
+      Peer room, not a prospect room, but it is where product and referral
+      partnerships get made. Mumbai - worth the flight once a year.
+
+  - title: "India Wealth Management Forum"
+    organizer: "Hubbis"
+    url: "https://www.hubbis.com/event/india-wealth-management-forum-2026-2026-8-12/"
+    start_date: "2026-08-12"
+    venue: "Mumbai"
+    city: Mumbai
+    national: true
+    confidence: verified
+    role: peer
+    audience: "Private bankers, IFAs, wealth platform heads, product providers."
+    access: "Delegate registration; usually free for qualifying practitioners, paid for vendors."
+
+  - title: "Family Office Summit"
+    organizer: "VCCircle (HT Media)"
+    url: "https://events.vccircle.com/FamilyOfficeSummit2026"
+    start_date: "2026-07-30"
+    venue: "Taj Lands End, Mumbai"
+    city: Mumbai
+    national: true
+    confidence: verified
+    role: prospecting
+    audience: >-
+      Family office principals, CIOs, promoters, regulators. Principals and
+      promoters in the room make this the rare peer-adjacent event that is
+      genuinely a prospecting room.
+    access: "Paid delegate pass; sponsor tiers give structured 1:1 meetings."
+    notes: >-
+      The 2026 edition concluded 30 Jul 2026. Annual, late July - block it for
+      2027 and buy the sponsor tier that includes curated meetings.

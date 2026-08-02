@@ -1,0 +1,70 @@
+# HNI Event Radar configuration.
+# Override any of this at the command line; see `python -m hni_event_radar --help`.
+
+city: Bengaluru
+
+# How far ahead to look. Undated curated entries are always kept.
+horizon_days: 240
+
+# Drop anything scoring below this after ranking. 0 shows everything.
+min_score: 25
+
+# Online events are usually worthless for relationship-building.
+include_online: false
+
+sources:
+  - curated
+  - allevents
+  - eventbrite
+  - meetup
+  - 10times
+
+# Search terms fanned out across the portal sources. Each one is a separate
+# page fetch, so adding terms costs time linearly - keep the list intentional.
+queries:
+  # where the money already is
+  - family office
+  - wealth management
+  - investment summit
+  - private equity
+  - venture capital
+  - angel investors
+  # where the money is about to be made (liquidity events)
+  - startup funding
+  - founders networking
+  - entrepreneur summit
+  # where the money gets spent (proxy for disposable wealth)
+  - luxury
+  - real estate investment
+  - property expo
+  - art exhibition
+  # cross-border wealth
+  - nri investment
+  # senior corporate wealth
+  - cxo summit
+  - business networking
+
+# Listing pages carry one-line descriptions. Enrichment fetches the event's own
+# page for the most promising candidates, which is where the agenda, audience
+# and ticket tiers actually live. Costs one request per shortlisted event.
+enrich:
+  enabled: true
+  limit: 40           # max detail pages per run
+  min_prescore: 12    # skip candidates with no prospect signal at all
+
+http:
+  # Put a real address here. Site owners block anonymous scrapers first.
+  contact_email: ""
+  delay_seconds: 2.0
+  timeout: 30
+  max_retries: 3
+  cache_ttl_seconds: 21600   # 6h - re-runs during a working day hit cache
+  respect_robots: true
+
+source_settings:
+  curated:
+    include_national: true   # Mumbai wealth summits worth the flight
+
+output:
+  dir: out
+  database: out/events.db
