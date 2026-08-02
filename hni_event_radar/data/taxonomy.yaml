@@ -104,6 +104,90 @@ prospect:
       - farmhouse
       - vineyard
 
+  # Industry verticals: the largest and most under-served pool of HNI wealth.
+  #
+  # A machine-tool expo, a pharma conclave or an MSME summit is a room full of
+  # factory owners, exporters and second-generation promoters - people with
+  # substantial illiquid wealth, concentrated in one business, and typically no
+  # existing private-banking relationship. They are far better prospects than a
+  # finance-industry conference, where everyone in the room is a competitor.
+  #
+  # Note the inversion at trade fairs: the promoters are the EXHIBITORS, not
+  # the visitors. The scorer flags this so the recommended play says to work
+  # the exhibitor list rather than to buy a stall.
+  industry_owners:
+    weight: 11
+    terms:
+      - manufacturer
+      - manufacturing
+      - industrialist
+      - industrial
+      - factory owner
+      - plant head
+      - machine tool
+      - tooling
+      - engineering expo
+      - automation expo
+      - industry 4.0
+      - msme
+      - sme
+      - small and medium enterprise
+      - exporter
+      - export promotion
+      - import export
+      - trade fair
+      - trade show
+      - b2b expo
+      - b2b conclave
+      - b2b networking
+      - business expo
+      - international exhibition
+      - exhibitor
+      - chamber of commerce
+      - industry association
+      - confederation of indian industry
+      - cii
+      - ficci
+      - assocham
+      - fkcci
+      - captains of industry
+      - pharma
+      - textile
+      - auto component
+      - automotive
+      - electronics manufacturing
+      - packaging
+      - logistics
+      - food processing
+      - plastics
+      - foundry
+      - metal forming
+      - construction equipment
+      - agritech
+      - defence manufacturing
+      - aerospace
+
+  # Technology verticals. Bengaluru's newest wealth is here: founders and early
+  # employees of companies that have raised, exited or bought back ESOPs.
+  tech_industry:
+    weight: 8
+    terms:
+      - ai summit
+      - artificial intelligence summit
+      - deeptech
+      - deep tech
+      - saas
+      - semiconductor
+      - biotech
+      - technology summit
+      - tech summit
+      - innovation summit
+      - product summit
+      - digital transformation
+      - cybersecurity summit
+      - data summit
+      - global capability center
+
   # Senior corporate wealth: RSU/ESOP-rich salaried HNIs, distinct from promoters.
   senior_corporate:
     weight: 8
@@ -158,9 +242,18 @@ prospect:
       - infrastructure investment
 
 # Rooms full of other advisers. Not disqualifying - repriced as a different play.
+#
+# Professional bodies of the finance industry belong here by definition: a CFA
+# Society or AMFI event is the industry talking to itself. Useful for hiring,
+# product partnerships and referral flow - not for finding clients.
 peer:
   weight: 12
   terms:
+    - cfa society
+    - cfa institute
+    - cfa charter
+    - amfi
+    - association of mutual funds
     - wealth management summit
     - wealth managers
     - private banker
@@ -280,6 +373,10 @@ disqualify:
   - study abroad
   - university fair
   - college admission
+  - flea market
+  - book fair
+  - food festival
+  - fun fair
 
 # Soft penalties: still shown, but ranked down.
 penalty:

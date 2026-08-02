@@ -173,7 +173,7 @@ class Scorer:
 
         # -- prospect density
         prospect = 0.0
-        groups_hit = 0
+        hit_groups: set[str] = set()
         # True when the listing names the wealth segment itself as the
         # audience, rather than us inferring it from proxies.
         direct_targeting = False
@@ -181,7 +181,7 @@ class Scorer:
             hits = matcher.hits(text)
             if not hits:
                 continue
-            groups_hit += 1
+            hit_groups.add(name)
             if name in ("wealth_segment", "capital_export"):
                 direct_targeting = True
             # Diminishing returns within a group: the second and third keyword
@@ -193,10 +193,10 @@ class Scorer:
 
         # Breadth bonus: an event that reads as wealth AND liquidity AND luxury
         # is a better room than one that repeats a single theme.
-        if groups_hit >= 2:
-            breadth = 4 * (groups_hit - 1)
+        if len(hit_groups) >= 2:
+            breadth = 4 * (len(hit_groups) - 1)
             prospect += breadth
-            signals.append(f"+{breadth} breadth ({groups_hit} distinct signal groups)")
+            signals.append(f"+{breadth} breadth ({len(hit_groups)} distinct signal groups)")
 
         venue_points = 0
         for name, (weight, matcher) in self.venue_groups.items():
@@ -304,7 +304,9 @@ class Scorer:
             peer=peer,
             lead=lead,
             tier=tier,
-            play=self._play(event, prospect, access, peer, access_flags, today=today),
+            play=self._play(
+                event, prospect, access, peer, access_flags, hit_groups, today=today
+            ),
             signals=signals,
             warnings=warnings,
         )
@@ -318,9 +320,11 @@ class Scorer:
         access: int,
         peer: int,
         access_flags: set[str],
+        hit_groups: set[str] | None = None,
         today: date | None = None,
     ) -> str:
         """Turn the numbers into the action a wealth manager should take."""
+        hit_groups = hit_groups or set()
         text = f"{event.title} {event.description}".lower()
         is_expo = any(w in text for w in ("expo", "exhibition", "trade fair", "property show"))
 
@@ -333,8 +337,21 @@ class Scorer:
             return "Peer room - go for referral partnerships and product intel, not AUM"
         if "closed" in access_flags and prospect >= 50:
             return "Invite-only - find a member to host you, or sponsor to buy your way in"
+        if is_expo and "industry_owners" in hit_groups:
+            # The wealth is standing behind the stalls, not walking the aisles.
+            return (
+                "Work the exhibitor list - the stall owners are the promoters. "
+                "Get the exhibitor directory from the organiser and walk the aisles"
+            )
         if is_expo:
             return "Exhibit - take a stall; a visitor badge converts poorly at expos"
+        # Any industry room gets industry advice, even a middling one - "low
+        # priority" is useless guidance for a hall full of factory owners.
+        if "industry_owners" in hit_groups and prospect >= 30:
+            return (
+                "Industry room - sponsor or speak. Business owners here rarely have "
+                "a private banker, and you are not competing with other advisers"
+            )
         if prospect >= 60 and "commercial" in access_flags:
             return "Sponsor for a speaking slot - highest-value access at this event"
         if prospect >= 60:

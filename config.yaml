@@ -43,6 +43,19 @@ queries:
   # senior corporate wealth
   - cxo summit
   - business networking
+  # Industry verticals - rooms full of promoters and factory owners rather
+  # than other advisers. The largest under-served pool of HNI wealth, and the
+  # one place a wealth manager is not competing with a dozen private banks.
+  - manufacturing expo
+  - industrial exhibition
+  - trade fair
+  - b2b conference
+  - msme summit
+  - export promotion
+  - pharma conference
+  - ai summit
+  - technology summit
+  - logistics summit
 
 # Listing pages carry one-line descriptions. Enrichment fetches the event's own
 # page for the most promising candidates, which is where the agenda, audience

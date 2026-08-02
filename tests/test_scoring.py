@@ -214,6 +214,71 @@ def test_membership_play_beats_single_pass_advice(scorer):
     assert "member" in scorer.score(event, today=TODAY).play.lower()
 
 
+def test_industry_expo_advice_targets_exhibitors_not_visitors(scorer):
+    """At a manufacturing fair the promoters run the stalls, not the aisles."""
+    event = make(
+        title="IMTEX - Machine Tool and Manufacturing Technology Exhibition",
+        description="1,100 exhibitors. Trade fair for machine tool manufacturers. Registration.",
+        venue="Bangalore International Exhibition Centre",
+    )
+    play = scorer.score(event, today=TODAY).play.lower()
+    assert "exhibitor list" in play
+    assert "take a stall" not in play
+
+
+def test_property_expo_advice_is_still_to_exhibit(scorer):
+    """At a property expo the buyers are the visitors, so a stall converts."""
+    event = make(
+        title="Bengaluru Plot Expo",
+        description="Premium plotted development for land investment buyers. Tickets.",
+    )
+    assert "stall" in scorer.score(event, today=TODAY).play.lower()
+
+
+def test_industry_room_beats_finance_industry_room(scorer):
+    """A manufacturers' conclave should outrank a CFA Society conference.
+
+    Both are 'industry' events, but one is full of prospects and the other is
+    full of competitors.
+    """
+    manufacturers = make(
+        title="MSME Manufacturing Conclave",
+        description=(
+            "Entrepreneurs, exporters and captains of industry. Manufacturing "
+            "business owners. Delegate registration and sponsorship available."
+        ),
+        venue="Palace Grounds, Bengaluru",
+    )
+    finance_body = make(
+        title="CFA Society India Private Markets Conference",
+        description=(
+            "For investment professionals, financial advisors and CFA charter "
+            "holders. Delegate registration."
+        ),
+        venue="Taj MG Road, Bengaluru",
+    )
+    assert scorer.score(manufacturers, today=TODAY).lead > scorer.score(finance_body, today=TODAY).lead
+
+
+def test_cfa_society_is_detected_as_a_peer_body(scorer):
+    event = make(
+        title="CFA Society India Annual Conference",
+        description="For CFA charter holders and investment professionals.",
+    )
+    assert scorer.score(event, today=TODAY).peer > 0
+
+
+def test_ai_summit_scores_as_a_prospect_room(scorer):
+    event = make(
+        title="Bengaluru AI Summit 2026",
+        description="Deeptech founders and technology leaders. Delegate pass, networking.",
+        venue="Taj MG Road",
+    )
+    result = scorer.score(event, today=TODAY)
+    assert result.prospect >= 40
+    assert result.lead >= 30
+
+
 def test_expo_advice_is_to_exhibit(scorer):
     event = make(
         title="Bengaluru Plot Expo",

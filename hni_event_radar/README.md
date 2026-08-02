@@ -17,6 +17,27 @@ These stay separate on purpose. A wealth-management summit scores high on peer
 and low on prospect: still worth attending, but for referral partnerships and
 product intel, not for AUM. Collapsing that into one number hides the decision.
 
+### Industry events are the point
+
+The instinct is to search for finance events. That is backwards. A CFA Society
+conference, an AMFI event or a wealth-management summit is **the finance
+industry talking to itself** — every person in the room is a competitor.
+
+The best prospecting rooms are **industry verticals**: machine tools, pharma,
+textiles, food processing, logistics, defence, AI and B2B. They are full of
+promoters, exporters and factory owners with large, illiquid, concentrated
+wealth — and typically no existing private-banking relationship or rival
+adviser working the floor. The taxonomy weights `industry_owners` accordingly,
+and the curated list tracks the Karnataka industrial circuit (IMTEX, FKCCI,
+CII, Acetech, Aero India).
+
+**The exhibitor inversion.** At a trade fair the prospects are the *exhibitors*,
+not the visitors — the person standing behind the stall owns the business. The
+scorer detects this and changes its advice: *"Work the exhibitor list — get the
+exhibitor directory from the organiser and walk the aisles."* At a property
+expo the reverse holds (the visitors are the buyers), so the advice there stays
+*"take a stall"*.
+
 Every event also gets a **play** — the action to take, not just a rank:
 *buy the delegate pass*, *sponsor for a speaking slot*, *exhibit, don't attend*,
 *join as a member*, *find a host*, *skip*.
@@ -53,7 +74,7 @@ python -m hni_event_radar explain "Family Office Summit" \
 
 | Source | What it covers |
 |---|---|
-| `curated` | Hand-maintained circuit: Equalifi, CFA Society, VCCircle, PMS AIF World, TiE, plot expos |
+| `curated` | Hand-maintained circuit: IMTEX, FKCCI, CII/FICCI Karnataka, Acetech, Aero India, TiE, VCCircle, PMS AIF World, Equalifi, CFA Society |
 | `allevents` | allevents.in — broadest Indian listing site, strong on expos |
 | `eventbrite` | Eventbrite — best signal on paid delegate passes and ticket tiers |
 | `meetup` | Meetup — small-format founder/investor circles |
@@ -98,6 +119,9 @@ Scoring mechanics worth knowing:
   intel value.
 - **Direct targeting softens the peer discount.** A listing that names HNIs and
   NRIs as its audience is a prospect room even though advisers also attend.
+- **Industry rooms always get industry advice.** "Low priority" is useless
+  guidance for a hall full of factory owners, so the play logic routes any
+  `industry_owners` match to a sponsor/speak or exhibitor-list recommendation.
 
 Tier cut-offs (A ≥ 68, B ≥ 48, C ≥ 30) are calibrated against the observed
 Bengaluru distribution: the strongest genuinely-purchasable event of a season

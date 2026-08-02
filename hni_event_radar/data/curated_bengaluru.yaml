@@ -139,6 +139,113 @@ events:
     audience: "Senior alumni, promoters, PE/VC practitioners, NSRCEL founders."
     access: "Conference registration is open; alumni events need an alumni host."
 
+  # ------------------------------------------------- industry / promoter rooms
+  # The densest concentration of undiscovered HNI wealth in Karnataka. At a
+  # trade fair the prospects are the EXHIBITORS - factory owners, exporters and
+  # second-generation promoters running businesses worth crores - not the
+  # visitors. Almost none of them have a private banker, and no rival wealth
+  # manager is working the room.
+
+  - title: "IMTEX - International Machine Tool and Manufacturing Technology Exhibition"
+    organizer: "Indian Machine Tool Manufacturers' Association (IMTMA)"
+    url: "https://www.imtex.in/"
+    start_date: "2027-01-21"
+    end_date: "2027-01-27"
+    venue: "Bangalore International Exhibition Centre (BIEC), Tumkur Road"
+    city: Bengaluru
+    confidence: verified
+    role: prospecting
+    audience: >-
+      ~1,100 exhibitors and 130,000+ visitors. The exhibitor list is a
+      directory of machine tool and precision engineering business owners -
+      illiquid, concentrated, promoter-held wealth.
+    access: >-
+      Visitor registration is cheap or free. The exhibitor directory is
+      published by IMTMA - that list is the actual asset.
+    notes: >-
+      The single best prospecting list in Karnataka. Do not buy a stall; buy a
+      visitor pass, get the exhibitor directory, and walk the aisles. Concurrent
+      shows Tooltech, Digital Manufacturing and Weldexpo run alongside.
+      IMTEX Forming ran Jan 2026; the main IMTEX is Jan 2027.
+
+  - title: "Global MSME Conclave"
+    organizer: "FKCCI (Federation of Karnataka Chambers of Commerce and Industry)"
+    url: "https://globalmsmeconclave.fkcci.org/"
+    start_date: "2026-05-29"
+    end_date: "2026-05-31"
+    venue: "Tripuravasini, Palace Grounds"
+    city: Bengaluru
+    confidence: verified
+    role: prospecting
+    audience: >-
+      Entrepreneurs, captains of industry, trade bodies, PSU heads and senior
+      government representatives. Export-oriented MSME promoters throughout.
+    access: >-
+      Delegate registration, international B2B meeting slots, curated
+      exhibition space and country pavilions.
+    notes: >-
+      FKCCI is the gateway body to Karnataka's family-run industrial base.
+      The 2026 edition ran 29-31 May - annual, so plan for 2027 and take the
+      B2B meeting slots rather than a passive delegate pass.
+
+  - title: "Industry-Institution Leaders' Confluence"
+    organizer: "FKCCI"
+    url: "https://skills.fkcci.org/"
+    start_date: "2026-08-25"
+    venue: "Sir M V Auditorium, FKCCI"
+    city: Bengaluru
+    confidence: verified
+    role: prospecting
+    audience: "Karnataka industry leaders and business owners, plus academia."
+    access: "Open registration through FKCCI."
+    notes: "Small format and imminent - a cheap way to start an FKCCI relationship."
+
+  - title: "FKCCI / CII Karnataka / FICCI Karnataka member events"
+    organizer: "FKCCI, CII, FICCI"
+    url: "https://www.fkcci.org/"
+    typical_month: "Year-round"
+    city: Bengaluru
+    confidence: recurring
+    role: prospecting
+    audience: >-
+      Karnataka's industrial establishment - manufacturers, exporters and
+      family-run business groups, across sector committees.
+    access: >-
+      Corporate membership of a chamber buys standing access to the entire
+      member base, plus sector committee seats.
+    notes: >-
+      Treat as a membership play like TiE. Chamber membership is the cheapest
+      route to sustained promoter access in the city.
+
+  - title: "Acetech Bengaluru"
+    organizer: "ABEC Exhibitions"
+    url: "https://www.etacetech.com/"
+    start_date: "2026-10-09"
+    end_date: "2026-10-11"
+    venue: "Bangalore International Exhibition Centre (BIEC)"
+    city: Bengaluru
+    confidence: recurring
+    role: prospecting
+    audience: >-
+      Architecture, construction and real-estate trade. Developers and
+      building-material business owners - classic illiquid promoter wealth.
+    access: "Trade visitor registration; exhibitor and sponsor packages."
+
+  - title: "Aero India"
+    organizer: "Ministry of Defence / DDP"
+    url: "https://aeroindia.gov.in/"
+    typical_month: "February, odd-numbered years"
+    city: Bengaluru
+    confidence: recurring
+    role: prospecting
+    audience: >-
+      Aerospace and defence manufacturing - MSME suppliers, component makers
+      and the senior defence-industrial establishment.
+    access: "Business visitor passes; exhibitor and delegation packages."
+    notes: >-
+      Biennial at Yelahanka; the 2027 edition is the next one. Confirm dates
+      with the organiser - this entry is not date-verified.
+
   # ----------------------------------------------------------------- peer rooms
   - title: "Private Markets Conference - Bengaluru"
     organizer: "CFA Society India"

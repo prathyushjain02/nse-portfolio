@@ -72,6 +72,7 @@ class CuratedSource(Source):
                     clean_text(row.get(k), 600) for k in ("audience", "access", "notes")
                 ).strip(),
                 start_date=start,
+                end_date=parse_date(row.get("end_date")),
                 venue=clean_text(row.get("venue"), 200),
                 city=clean_text(row.get("city"), 80) or city,
                 organizer=clean_text(row.get("organizer"), 200),
