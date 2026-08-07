@@ -1,0 +1,5 @@
+data/cache/
+data/raw/
+__pycache__/
+*.pyc
+reports/panel.parquet

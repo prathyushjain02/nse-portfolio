@@ -1,0 +1,834 @@
+symbol,rule,signal_date,eligible_date,days_to_eligible,holder_class,confidence,basis
+RAMCOCEM,trading_plan_disclosed,2025-04-10,2025-08-08,-364,insider,very_high,"SEBI PIT Reg 5 - 120-day cooling off, plan irrevocable"
+RAMCOSYS,trading_plan_disclosed,2025-04-16,2025-08-14,-358,insider,very_high,"SEBI PIT Reg 5 - 120-day cooling off, plan irrevocable"
+RAMCOSYS,trading_plan_disclosed,2025-04-21,2025-08-19,-353,insider,very_high,"SEBI PIT Reg 5 - 120-day cooling off, plan irrevocable"
+RELIANCE,trading_plan_disclosed,2025-05-02,2025-08-30,-342,insider,very_high,"SEBI PIT Reg 5 - 120-day cooling off, plan irrevocable"
+RAMCOSYS,trading_plan_disclosed,2025-05-05,2025-09-02,-339,insider,very_high,"SEBI PIT Reg 5 - 120-day cooling off, plan irrevocable"
+TRENT,trading_plan_disclosed,2025-05-05,2025-09-02,-339,insider,very_high,"SEBI PIT Reg 5 - 120-day cooling off, plan irrevocable"
+INTELLECT,trading_plan_disclosed,2025-05-09,2025-09-06,-335,insider,very_high,"SEBI PIT Reg 5 - 120-day cooling off, plan irrevocable"
+INTELLECT,trading_plan_disclosed,2025-05-13,2025-09-10,-331,insider,very_high,"SEBI PIT Reg 5 - 120-day cooling off, plan irrevocable"
+ABREL,trading_plan_disclosed,2025-05-16,2025-09-13,-328,insider,very_high,"SEBI PIT Reg 5 - 120-day cooling off, plan irrevocable"
+DPSCLTD,trading_plan_disclosed,2025-06-05,2025-10-03,-308,insider,very_high,"SEBI PIT Reg 5 - 120-day cooling off, plan irrevocable"
+ASIANPAINT,trading_plan_disclosed,2025-06-09,2025-10-07,-304,insider,very_high,"SEBI PIT Reg 5 - 120-day cooling off, plan irrevocable"
+KSB,trading_plan_disclosed,2025-08-19,2025-12-17,-233,insider,very_high,"SEBI PIT Reg 5 - 120-day cooling off, plan irrevocable"
+SONATSOFTW,trading_plan_disclosed,2025-08-26,2025-12-24,-226,insider,very_high,"SEBI PIT Reg 5 - 120-day cooling off, plan irrevocable"
+DCMSHRIRAM,trading_plan_disclosed,2025-08-26,2025-12-24,-226,insider,very_high,"SEBI PIT Reg 5 - 120-day cooling off, plan irrevocable"
+RAMCOSYS,trading_plan_disclosed,2025-08-29,2025-12-27,-223,insider,very_high,"SEBI PIT Reg 5 - 120-day cooling off, plan irrevocable"
+MANOMAY,trading_plan_disclosed,2025-09-02,2025-12-31,-219,insider,very_high,"SEBI PIT Reg 5 - 120-day cooling off, plan irrevocable"
+KALYANI,trading_plan_disclosed,2025-09-26,2026-01-24,-195,insider,very_high,"SEBI PIT Reg 5 - 120-day cooling off, plan irrevocable"
+KRIDHANINF,trading_plan_disclosed,2025-09-27,2026-01-25,-194,insider,very_high,"SEBI PIT Reg 5 - 120-day cooling off, plan irrevocable"
+RAMCOSYS,trading_plan_disclosed,2025-10-13,2026-02-10,-178,insider,very_high,"SEBI PIT Reg 5 - 120-day cooling off, plan irrevocable"
+RAMCOSYS,trading_plan_disclosed,2025-10-13,2026-02-10,-178,insider,very_high,"SEBI PIT Reg 5 - 120-day cooling off, plan irrevocable"
+WHEELS,trading_plan_disclosed,2025-11-07,2026-03-07,-153,insider,very_high,"SEBI PIT Reg 5 - 120-day cooling off, plan irrevocable"
+WHEELS,trading_plan_disclosed,2025-11-10,2026-03-10,-150,insider,very_high,"SEBI PIT Reg 5 - 120-day cooling off, plan irrevocable"
+CHEMFAB,trading_plan_disclosed,2025-11-11,2026-03-11,-149,insider,very_high,"SEBI PIT Reg 5 - 120-day cooling off, plan irrevocable"
+SURYODAY,trading_plan_disclosed,2025-11-13,2026-03-13,-147,insider,very_high,"SEBI PIT Reg 5 - 120-day cooling off, plan irrevocable"
+TRENT,trading_plan_disclosed,2025-12-10,2026-04-09,-120,insider,very_high,"SEBI PIT Reg 5 - 120-day cooling off, plan irrevocable"
+SHIVALIK,trading_plan_disclosed,2025-12-22,2026-04-21,-108,insider,very_high,"SEBI PIT Reg 5 - 120-day cooling off, plan irrevocable"
+JSFB,trading_plan_disclosed,2025-12-29,2026-04-28,-101,insider,very_high,"SEBI PIT Reg 5 - 120-day cooling off, plan irrevocable"
+DCMSHRIRAM,trading_plan_disclosed,2026-01-20,2026-05-20,-79,insider,very_high,"SEBI PIT Reg 5 - 120-day cooling off, plan irrevocable"
+INOXINDIA,trading_plan_disclosed,2026-02-19,2026-06-19,-49,insider,very_high,"SEBI PIT Reg 5 - 120-day cooling off, plan irrevocable"
+SONATSOFTW,trading_plan_disclosed,2026-03-13,2026-07-11,-27,insider,very_high,"SEBI PIT Reg 5 - 120-day cooling off, plan irrevocable"
+ASIANPAINT,trading_plan_disclosed,2026-03-19,2026-07-17,-21,insider,very_high,"SEBI PIT Reg 5 - 120-day cooling off, plan irrevocable"
+STANLEY,trading_plan_disclosed,2026-06-04,2026-10-02,56,insider,very_high,"SEBI PIT Reg 5 - 120-day cooling off, plan irrevocable"
+SHIVALIK,trading_plan_disclosed,2026-06-04,2026-10-02,56,insider,very_high,"SEBI PIT Reg 5 - 120-day cooling off, plan irrevocable"
+GICL,trading_plan_disclosed,2026-06-08,2026-10-06,60,insider,very_high,"SEBI PIT Reg 5 - 120-day cooling off, plan irrevocable"
+INOXINDIA,trading_plan_disclosed,2026-06-25,2026-10-23,77,insider,very_high,"SEBI PIT Reg 5 - 120-day cooling off, plan irrevocable"
+BANDHANBNK,trading_plan_disclosed,2026-07-17,2026-11-14,99,insider,very_high,"SEBI PIT Reg 5 - 120-day cooling off, plan irrevocable"
+BANDHANBNK,trading_plan_disclosed,2026-07-17,2026-11-14,99,insider,very_high,"SEBI PIT Reg 5 - 120-day cooling off, plan irrevocable"
+SHIVALIK,trading_plan_disclosed,2026-07-28,2026-11-25,110,insider,very_high,"SEBI PIT Reg 5 - 120-day cooling off, plan irrevocable"
+SURYODAY,trading_plan_disclosed,2026-07-30,2026-11-27,112,insider,very_high,"SEBI PIT Reg 5 - 120-day cooling off, plan irrevocable"
+NEPHROPLUS,trading_plan_disclosed,2026-08-05,2026-12-03,118,insider,very_high,"SEBI PIT Reg 5 - 120-day cooling off, plan irrevocable"
+SHIVALIK,trading_plan_disclosed,2026-08-05,2026-12-03,118,insider,very_high,"SEBI PIT Reg 5 - 120-day cooling off, plan irrevocable"
+KNACK,lockin_expiry_anchor_30d,2026-07-08,2026-08-07,0,anchor,high,SEBI ICDR 2018 lock-in schedule from allotment
+788TACA31,lockin_expiry_anchor_30d,2026-07-09,2026-08-08,1,anchor,high,SEBI ICDR 2018 lock-in schedule from allotment
+ICELCO,lockin_expiry_anchor_30d,2026-07-10,2026-08-09,2,anchor,high,SEBI ICDR 2018 lock-in schedule from allotment
+VALUE360,lockin_expiry_anchor_90d,2026-05-11,2026-08-09,2,anchor,high,SEBI ICDR 2018 lock-in schedule from allotment
+783LTFL29,lockin_expiry_anchor_30d,2026-07-10,2026-08-09,2,anchor,high,SEBI ICDR 2018 lock-in schedule from allotment
+783LTFL29,lockin_expiry_anchor_30d,2026-07-10,2026-08-09,2,anchor,high,SEBI ICDR 2018 lock-in schedule from allotment
+783LTFL29,lockin_expiry_anchor_30d,2026-07-10,2026-08-09,2,anchor,high,SEBI ICDR 2018 lock-in schedule from allotment
+ADANIENPP1,lockin_expiry_non_promoter_6m,2026-02-10,2026-08-10,3,non_promoter,high,SEBI ICDR 2018 lock-in schedule from allotment
+ADANIENPP1,lockin_expiry_promoter_excess_6m,2026-02-10,2026-08-10,3,promoter,high,SEBI ICDR 2018 lock-in schedule from allotment
+ADANIENPP1,lockin_expiry_aif_vcf_6m,2026-02-10,2026-08-10,3,investor,high,SEBI ICDR 2018 lock-in schedule from allotment
+ADANIENPP1,lockin_expiry_non_promoter_6m,2026-02-10,2026-08-10,3,non_promoter,high,SEBI ICDR 2018 lock-in schedule from allotment
+ADANIENPP1,lockin_expiry_promoter_excess_6m,2026-02-10,2026-08-10,3,promoter,high,SEBI ICDR 2018 lock-in schedule from allotment
+ADANIENPP1,lockin_expiry_aif_vcf_6m,2026-02-10,2026-08-10,3,investor,high,SEBI ICDR 2018 lock-in schedule from allotment
+ADANIENPP1,lockin_expiry_non_promoter_6m,2026-02-10,2026-08-10,3,non_promoter,high,SEBI ICDR 2018 lock-in schedule from allotment
+ADANIENPP1,lockin_expiry_promoter_excess_6m,2026-02-10,2026-08-10,3,promoter,high,SEBI ICDR 2018 lock-in schedule from allotment
+ADANIENPP1,lockin_expiry_aif_vcf_6m,2026-02-10,2026-08-10,3,investor,high,SEBI ICDR 2018 lock-in schedule from allotment
+GJL,lockin_expiry_non_promoter_6m,2026-02-11,2026-08-11,4,non_promoter,high,SEBI ICDR 2018 lock-in schedule from allotment
+GJL,lockin_expiry_promoter_excess_6m,2026-02-11,2026-08-11,4,promoter,high,SEBI ICDR 2018 lock-in schedule from allotment
+GJL,lockin_expiry_aif_vcf_6m,2026-02-11,2026-08-11,4,investor,high,SEBI ICDR 2018 lock-in schedule from allotment
+BRANDMAN,lockin_expiry_non_promoter_6m,2026-02-11,2026-08-11,4,non_promoter,high,SEBI ICDR 2018 lock-in schedule from allotment
+BRANDMAN,lockin_expiry_promoter_excess_6m,2026-02-11,2026-08-11,4,promoter,high,SEBI ICDR 2018 lock-in schedule from allotment
+BRANDMAN,lockin_expiry_aif_vcf_6m,2026-02-11,2026-08-11,4,investor,high,SEBI ICDR 2018 lock-in schedule from allotment
+CHAMUNDA,lockin_expiry_mpc,2025-02-11,2026-08-11,4,promoter,high,SEBI ICDR 2018 lock-in schedule from allotment
+BAGMANE,lockin_expiry_anchor_90d,2026-05-14,2026-08-12,5,anchor,high,SEBI ICDR 2018 lock-in schedule from allotment
+KEN,lockin_expiry_mpc,2025-02-12,2026-08-12,5,promoter,high,SEBI ICDR 2018 lock-in schedule from allotment
+727NGEL36,lockin_expiry_anchor_30d,2026-07-13,2026-08-12,5,anchor,high,SEBI ICDR 2018 lock-in schedule from allotment
+783PHFL29,lockin_expiry_anchor_30d,2026-07-13,2026-08-12,5,anchor,high,SEBI ICDR 2018 lock-in schedule from allotment
+SIMCA,lockin_expiry_anchor_90d,2026-05-15,2026-08-13,6,anchor,high,SEBI ICDR 2018 lock-in schedule from allotment
+BIOPOL,lockin_expiry_non_promoter_6m,2026-02-13,2026-08-13,6,non_promoter,high,SEBI ICDR 2018 lock-in schedule from allotment
+BIOPOL,lockin_expiry_promoter_excess_6m,2026-02-13,2026-08-13,6,promoter,high,SEBI ICDR 2018 lock-in schedule from allotment
+BIOPOL,lockin_expiry_aif_vcf_6m,2026-02-13,2026-08-13,6,investor,high,SEBI ICDR 2018 lock-in schedule from allotment
+READYMIX,lockin_expiry_mpc,2025-02-13,2026-08-13,6,promoter,high,SEBI ICDR 2018 lock-in schedule from allotment
+KUSUMGAR,lockin_expiry_anchor_30d,2026-07-15,2026-08-14,7,anchor,high,SEBI ICDR 2018 lock-in schedule from allotment
+ELGNZ,lockin_expiry_mpc,2025-02-14,2026-08-14,7,promoter,high,SEBI ICDR 2018 lock-in schedule from allotment
+LASERPOWER,lockin_expiry_anchor_30d,2026-07-16,2026-08-15,8,anchor,high,SEBI ICDR 2018 lock-in schedule from allotment
+HAPPY,lockin_expiry_anchor_30d,2026-07-16,2026-08-15,8,anchor,high,SEBI ICDR 2018 lock-in schedule from allotment
+FRACTAL,lockin_expiry_non_promoter_6m,2026-02-16,2026-08-16,9,non_promoter,high,SEBI ICDR 2018 lock-in schedule from allotment
+FRACTAL,lockin_expiry_promoter_excess_6m,2026-02-16,2026-08-16,9,promoter,high,SEBI ICDR 2018 lock-in schedule from allotment
+FRACTAL,lockin_expiry_aif_vcf_6m,2026-02-16,2026-08-16,9,investor,high,SEBI ICDR 2018 lock-in schedule from allotment
+AYE,lockin_expiry_non_promoter_6m,2026-02-16,2026-08-16,9,non_promoter,high,SEBI ICDR 2018 lock-in schedule from allotment
+AYE,lockin_expiry_promoter_excess_6m,2026-02-16,2026-08-16,9,promoter,high,SEBI ICDR 2018 lock-in schedule from allotment
+AYE,lockin_expiry_aif_vcf_6m,2026-02-16,2026-08-16,9,investor,high,SEBI ICDR 2018 lock-in schedule from allotment
+115AFIL28A,lockin_expiry_anchor_30d,2026-07-17,2026-08-16,9,anchor,high,SEBI ICDR 2018 lock-in schedule from allotment
+RFBL,lockin_expiry_anchor_90d,2026-05-19,2026-08-17,10,anchor,high,SEBI ICDR 2018 lock-in schedule from allotment
+AJAXENGG,lockin_expiry_mpc,2025-02-17,2026-08-17,10,promoter,high,SEBI ICDR 2018 lock-in schedule from allotment
+CHANDAN,lockin_expiry_mpc,2025-02-17,2026-08-17,10,promoter,high,SEBI ICDR 2018 lock-in schedule from allotment
+GICL,lockin_expiry_non_promoter_6m,2026-02-18,2026-08-18,11,non_promoter,high,SEBI ICDR 2018 lock-in schedule from allotment
+GICL,lockin_expiry_promoter_excess_6m,2026-02-18,2026-08-18,11,promoter,high,SEBI ICDR 2018 lock-in schedule from allotment
+GICL,lockin_expiry_aif_vcf_6m,2026-02-18,2026-08-18,11,investor,high,SEBI ICDR 2018 lock-in schedule from allotment
+MARUSHIKA,lockin_expiry_non_promoter_6m,2026-02-19,2026-08-19,12,non_promoter,high,SEBI ICDR 2018 lock-in schedule from allotment
+MARUSHIKA,lockin_expiry_promoter_excess_6m,2026-02-19,2026-08-19,12,promoter,high,SEBI ICDR 2018 lock-in schedule from allotment
+MARUSHIKA,lockin_expiry_aif_vcf_6m,2026-02-19,2026-08-19,12,investor,high,SEBI ICDR 2018 lock-in schedule from allotment
+HEXT,lockin_expiry_mpc,2025-02-19,2026-08-19,12,promoter,high,SEBI ICDR 2018 lock-in schedule from allotment
+VOLERCAR,lockin_expiry_mpc,2025-02-19,2026-08-19,12,promoter,high,SEBI ICDR 2018 lock-in schedule from allotment
+PSRAJ,lockin_expiry_mpc,2025-02-19,2026-08-19,12,promoter,high,SEBI ICDR 2018 lock-in schedule from allotment
+MAXVOLT,lockin_expiry_mpc,2025-02-19,2026-08-19,12,promoter,high,SEBI ICDR 2018 lock-in schedule from allotment
+SILGOPP,lockin_expiry_non_promoter_6m,2026-02-19,2026-08-19,12,non_promoter,high,SEBI ICDR 2018 lock-in schedule from allotment
+SILGOPP,lockin_expiry_promoter_excess_6m,2026-02-19,2026-08-19,12,promoter,high,SEBI ICDR 2018 lock-in schedule from allotment
+SILGOPP,lockin_expiry_aif_vcf_6m,2026-02-19,2026-08-19,12,investor,high,SEBI ICDR 2018 lock-in schedule from allotment
+ALPINETEX,lockin_expiry_anchor_30d,2026-07-21,2026-08-20,13,anchor,high,SEBI ICDR 2018 lock-in schedule from allotment
+SBIFUNDS,lockin_expiry_anchor_30d,2026-07-21,2026-08-20,13,anchor,high,SEBI ICDR 2018 lock-in schedule from allotment
+CMLL,lockin_expiry_anchor_30d,2026-07-24,2026-08-23,16,anchor,high,SEBI ICDR 2018 lock-in schedule from allotment
+NFPSAMPOOR,lockin_expiry_anchor_90d,2026-05-25,2026-08-23,16,anchor,high,SEBI ICDR 2018 lock-in schedule from allotment
+TEAMTECH,lockin_expiry_anchor_90d,2026-05-26,2026-08-24,17,anchor,high,SEBI ICDR 2018 lock-in schedule from allotment
+QPOWER,lockin_expiry_mpc,2025-02-24,2026-08-24,17,promoter,high,SEBI ICDR 2018 lock-in schedule from allotment
+ROYALARC,lockin_expiry_mpc,2025-02-24,2026-08-24,17,promoter,high,SEBI ICDR 2018 lock-in schedule from allotment
+TEJASCARGO,lockin_expiry_mpc,2025-02-24,2026-08-24,17,promoter,high,SEBI ICDR 2018 lock-in schedule from allotment
+METALIC,lockin_expiry_anchor_30d,2026-07-28,2026-08-27,20,anchor,high,SEBI ICDR 2018 lock-in schedule from allotment
+QLINE,lockin_expiry_anchor_90d,2026-05-29,2026-08-27,20,anchor,high,SEBI ICDR 2018 lock-in schedule from allotment
+BMLL,lockin_expiry_anchor_90d,2026-05-29,2026-08-27,20,anchor,high,SEBI ICDR 2018 lock-in schedule from allotment
+GAUDIUMIVF,lockin_expiry_non_promoter_6m,2026-02-27,2026-08-27,20,non_promoter,high,SEBI ICDR 2018 lock-in schedule from allotment
+GAUDIUMIVF,lockin_expiry_promoter_excess_6m,2026-02-27,2026-08-27,20,promoter,high,SEBI ICDR 2018 lock-in schedule from allotment
+GAUDIUMIVF,lockin_expiry_aif_vcf_6m,2026-02-27,2026-08-27,20,investor,high,SEBI ICDR 2018 lock-in schedule from allotment
+MANILAM,lockin_expiry_non_promoter_6m,2026-02-27,2026-08-27,20,non_promoter,high,SEBI ICDR 2018 lock-in schedule from allotment
+MANILAM,lockin_expiry_promoter_excess_6m,2026-02-27,2026-08-27,20,promoter,high,SEBI ICDR 2018 lock-in schedule from allotment
+MANILAM,lockin_expiry_aif_vcf_6m,2026-02-27,2026-08-27,20,investor,high,SEBI ICDR 2018 lock-in schedule from allotment
+915ICFL28A,lockin_expiry_anchor_30d,2026-07-28,2026-08-27,20,anchor,high,SEBI ICDR 2018 lock-in schedule from allotment
+HPTL,lockin_expiry_mpc,2025-02-28,2026-08-28,21,promoter,high,SEBI ICDR 2018 lock-in schedule from allotment
+XTRANET,lockin_expiry_anchor_30d,2026-07-30,2026-08-29,22,anchor,high,SEBI ICDR 2018 lock-in schedule from allotment
+INDOMIM,lockin_expiry_anchor_30d,2026-07-30,2026-08-29,22,anchor,high,SEBI ICDR 2018 lock-in schedule from allotment
+LCL,lockin_expiry_anchor_30d,2026-07-30,2026-08-29,22,anchor,high,SEBI ICDR 2018 lock-in schedule from allotment
+CUBEINVIT,lockin_expiry_anchor_30d,2026-07-31,2026-08-30,23,anchor,high,SEBI ICDR 2018 lock-in schedule from allotment
+PROPSHOP,lockin_expiry_anchor_30d,2026-08-03,2026-09-02,26,anchor,high,SEBI ICDR 2018 lock-in schedule from allotment
+SRTL,lockin_expiry_non_promoter_6m,2026-03-02,2026-09-02,26,non_promoter,high,SEBI ICDR 2018 lock-in schedule from allotment
+SRTL,lockin_expiry_promoter_excess_6m,2026-03-02,2026-09-02,26,promoter,high,SEBI ICDR 2018 lock-in schedule from allotment
+SRTL,lockin_expiry_aif_vcf_6m,2026-03-02,2026-09-02,26,investor,high,SEBI ICDR 2018 lock-in schedule from allotment
+CLEANMAX,lockin_expiry_non_promoter_6m,2026-03-02,2026-09-02,26,non_promoter,high,SEBI ICDR 2018 lock-in schedule from allotment
+CLEANMAX,lockin_expiry_promoter_excess_6m,2026-03-02,2026-09-02,26,promoter,high,SEBI ICDR 2018 lock-in schedule from allotment
+CLEANMAX,lockin_expiry_aif_vcf_6m,2026-03-02,2026-09-02,26,investor,high,SEBI ICDR 2018 lock-in schedule from allotment
+MOBILISE,lockin_expiry_non_promoter_6m,2026-03-02,2026-09-02,26,non_promoter,high,SEBI ICDR 2018 lock-in schedule from allotment
+MOBILISE,lockin_expiry_promoter_excess_6m,2026-03-02,2026-09-02,26,promoter,high,SEBI ICDR 2018 lock-in schedule from allotment
+MOBILISE,lockin_expiry_aif_vcf_6m,2026-03-02,2026-09-02,26,investor,high,SEBI ICDR 2018 lock-in schedule from allotment
+MANIPALHOS,lockin_expiry_anchor_30d,2026-08-05,2026-09-04,28,anchor,high,SEBI ICDR 2018 lock-in schedule from allotment
+PNGSREVA,lockin_expiry_non_promoter_6m,2026-03-04,2026-09-04,28,non_promoter,high,SEBI ICDR 2018 lock-in schedule from allotment
+PNGSREVA,lockin_expiry_promoter_excess_6m,2026-03-04,2026-09-04,28,promoter,high,SEBI ICDR 2018 lock-in schedule from allotment
+PNGSREVA,lockin_expiry_aif_vcf_6m,2026-03-04,2026-09-04,28,investor,high,SEBI ICDR 2018 lock-in schedule from allotment
+129DCCL28,lockin_expiry_anchor_30d,2026-08-05,2026-09-04,28,anchor,high,SEBI ICDR 2018 lock-in schedule from allotment
+904NACL28,lockin_expiry_anchor_30d,2026-08-05,2026-09-04,28,anchor,high,SEBI ICDR 2018 lock-in schedule from allotment
+JNPR,lockin_expiry_anchor_30d,2026-08-06,2026-09-05,29,anchor,high,SEBI ICDR 2018 lock-in schedule from allotment
+MVELECTRO,lockin_expiry_anchor_30d,2026-08-06,2026-09-05,29,anchor,high,SEBI ICDR 2018 lock-in schedule from allotment
+OMNI,lockin_expiry_non_promoter_6m,2026-03-05,2026-09-05,29,non_promoter,high,SEBI ICDR 2018 lock-in schedule from allotment
+OMNI,lockin_expiry_promoter_excess_6m,2026-03-05,2026-09-05,29,promoter,high,SEBI ICDR 2018 lock-in schedule from allotment
+OMNI,lockin_expiry_aif_vcf_6m,2026-03-05,2026-09-05,29,investor,high,SEBI ICDR 2018 lock-in schedule from allotment
+YAAP,lockin_expiry_non_promoter_6m,2026-03-05,2026-09-05,29,non_promoter,high,SEBI ICDR 2018 lock-in schedule from allotment
+YAAP,lockin_expiry_promoter_excess_6m,2026-03-05,2026-09-05,29,promoter,high,SEBI ICDR 2018 lock-in schedule from allotment
+YAAP,lockin_expiry_aif_vcf_6m,2026-03-05,2026-09-05,29,investor,high,SEBI ICDR 2018 lock-in schedule from allotment
+PFC2026,lockin_expiry_non_promoter_6m,2026-03-05,2026-09-05,29,non_promoter,high,SEBI ICDR 2018 lock-in schedule from allotment
+PFC2026,lockin_expiry_promoter_excess_6m,2026-03-05,2026-09-05,29,promoter,high,SEBI ICDR 2018 lock-in schedule from allotment
+PFC2026,lockin_expiry_aif_vcf_6m,2026-03-05,2026-09-05,29,investor,high,SEBI ICDR 2018 lock-in schedule from allotment
+STRIDERS,lockin_expiry_non_promoter_6m,2026-03-06,2026-09-06,30,non_promoter,high,SEBI ICDR 2018 lock-in schedule from allotment
+STRIDERS,lockin_expiry_promoter_excess_6m,2026-03-06,2026-09-06,30,promoter,high,SEBI ICDR 2018 lock-in schedule from allotment
+STRIDERS,lockin_expiry_aif_vcf_6m,2026-03-06,2026-09-06,30,investor,high,SEBI ICDR 2018 lock-in schedule from allotment
+NMC01,lockin_expiry_non_promoter_6m,2026-03-06,2026-09-06,30,non_promoter,high,SEBI ICDR 2018 lock-in schedule from allotment
+NMC01,lockin_expiry_promoter_excess_6m,2026-03-06,2026-09-06,30,promoter,high,SEBI ICDR 2018 lock-in schedule from allotment
+NMC01,lockin_expiry_aif_vcf_6m,2026-03-06,2026-09-06,30,investor,high,SEBI ICDR 2018 lock-in schedule from allotment
+BALAJIPHOS,lockin_expiry_mpc,2025-03-07,2026-09-07,31,promoter,high,SEBI ICDR 2018 lock-in schedule from allotment
+CMRGREEN,lockin_expiry_anchor_90d,2026-06-10,2026-09-08,32,anchor,high,SEBI ICDR 2018 lock-in schedule from allotment
+ACETEC,lockin_expiry_non_promoter_6m,2026-03-09,2026-09-09,33,non_promoter,high,SEBI ICDR 2018 lock-in schedule from allotment
+ACETEC,lockin_expiry_promoter_excess_6m,2026-03-09,2026-09-09,33,promoter,high,SEBI ICDR 2018 lock-in schedule from allotment
+ACETEC,lockin_expiry_aif_vcf_6m,2026-03-09,2026-09-09,33,investor,high,SEBI ICDR 2018 lock-in schedule from allotment
+SCL004,lockin_expiry_non_promoter_6m,2026-03-09,2026-09-09,33,non_promoter,high,SEBI ICDR 2018 lock-in schedule from allotment
+SCL004,lockin_expiry_promoter_excess_6m,2026-03-09,2026-09-09,33,promoter,high,SEBI ICDR 2018 lock-in schedule from allotment
+SCL004,lockin_expiry_aif_vcf_6m,2026-03-09,2026-09-09,33,investor,high,SEBI ICDR 2018 lock-in schedule from allotment
+975SCL35,lockin_expiry_non_promoter_6m,2026-03-09,2026-09-09,33,non_promoter,high,SEBI ICDR 2018 lock-in schedule from allotment
+975SCL35,lockin_expiry_promoter_excess_6m,2026-03-09,2026-09-09,33,promoter,high,SEBI ICDR 2018 lock-in schedule from allotment
+975SCL35,lockin_expiry_aif_vcf_6m,2026-03-09,2026-09-09,33,investor,high,SEBI ICDR 2018 lock-in schedule from allotment
+975SCL35,lockin_expiry_non_promoter_6m,2026-03-09,2026-09-09,33,non_promoter,high,SEBI ICDR 2018 lock-in schedule from allotment
+975SCL35,lockin_expiry_promoter_excess_6m,2026-03-09,2026-09-09,33,promoter,high,SEBI ICDR 2018 lock-in schedule from allotment
+975SCL35,lockin_expiry_aif_vcf_6m,2026-03-09,2026-09-09,33,investor,high,SEBI ICDR 2018 lock-in schedule from allotment
+975SCL35,lockin_expiry_non_promoter_6m,2026-03-09,2026-09-09,33,non_promoter,high,SEBI ICDR 2018 lock-in schedule from allotment
+975SCL35,lockin_expiry_promoter_excess_6m,2026-03-09,2026-09-09,33,promoter,high,SEBI ICDR 2018 lock-in schedule from allotment
+975SCL35,lockin_expiry_aif_vcf_6m,2026-03-09,2026-09-09,33,investor,high,SEBI ICDR 2018 lock-in schedule from allotment
+HEXAGON,lockin_expiry_anchor_90d,2026-06-12,2026-09-10,34,anchor,high,SEBI ICDR 2018 lock-in schedule from allotment
+GENXAI,lockin_expiry_anchor_90d,2026-06-12,2026-09-10,34,anchor,high,SEBI ICDR 2018 lock-in schedule from allotment
+SEDEMAC,lockin_expiry_non_promoter_6m,2026-03-11,2026-09-11,35,non_promoter,high,SEBI ICDR 2018 lock-in schedule from allotment
+SEDEMAC,lockin_expiry_promoter_excess_6m,2026-03-11,2026-09-11,35,promoter,high,SEBI ICDR 2018 lock-in schedule from allotment
+SEDEMAC,lockin_expiry_aif_vcf_6m,2026-03-11,2026-09-11,35,investor,high,SEBI ICDR 2018 lock-in schedule from allotment
+VITAL,lockin_expiry_non_promoter_6m,2026-03-11,2026-09-11,35,non_promoter,high,SEBI ICDR 2018 lock-in schedule from allotment
+VITAL,lockin_expiry_promoter_excess_6m,2026-03-11,2026-09-11,35,promoter,high,SEBI ICDR 2018 lock-in schedule from allotment
+VITAL,lockin_expiry_aif_vcf_6m,2026-03-11,2026-09-11,35,investor,high,SEBI ICDR 2018 lock-in schedule from allotment
+KOTYARK,lockin_expiry_non_promoter_6m,2026-03-12,2026-09-12,36,non_promoter,high,SEBI ICDR 2018 lock-in schedule from allotment
+KOTYARK,lockin_expiry_promoter_excess_6m,2026-03-12,2026-09-12,36,promoter,high,SEBI ICDR 2018 lock-in schedule from allotment
+KOTYARK,lockin_expiry_aif_vcf_6m,2026-03-12,2026-09-12,36,investor,high,SEBI ICDR 2018 lock-in schedule from allotment
+MANAV-RE,lockin_expiry_mpc,2025-03-12,2026-09-12,36,promoter,high,SEBI ICDR 2018 lock-in schedule from allotment
+SPCON,lockin_expiry_non_promoter_6m,2026-03-13,2026-09-13,37,non_promoter,high,SEBI ICDR 2018 lock-in schedule from allotment
+SPCON,lockin_expiry_promoter_excess_6m,2026-03-13,2026-09-13,37,promoter,high,SEBI ICDR 2018 lock-in schedule from allotment
+SPCON,lockin_expiry_aif_vcf_6m,2026-03-13,2026-09-13,37,investor,high,SEBI ICDR 2018 lock-in schedule from allotment
+860IIFL27,lockin_expiry_non_promoter_6m,2026-03-13,2026-09-13,37,non_promoter,high,SEBI ICDR 2018 lock-in schedule from allotment
+860IIFL27,lockin_expiry_promoter_excess_6m,2026-03-13,2026-09-13,37,promoter,high,SEBI ICDR 2018 lock-in schedule from allotment
+860IIFL27,lockin_expiry_aif_vcf_6m,2026-03-13,2026-09-13,37,investor,high,SEBI ICDR 2018 lock-in schedule from allotment
+860IIFL27,lockin_expiry_non_promoter_6m,2026-03-13,2026-09-13,37,non_promoter,high,SEBI ICDR 2018 lock-in schedule from allotment
+860IIFL27,lockin_expiry_promoter_excess_6m,2026-03-13,2026-09-13,37,promoter,high,SEBI ICDR 2018 lock-in schedule from allotment
+860IIFL27,lockin_expiry_aif_vcf_6m,2026-03-13,2026-09-13,37,investor,high,SEBI ICDR 2018 lock-in schedule from allotment
+860IIFL27,lockin_expiry_non_promoter_6m,2026-03-13,2026-09-13,37,non_promoter,high,SEBI ICDR 2018 lock-in schedule from allotment
+860IIFL27,lockin_expiry_promoter_excess_6m,2026-03-13,2026-09-13,37,promoter,high,SEBI ICDR 2018 lock-in schedule from allotment
+860IIFL27,lockin_expiry_aif_vcf_6m,2026-03-13,2026-09-13,37,investor,high,SEBI ICDR 2018 lock-in schedule from allotment
+860IIFL27,lockin_expiry_non_promoter_6m,2026-03-13,2026-09-13,37,non_promoter,high,SEBI ICDR 2018 lock-in schedule from allotment
+860IIFL27,lockin_expiry_promoter_excess_6m,2026-03-13,2026-09-13,37,promoter,high,SEBI ICDR 2018 lock-in schedule from allotment
+860IIFL27,lockin_expiry_aif_vcf_6m,2026-03-13,2026-09-13,37,investor,high,SEBI ICDR 2018 lock-in schedule from allotment
+860IIFL27,lockin_expiry_non_promoter_6m,2026-03-13,2026-09-13,37,non_promoter,high,SEBI ICDR 2018 lock-in schedule from allotment
+860IIFL27,lockin_expiry_promoter_excess_6m,2026-03-13,2026-09-13,37,promoter,high,SEBI ICDR 2018 lock-in schedule from allotment
+860IIFL27,lockin_expiry_aif_vcf_6m,2026-03-13,2026-09-13,37,investor,high,SEBI ICDR 2018 lock-in schedule from allotment
+860IIFL27,lockin_expiry_non_promoter_6m,2026-03-13,2026-09-13,37,non_promoter,high,SEBI ICDR 2018 lock-in schedule from allotment
+860IIFL27,lockin_expiry_promoter_excess_6m,2026-03-13,2026-09-13,37,promoter,high,SEBI ICDR 2018 lock-in schedule from allotment
+860IIFL27,lockin_expiry_aif_vcf_6m,2026-03-13,2026-09-13,37,investor,high,SEBI ICDR 2018 lock-in schedule from allotment
+UTKAL,lockin_expiry_anchor_90d,2026-06-17,2026-09-15,39,anchor,high,SEBI ICDR 2018 lock-in schedule from allotment
+QMSMEDI,lockin_expiry_anchor_90d,2026-06-18,2026-09-16,40,anchor,high,SEBI ICDR 2018 lock-in schedule from allotment
+815CHLI36,lockin_expiry_non_promoter_6m,2026-03-17,2026-09-17,41,non_promoter,high,SEBI ICDR 2018 lock-in schedule from allotment
+815CHLI36,lockin_expiry_promoter_excess_6m,2026-03-17,2026-09-17,41,promoter,high,SEBI ICDR 2018 lock-in schedule from allotment
+815CHLI36,lockin_expiry_aif_vcf_6m,2026-03-17,2026-09-17,41,investor,high,SEBI ICDR 2018 lock-in schedule from allotment
+APSISAERO,lockin_expiry_non_promoter_6m,2026-03-18,2026-09-18,42,non_promoter,high,SEBI ICDR 2018 lock-in schedule from allotment
+APSISAERO,lockin_expiry_promoter_excess_6m,2026-03-18,2026-09-18,42,promoter,high,SEBI ICDR 2018 lock-in schedule from allotment
+APSISAERO,lockin_expiry_aif_vcf_6m,2026-03-18,2026-09-18,42,investor,high,SEBI ICDR 2018 lock-in schedule from allotment
+RSL,lockin_expiry_non_promoter_6m,2026-03-19,2026-09-19,43,non_promoter,high,SEBI ICDR 2018 lock-in schedule from allotment
+RSL,lockin_expiry_promoter_excess_6m,2026-03-19,2026-09-19,43,promoter,high,SEBI ICDR 2018 lock-in schedule from allotment
+RSL,lockin_expiry_aif_vcf_6m,2026-03-19,2026-09-19,43,investor,high,SEBI ICDR 2018 lock-in schedule from allotment
+12VPT28A,lockin_expiry_anchor_90d,2026-06-22,2026-09-20,44,anchor,high,SEBI ICDR 2018 lock-in schedule from allotment
+779TCHFL30,lockin_expiry_anchor_90d,2026-06-22,2026-09-20,44,anchor,high,SEBI ICDR 2018 lock-in schedule from allotment
+CLAYCRAFT,lockin_expiry_anchor_90d,2026-06-24,2026-09-22,46,anchor,high,SEBI ICDR 2018 lock-in schedule from allotment
+AVIENCE,lockin_expiry_anchor_90d,2026-06-25,2026-09-23,47,anchor,high,SEBI ICDR 2018 lock-in schedule from allotment
+INNOVISION,lockin_expiry_non_promoter_6m,2026-03-23,2026-09-23,47,non_promoter,high,SEBI ICDR 2018 lock-in schedule from allotment
+INNOVISION,lockin_expiry_promoter_excess_6m,2026-03-23,2026-09-23,47,promoter,high,SEBI ICDR 2018 lock-in schedule from allotment
+INNOVISION,lockin_expiry_aif_vcf_6m,2026-03-23,2026-09-23,47,investor,high,SEBI ICDR 2018 lock-in schedule from allotment
+GSPCROP,lockin_expiry_non_promoter_6m,2026-03-24,2026-09-24,48,non_promoter,high,SEBI ICDR 2018 lock-in schedule from allotment
+GSPCROP,lockin_expiry_promoter_excess_6m,2026-03-24,2026-09-24,48,promoter,high,SEBI ICDR 2018 lock-in schedule from allotment
+GSPCROP,lockin_expiry_aif_vcf_6m,2026-03-24,2026-09-24,48,investor,high,SEBI ICDR 2018 lock-in schedule from allotment
+RIIT,lockin_expiry_non_promoter_6m,2026-03-24,2026-09-24,48,non_promoter,high,SEBI ICDR 2018 lock-in schedule from allotment
+RIIT,lockin_expiry_promoter_excess_6m,2026-03-24,2026-09-24,48,promoter,high,SEBI ICDR 2018 lock-in schedule from allotment
+RIIT,lockin_expiry_aif_vcf_6m,2026-03-24,2026-09-24,48,investor,high,SEBI ICDR 2018 lock-in schedule from allotment
+DIVINEHIRA,lockin_expiry_mpc,2025-03-24,2026-09-24,48,promoter,high,SEBI ICDR 2018 lock-in schedule from allotment
+TURTLEMINT,lockin_expiry_anchor_90d,2026-06-29,2026-09-27,51,anchor,high,SEBI ICDR 2018 lock-in schedule from allotment
+GCHOTELS,lockin_expiry_mpc,2025-03-27,2026-09-27,51,promoter,high,SEBI ICDR 2018 lock-in schedule from allotment
+734IREDA29,lockin_expiry_anchor_90d,2026-06-29,2026-09-27,51,anchor,high,SEBI ICDR 2018 lock-in schedule from allotment
+RAPIDFLEET,lockin_expiry_mpc,2025-03-28,2026-09-28,52,promoter,high,SEBI ICDR 2018 lock-in schedule from allotment
+ACTIVEINFR,lockin_expiry_mpc,2025-03-28,2026-09-28,52,promoter,high,SEBI ICDR 2018 lock-in schedule from allotment
+1165ESF32,lockin_expiry_anchor_90d,2026-06-30,2026-09-28,52,anchor,high,SEBI ICDR 2018 lock-in schedule from allotment
+SPECTRUM,lockin_expiry_mpc,2025-03-28,2026-09-28,52,promoter,high,SEBI ICDR 2018 lock-in schedule from allotment
+RAMBHAJO,lockin_expiry_anchor_90d,2026-07-01,2026-09-29,53,anchor,high,SEBI ICDR 2018 lock-in schedule from allotment
+CORDELIA,lockin_expiry_anchor_90d,2026-07-01,2026-09-29,53,anchor,high,SEBI ICDR 2018 lock-in schedule from allotment
+SHREEDHAR,lockin_expiry_anchor_90d,2026-07-01,2026-09-29,53,anchor,high,SEBI ICDR 2018 lock-in schedule from allotment
+888CIFCL33,lockin_expiry_anchor_90d,2026-07-01,2026-09-29,53,anchor,high,SEBI ICDR 2018 lock-in schedule from allotment
+888CIFCL33,lockin_expiry_anchor_90d,2026-07-01,2026-09-29,53,anchor,high,SEBI ICDR 2018 lock-in schedule from allotment
+888CIFCL33,lockin_expiry_anchor_90d,2026-07-01,2026-09-29,53,anchor,high,SEBI ICDR 2018 lock-in schedule from allotment
+888CIFCL33,lockin_expiry_anchor_90d,2026-07-01,2026-09-29,53,anchor,high,SEBI ICDR 2018 lock-in schedule from allotment
+CSM,lockin_expiry_anchor_90d,2026-07-02,2026-09-30,54,anchor,high,SEBI ICDR 2018 lock-in schedule from allotment
+CMPDI,lockin_expiry_non_promoter_6m,2026-03-30,2026-09-30,54,non_promoter,high,SEBI ICDR 2018 lock-in schedule from allotment
+CMPDI,lockin_expiry_promoter_excess_6m,2026-03-30,2026-09-30,54,promoter,high,SEBI ICDR 2018 lock-in schedule from allotment
+CMPDI,lockin_expiry_aif_vcf_6m,2026-03-30,2026-09-30,54,investor,high,SEBI ICDR 2018 lock-in schedule from allotment
+920ISF28,lockin_expiry_anchor_90d,2026-07-03,2026-10-01,55,anchor,high,SEBI ICDR 2018 lock-in schedule from allotment
+920ISF28,lockin_expiry_anchor_90d,2026-07-03,2026-10-01,55,anchor,high,SEBI ICDR 2018 lock-in schedule from allotment
+AMIRCHAND,lockin_expiry_non_promoter_6m,2026-04-02,2026-10-02,56,non_promoter,high,SEBI ICDR 2018 lock-in schedule from allotment
+AMIRCHAND,lockin_expiry_promoter_excess_6m,2026-04-02,2026-10-02,56,promoter,high,SEBI ICDR 2018 lock-in schedule from allotment
+AMIRCHAND,lockin_expiry_aif_vcf_6m,2026-04-02,2026-10-02,56,investor,high,SEBI ICDR 2018 lock-in schedule from allotment
+SAIPARENT,lockin_expiry_non_promoter_6m,2026-04-02,2026-10-02,56,non_promoter,high,SEBI ICDR 2018 lock-in schedule from allotment
+SAIPARENT,lockin_expiry_promoter_excess_6m,2026-04-02,2026-10-02,56,promoter,high,SEBI ICDR 2018 lock-in schedule from allotment
+SAIPARENT,lockin_expiry_aif_vcf_6m,2026-04-02,2026-10-02,56,investor,high,SEBI ICDR 2018 lock-in schedule from allotment
+POWERICA,lockin_expiry_non_promoter_6m,2026-04-02,2026-10-02,56,non_promoter,high,SEBI ICDR 2018 lock-in schedule from allotment
+POWERICA,lockin_expiry_promoter_excess_6m,2026-04-02,2026-10-02,56,promoter,high,SEBI ICDR 2018 lock-in schedule from allotment
+POWERICA,lockin_expiry_aif_vcf_6m,2026-04-02,2026-10-02,56,investor,high,SEBI ICDR 2018 lock-in schedule from allotment
+ATCENERGY,lockin_expiry_mpc,2025-04-02,2026-10-02,56,promoter,high,SEBI ICDR 2018 lock-in schedule from allotment
+SHRIAHIMSA,lockin_expiry_mpc,2025-04-02,2026-10-02,56,promoter,high,SEBI ICDR 2018 lock-in schedule from allotment
+AASTHA,lockin_expiry_anchor_90d,2026-07-06,2026-10-04,58,anchor,high,SEBI ICDR 2018 lock-in schedule from allotment
+TEJA,lockin_expiry_anchor_90d,2026-07-07,2026-10-05,59,anchor,high,SEBI ICDR 2018 lock-in schedule from allotment
+VMOBILE,lockin_expiry_anchor_90d,2026-07-07,2026-10-05,59,anchor,high,SEBI ICDR 2018 lock-in schedule from allotment
+KNACK,lockin_expiry_anchor_90d,2026-07-08,2026-10-06,60,anchor,high,SEBI ICDR 2018 lock-in schedule from allotment
+VIVIDEL,lockin_expiry_non_promoter_6m,2026-04-07,2026-10-07,61,non_promoter,high,SEBI ICDR 2018 lock-in schedule from allotment
+VIVIDEL,lockin_expiry_promoter_excess_6m,2026-04-07,2026-10-07,61,promoter,high,SEBI ICDR 2018 lock-in schedule from allotment
+VIVIDEL,lockin_expiry_aif_vcf_6m,2026-04-07,2026-10-07,61,investor,high,SEBI ICDR 2018 lock-in schedule from allotment
+788TACA31,lockin_expiry_anchor_90d,2026-07-09,2026-10-07,61,anchor,high,SEBI ICDR 2018 lock-in schedule from allotment
+ICELCO,lockin_expiry_anchor_90d,2026-07-10,2026-10-08,62,anchor,high,SEBI ICDR 2018 lock-in schedule from allotment
+783LTFL29,lockin_expiry_anchor_90d,2026-07-10,2026-10-08,62,anchor,high,SEBI ICDR 2018 lock-in schedule from allotment
+783LTFL29,lockin_expiry_anchor_90d,2026-07-10,2026-10-08,62,anchor,high,SEBI ICDR 2018 lock-in schedule from allotment
+783LTFL29,lockin_expiry_anchor_90d,2026-07-10,2026-10-08,62,anchor,high,SEBI ICDR 2018 lock-in schedule from allotment
+727NGEL36,lockin_expiry_anchor_90d,2026-07-13,2026-10-11,65,anchor,high,SEBI ICDR 2018 lock-in schedule from allotment
+783PHFL29,lockin_expiry_anchor_90d,2026-07-13,2026-10-11,65,anchor,high,SEBI ICDR 2018 lock-in schedule from allotment
+KUSUMGAR,lockin_expiry_anchor_90d,2026-07-15,2026-10-13,67,anchor,high,SEBI ICDR 2018 lock-in schedule from allotment
+LASERPOWER,lockin_expiry_anchor_90d,2026-07-16,2026-10-14,68,anchor,high,SEBI ICDR 2018 lock-in schedule from allotment
+HAPPY,lockin_expiry_anchor_90d,2026-07-16,2026-10-14,68,anchor,high,SEBI ICDR 2018 lock-in schedule from allotment
+115AFIL28A,lockin_expiry_anchor_90d,2026-07-17,2026-10-15,69,anchor,high,SEBI ICDR 2018 lock-in schedule from allotment
+OMPOWER,lockin_expiry_non_promoter_6m,2026-04-17,2026-10-17,71,non_promoter,high,SEBI ICDR 2018 lock-in schedule from allotment
+OMPOWER,lockin_expiry_promoter_excess_6m,2026-04-17,2026-10-17,71,promoter,high,SEBI ICDR 2018 lock-in schedule from allotment
+OMPOWER,lockin_expiry_aif_vcf_6m,2026-04-17,2026-10-17,71,investor,high,SEBI ICDR 2018 lock-in schedule from allotment
+ALPINETEX,lockin_expiry_anchor_90d,2026-07-21,2026-10-19,73,anchor,high,SEBI ICDR 2018 lock-in schedule from allotment
+SBIFUNDS,lockin_expiry_anchor_90d,2026-07-21,2026-10-19,73,anchor,high,SEBI ICDR 2018 lock-in schedule from allotment
+CMLL,lockin_expiry_anchor_90d,2026-07-24,2026-10-22,76,anchor,high,SEBI ICDR 2018 lock-in schedule from allotment
+METALIC,lockin_expiry_anchor_90d,2026-07-28,2026-10-26,80,anchor,high,SEBI ICDR 2018 lock-in schedule from allotment
+915ICFL28A,lockin_expiry_anchor_90d,2026-07-28,2026-10-26,80,anchor,high,SEBI ICDR 2018 lock-in schedule from allotment
+XTRANET,lockin_expiry_anchor_90d,2026-07-30,2026-10-28,82,anchor,high,SEBI ICDR 2018 lock-in schedule from allotment
+INDOMIM,lockin_expiry_anchor_90d,2026-07-30,2026-10-28,82,anchor,high,SEBI ICDR 2018 lock-in schedule from allotment
+LCL,lockin_expiry_anchor_90d,2026-07-30,2026-10-28,82,anchor,high,SEBI ICDR 2018 lock-in schedule from allotment
+UGROD6,lockin_expiry_mpc,2025-04-28,2026-10-28,82,promoter,high,SEBI ICDR 2018 lock-in schedule from allotment
+UGROD5,lockin_expiry_mpc,2025-04-28,2026-10-28,82,promoter,high,SEBI ICDR 2018 lock-in schedule from allotment
+UGROD4,lockin_expiry_mpc,2025-04-28,2026-10-28,82,promoter,high,SEBI ICDR 2018 lock-in schedule from allotment
+CUBEINVIT,lockin_expiry_anchor_90d,2026-07-31,2026-10-29,83,anchor,high,SEBI ICDR 2018 lock-in schedule from allotment
+CITIUSINVT,lockin_expiry_non_promoter_6m,2026-04-29,2026-10-29,83,non_promoter,high,SEBI ICDR 2018 lock-in schedule from allotment
+CITIUSINVT,lockin_expiry_promoter_excess_6m,2026-04-29,2026-10-29,83,promoter,high,SEBI ICDR 2018 lock-in schedule from allotment
+CITIUSINVT,lockin_expiry_aif_vcf_6m,2026-04-29,2026-10-29,83,investor,high,SEBI ICDR 2018 lock-in schedule from allotment
+ADISOFT,lockin_expiry_non_promoter_6m,2026-04-30,2026-10-30,84,non_promoter,high,SEBI ICDR 2018 lock-in schedule from allotment
+ADISOFT,lockin_expiry_promoter_excess_6m,2026-04-30,2026-10-30,84,promoter,high,SEBI ICDR 2018 lock-in schedule from allotment
+ADISOFT,lockin_expiry_aif_vcf_6m,2026-04-30,2026-10-30,84,investor,high,SEBI ICDR 2018 lock-in schedule from allotment
+TANKUP,lockin_expiry_mpc,2025-04-30,2026-10-30,84,promoter,high,SEBI ICDR 2018 lock-in schedule from allotment
+NPST,lockin_expiry_mpc,2025-04-30,2026-10-30,84,promoter,high,SEBI ICDR 2018 lock-in schedule from allotment
+PROPSHOP,lockin_expiry_anchor_90d,2026-08-03,2026-11-01,86,anchor,high,SEBI ICDR 2018 lock-in schedule from allotment
+MANIPALHOS,lockin_expiry_anchor_90d,2026-08-05,2026-11-03,88,anchor,high,SEBI ICDR 2018 lock-in schedule from allotment
+129DCCL28,lockin_expiry_anchor_90d,2026-08-05,2026-11-03,88,anchor,high,SEBI ICDR 2018 lock-in schedule from allotment
+904NACL28,lockin_expiry_anchor_90d,2026-08-05,2026-11-03,88,anchor,high,SEBI ICDR 2018 lock-in schedule from allotment
+JNPR,lockin_expiry_anchor_90d,2026-08-06,2026-11-04,89,anchor,high,SEBI ICDR 2018 lock-in schedule from allotment
+MVELECTRO,lockin_expiry_anchor_90d,2026-08-06,2026-11-04,89,anchor,high,SEBI ICDR 2018 lock-in schedule from allotment
+10MWL29,lockin_expiry_non_promoter_6m,2026-05-04,2026-11-04,89,non_promoter,high,SEBI ICDR 2018 lock-in schedule from allotment
+10MWL29,lockin_expiry_promoter_excess_6m,2026-05-04,2026-11-04,89,promoter,high,SEBI ICDR 2018 lock-in schedule from allotment
+10MWL29,lockin_expiry_aif_vcf_6m,2026-05-04,2026-11-04,89,investor,high,SEBI ICDR 2018 lock-in schedule from allotment
+AMBAAUTO,lockin_expiry_non_promoter_6m,2026-05-05,2026-11-05,90,non_promoter,high,SEBI ICDR 2018 lock-in schedule from allotment
+AMBAAUTO,lockin_expiry_promoter_excess_6m,2026-05-05,2026-11-05,90,promoter,high,SEBI ICDR 2018 lock-in schedule from allotment
+AMBAAUTO,lockin_expiry_aif_vcf_6m,2026-05-05,2026-11-05,90,investor,high,SEBI ICDR 2018 lock-in schedule from allotment
+AARTIDRUGS,promoter_stake_declining,2026-08-07,2026-08-07,0,promoter,medium,"promoter+group down [ 0.6   1.32  2.87  1.99  2.77  1.5   3.26 12.73  1.14  0.88  1.44  2.99
+  5.31  6.66  7.69  1.4   0.78  1.42  2.    2.01  7.    3.94  0.73  0.83
+  1.27  0.59  0.65  5.    2.65  2.45  0.55  0.77  1.34  1.49  0.56  1.75
+  4.91  1.03  2.07  0.82  4.97  1.96  1.44  0.52  1.21  6.01  0.81  2.73
+  6.47  1.36  3.3   2.95  5.45  1.03  2.69  8.77  4.69  2.74  0.89  7.
+  2.31  1.    5.02 21.78  4.61  7.53  5.87  0.98  1.07  1.66 56.11  0.64
+  1.12  1.13] pp QoQ"
+ADANIENSOL,promoter_stake_declining,2026-08-07,2026-08-07,0,promoter,medium,"promoter+group down [ 0.6   1.32  2.87  1.99  2.77  1.5   3.26 12.73  1.14  0.88  1.44  2.99
+  5.31  6.66  7.69  1.4   0.78  1.42  2.    2.01  7.    3.94  0.73  0.83
+  1.27  0.59  0.65  5.    2.65  2.45  0.55  0.77  1.34  1.49  0.56  1.75
+  4.91  1.03  2.07  0.82  4.97  1.96  1.44  0.52  1.21  6.01  0.81  2.73
+  6.47  1.36  3.3   2.95  5.45  1.03  2.69  8.77  4.69  2.74  0.89  7.
+  2.31  1.    5.02 21.78  4.61  7.53  5.87  0.98  1.07  1.66 56.11  0.64
+  1.12  1.13] pp QoQ"
+ADANIENT,promoter_stake_declining,2026-08-07,2026-08-07,0,promoter,medium,"promoter+group down [ 0.6   1.32  2.87  1.99  2.77  1.5   3.26 12.73  1.14  0.88  1.44  2.99
+  5.31  6.66  7.69  1.4   0.78  1.42  2.    2.01  7.    3.94  0.73  0.83
+  1.27  0.59  0.65  5.    2.65  2.45  0.55  0.77  1.34  1.49  0.56  1.75
+  4.91  1.03  2.07  0.82  4.97  1.96  1.44  0.52  1.21  6.01  0.81  2.73
+  6.47  1.36  3.3   2.95  5.45  1.03  2.69  8.77  4.69  2.74  0.89  7.
+  2.31  1.    5.02 21.78  4.61  7.53  5.87  0.98  1.07  1.66 56.11  0.64
+  1.12  1.13] pp QoQ"
+ADANIPORTS,promoter_stake_declining,2026-08-07,2026-08-07,0,promoter,medium,"promoter+group down [ 0.6   1.32  2.87  1.99  2.77  1.5   3.26 12.73  1.14  0.88  1.44  2.99
+  5.31  6.66  7.69  1.4   0.78  1.42  2.    2.01  7.    3.94  0.73  0.83
+  1.27  0.59  0.65  5.    2.65  2.45  0.55  0.77  1.34  1.49  0.56  1.75
+  4.91  1.03  2.07  0.82  4.97  1.96  1.44  0.52  1.21  6.01  0.81  2.73
+  6.47  1.36  3.3   2.95  5.45  1.03  2.69  8.77  4.69  2.74  0.89  7.
+  2.31  1.    5.02 21.78  4.61  7.53  5.87  0.98  1.07  1.66 56.11  0.64
+  1.12  1.13] pp QoQ"
+AJANTPHARM,promoter_stake_declining,2026-08-07,2026-08-07,0,promoter,medium,"promoter+group down [ 0.6   1.32  2.87  1.99  2.77  1.5   3.26 12.73  1.14  0.88  1.44  2.99
+  5.31  6.66  7.69  1.4   0.78  1.42  2.    2.01  7.    3.94  0.73  0.83
+  1.27  0.59  0.65  5.    2.65  2.45  0.55  0.77  1.34  1.49  0.56  1.75
+  4.91  1.03  2.07  0.82  4.97  1.96  1.44  0.52  1.21  6.01  0.81  2.73
+  6.47  1.36  3.3   2.95  5.45  1.03  2.69  8.77  4.69  2.74  0.89  7.
+  2.31  1.    5.02 21.78  4.61  7.53  5.87  0.98  1.07  1.66 56.11  0.64
+  1.12  1.13] pp QoQ"
+ALKEM,promoter_stake_declining,2026-08-07,2026-08-07,0,promoter,medium,"promoter+group down [ 0.6   1.32  2.87  1.99  2.77  1.5   3.26 12.73  1.14  0.88  1.44  2.99
+  5.31  6.66  7.69  1.4   0.78  1.42  2.    2.01  7.    3.94  0.73  0.83
+  1.27  0.59  0.65  5.    2.65  2.45  0.55  0.77  1.34  1.49  0.56  1.75
+  4.91  1.03  2.07  0.82  4.97  1.96  1.44  0.52  1.21  6.01  0.81  2.73
+  6.47  1.36  3.3   2.95  5.45  1.03  2.69  8.77  4.69  2.74  0.89  7.
+  2.31  1.    5.02 21.78  4.61  7.53  5.87  0.98  1.07  1.66 56.11  0.64
+  1.12  1.13] pp QoQ"
+ANTHEM,promoter_stake_declining,2026-08-07,2026-08-07,0,promoter,medium,"promoter+group down [ 0.6   1.32  2.87  1.99  2.77  1.5   3.26 12.73  1.14  0.88  1.44  2.99
+  5.31  6.66  7.69  1.4   0.78  1.42  2.    2.01  7.    3.94  0.73  0.83
+  1.27  0.59  0.65  5.    2.65  2.45  0.55  0.77  1.34  1.49  0.56  1.75
+  4.91  1.03  2.07  0.82  4.97  1.96  1.44  0.52  1.21  6.01  0.81  2.73
+  6.47  1.36  3.3   2.95  5.45  1.03  2.69  8.77  4.69  2.74  0.89  7.
+  2.31  1.    5.02 21.78  4.61  7.53  5.87  0.98  1.07  1.66 56.11  0.64
+  1.12  1.13] pp QoQ"
+AQYLON,promoter_stake_declining,2026-08-07,2026-08-07,0,promoter,medium,"promoter+group down [ 0.6   1.32  2.87  1.99  2.77  1.5   3.26 12.73  1.14  0.88  1.44  2.99
+  5.31  6.66  7.69  1.4   0.78  1.42  2.    2.01  7.    3.94  0.73  0.83
+  1.27  0.59  0.65  5.    2.65  2.45  0.55  0.77  1.34  1.49  0.56  1.75
+  4.91  1.03  2.07  0.82  4.97  1.96  1.44  0.52  1.21  6.01  0.81  2.73
+  6.47  1.36  3.3   2.95  5.45  1.03  2.69  8.77  4.69  2.74  0.89  7.
+  2.31  1.    5.02 21.78  4.61  7.53  5.87  0.98  1.07  1.66 56.11  0.64
+  1.12  1.13] pp QoQ"
+ATHERENERG,promoter_stake_declining,2026-08-07,2026-08-07,0,promoter,medium,"promoter+group down [ 0.6   1.32  2.87  1.99  2.77  1.5   3.26 12.73  1.14  0.88  1.44  2.99
+  5.31  6.66  7.69  1.4   0.78  1.42  2.    2.01  7.    3.94  0.73  0.83
+  1.27  0.59  0.65  5.    2.65  2.45  0.55  0.77  1.34  1.49  0.56  1.75
+  4.91  1.03  2.07  0.82  4.97  1.96  1.44  0.52  1.21  6.01  0.81  2.73
+  6.47  1.36  3.3   2.95  5.45  1.03  2.69  8.77  4.69  2.74  0.89  7.
+  2.31  1.    5.02 21.78  4.61  7.53  5.87  0.98  1.07  1.66 56.11  0.64
+  1.12  1.13] pp QoQ"
+BALUFORGE,promoter_stake_declining,2026-08-07,2026-08-07,0,promoter,medium,"promoter+group down [ 0.6   1.32  2.87  1.99  2.77  1.5   3.26 12.73  1.14  0.88  1.44  2.99
+  5.31  6.66  7.69  1.4   0.78  1.42  2.    2.01  7.    3.94  0.73  0.83
+  1.27  0.59  0.65  5.    2.65  2.45  0.55  0.77  1.34  1.49  0.56  1.75
+  4.91  1.03  2.07  0.82  4.97  1.96  1.44  0.52  1.21  6.01  0.81  2.73
+  6.47  1.36  3.3   2.95  5.45  1.03  2.69  8.77  4.69  2.74  0.89  7.
+  2.31  1.    5.02 21.78  4.61  7.53  5.87  0.98  1.07  1.66 56.11  0.64
+  1.12  1.13] pp QoQ"
+BANDHANBNK,promoter_stake_declining,2026-08-07,2026-08-07,0,promoter,medium,"promoter+group down [ 0.6   1.32  2.87  1.99  2.77  1.5   3.26 12.73  1.14  0.88  1.44  2.99
+  5.31  6.66  7.69  1.4   0.78  1.42  2.    2.01  7.    3.94  0.73  0.83
+  1.27  0.59  0.65  5.    2.65  2.45  0.55  0.77  1.34  1.49  0.56  1.75
+  4.91  1.03  2.07  0.82  4.97  1.96  1.44  0.52  1.21  6.01  0.81  2.73
+  6.47  1.36  3.3   2.95  5.45  1.03  2.69  8.77  4.69  2.74  0.89  7.
+  2.31  1.    5.02 21.78  4.61  7.53  5.87  0.98  1.07  1.66 56.11  0.64
+  1.12  1.13] pp QoQ"
+BANSALWIRE,promoter_stake_declining,2026-08-07,2026-08-07,0,promoter,medium,"promoter+group down [ 0.6   1.32  2.87  1.99  2.77  1.5   3.26 12.73  1.14  0.88  1.44  2.99
+  5.31  6.66  7.69  1.4   0.78  1.42  2.    2.01  7.    3.94  0.73  0.83
+  1.27  0.59  0.65  5.    2.65  2.45  0.55  0.77  1.34  1.49  0.56  1.75
+  4.91  1.03  2.07  0.82  4.97  1.96  1.44  0.52  1.21  6.01  0.81  2.73
+  6.47  1.36  3.3   2.95  5.45  1.03  2.69  8.77  4.69  2.74  0.89  7.
+  2.31  1.    5.02 21.78  4.61  7.53  5.87  0.98  1.07  1.66 56.11  0.64
+  1.12  1.13] pp QoQ"
+BELRISE,promoter_stake_declining,2026-08-07,2026-08-07,0,promoter,medium,"promoter+group down [ 0.6   1.32  2.87  1.99  2.77  1.5   3.26 12.73  1.14  0.88  1.44  2.99
+  5.31  6.66  7.69  1.4   0.78  1.42  2.    2.01  7.    3.94  0.73  0.83
+  1.27  0.59  0.65  5.    2.65  2.45  0.55  0.77  1.34  1.49  0.56  1.75
+  4.91  1.03  2.07  0.82  4.97  1.96  1.44  0.52  1.21  6.01  0.81  2.73
+  6.47  1.36  3.3   2.95  5.45  1.03  2.69  8.77  4.69  2.74  0.89  7.
+  2.31  1.    5.02 21.78  4.61  7.53  5.87  0.98  1.07  1.66 56.11  0.64
+  1.12  1.13] pp QoQ"
+BLUEJET,promoter_stake_declining,2026-08-07,2026-08-07,0,promoter,medium,"promoter+group down [ 0.6   1.32  2.87  1.99  2.77  1.5   3.26 12.73  1.14  0.88  1.44  2.99
+  5.31  6.66  7.69  1.4   0.78  1.42  2.    2.01  7.    3.94  0.73  0.83
+  1.27  0.59  0.65  5.    2.65  2.45  0.55  0.77  1.34  1.49  0.56  1.75
+  4.91  1.03  2.07  0.82  4.97  1.96  1.44  0.52  1.21  6.01  0.81  2.73
+  6.47  1.36  3.3   2.95  5.45  1.03  2.69  8.77  4.69  2.74  0.89  7.
+  2.31  1.    5.02 21.78  4.61  7.53  5.87  0.98  1.07  1.66 56.11  0.64
+  1.12  1.13] pp QoQ"
+BOSCH-HCIL,promoter_stake_declining,2026-08-07,2026-08-07,0,promoter,medium,"promoter+group down [ 0.6   1.32  2.87  1.99  2.77  1.5   3.26 12.73  1.14  0.88  1.44  2.99
+  5.31  6.66  7.69  1.4   0.78  1.42  2.    2.01  7.    3.94  0.73  0.83
+  1.27  0.59  0.65  5.    2.65  2.45  0.55  0.77  1.34  1.49  0.56  1.75
+  4.91  1.03  2.07  0.82  4.97  1.96  1.44  0.52  1.21  6.01  0.81  2.73
+  6.47  1.36  3.3   2.95  5.45  1.03  2.69  8.77  4.69  2.74  0.89  7.
+  2.31  1.    5.02 21.78  4.61  7.53  5.87  0.98  1.07  1.66 56.11  0.64
+  1.12  1.13] pp QoQ"
+BVCL,promoter_stake_declining,2026-08-07,2026-08-07,0,promoter,medium,"promoter+group down [ 0.6   1.32  2.87  1.99  2.77  1.5   3.26 12.73  1.14  0.88  1.44  2.99
+  5.31  6.66  7.69  1.4   0.78  1.42  2.    2.01  7.    3.94  0.73  0.83
+  1.27  0.59  0.65  5.    2.65  2.45  0.55  0.77  1.34  1.49  0.56  1.75
+  4.91  1.03  2.07  0.82  4.97  1.96  1.44  0.52  1.21  6.01  0.81  2.73
+  6.47  1.36  3.3   2.95  5.45  1.03  2.69  8.77  4.69  2.74  0.89  7.
+  2.31  1.    5.02 21.78  4.61  7.53  5.87  0.98  1.07  1.66 56.11  0.64
+  1.12  1.13] pp QoQ"
+CAPILLARY,promoter_stake_declining,2026-08-07,2026-08-07,0,promoter,medium,"promoter+group down [ 0.6   1.32  2.87  1.99  2.77  1.5   3.26 12.73  1.14  0.88  1.44  2.99
+  5.31  6.66  7.69  1.4   0.78  1.42  2.    2.01  7.    3.94  0.73  0.83
+  1.27  0.59  0.65  5.    2.65  2.45  0.55  0.77  1.34  1.49  0.56  1.75
+  4.91  1.03  2.07  0.82  4.97  1.96  1.44  0.52  1.21  6.01  0.81  2.73
+  6.47  1.36  3.3   2.95  5.45  1.03  2.69  8.77  4.69  2.74  0.89  7.
+  2.31  1.    5.02 21.78  4.61  7.53  5.87  0.98  1.07  1.66 56.11  0.64
+  1.12  1.13] pp QoQ"
+CINELINE,promoter_stake_declining,2026-08-07,2026-08-07,0,promoter,medium,"promoter+group down [ 0.6   1.32  2.87  1.99  2.77  1.5   3.26 12.73  1.14  0.88  1.44  2.99
+  5.31  6.66  7.69  1.4   0.78  1.42  2.    2.01  7.    3.94  0.73  0.83
+  1.27  0.59  0.65  5.    2.65  2.45  0.55  0.77  1.34  1.49  0.56  1.75
+  4.91  1.03  2.07  0.82  4.97  1.96  1.44  0.52  1.21  6.01  0.81  2.73
+  6.47  1.36  3.3   2.95  5.45  1.03  2.69  8.77  4.69  2.74  0.89  7.
+  2.31  1.    5.02 21.78  4.61  7.53  5.87  0.98  1.07  1.66 56.11  0.64
+  1.12  1.13] pp QoQ"
+COALINDIA,promoter_stake_declining,2026-08-07,2026-08-07,0,promoter,medium,"promoter+group down [ 0.6   1.32  2.87  1.99  2.77  1.5   3.26 12.73  1.14  0.88  1.44  2.99
+  5.31  6.66  7.69  1.4   0.78  1.42  2.    2.01  7.    3.94  0.73  0.83
+  1.27  0.59  0.65  5.    2.65  2.45  0.55  0.77  1.34  1.49  0.56  1.75
+  4.91  1.03  2.07  0.82  4.97  1.96  1.44  0.52  1.21  6.01  0.81  2.73
+  6.47  1.36  3.3   2.95  5.45  1.03  2.69  8.77  4.69  2.74  0.89  7.
+  2.31  1.    5.02 21.78  4.61  7.53  5.87  0.98  1.07  1.66 56.11  0.64
+  1.12  1.13] pp QoQ"
+CRAFTSMAN,promoter_stake_declining,2026-08-07,2026-08-07,0,promoter,medium,"promoter+group down [ 0.6   1.32  2.87  1.99  2.77  1.5   3.26 12.73  1.14  0.88  1.44  2.99
+  5.31  6.66  7.69  1.4   0.78  1.42  2.    2.01  7.    3.94  0.73  0.83
+  1.27  0.59  0.65  5.    2.65  2.45  0.55  0.77  1.34  1.49  0.56  1.75
+  4.91  1.03  2.07  0.82  4.97  1.96  1.44  0.52  1.21  6.01  0.81  2.73
+  6.47  1.36  3.3   2.95  5.45  1.03  2.69  8.77  4.69  2.74  0.89  7.
+  2.31  1.    5.02 21.78  4.61  7.53  5.87  0.98  1.07  1.66 56.11  0.64
+  1.12  1.13] pp QoQ"
+DOMS,promoter_stake_declining,2026-08-07,2026-08-07,0,promoter,medium,"promoter+group down [ 0.6   1.32  2.87  1.99  2.77  1.5   3.26 12.73  1.14  0.88  1.44  2.99
+  5.31  6.66  7.69  1.4   0.78  1.42  2.    2.01  7.    3.94  0.73  0.83
+  1.27  0.59  0.65  5.    2.65  2.45  0.55  0.77  1.34  1.49  0.56  1.75
+  4.91  1.03  2.07  0.82  4.97  1.96  1.44  0.52  1.21  6.01  0.81  2.73
+  6.47  1.36  3.3   2.95  5.45  1.03  2.69  8.77  4.69  2.74  0.89  7.
+  2.31  1.    5.02 21.78  4.61  7.53  5.87  0.98  1.07  1.66 56.11  0.64
+  1.12  1.13] pp QoQ"
+EBGNG,promoter_stake_declining,2026-08-07,2026-08-07,0,promoter,medium,"promoter+group down [ 0.6   1.32  2.87  1.99  2.77  1.5   3.26 12.73  1.14  0.88  1.44  2.99
+  5.31  6.66  7.69  1.4   0.78  1.42  2.    2.01  7.    3.94  0.73  0.83
+  1.27  0.59  0.65  5.    2.65  2.45  0.55  0.77  1.34  1.49  0.56  1.75
+  4.91  1.03  2.07  0.82  4.97  1.96  1.44  0.52  1.21  6.01  0.81  2.73
+  6.47  1.36  3.3   2.95  5.45  1.03  2.69  8.77  4.69  2.74  0.89  7.
+  2.31  1.    5.02 21.78  4.61  7.53  5.87  0.98  1.07  1.66 56.11  0.64
+  1.12  1.13] pp QoQ"
+EPACK,promoter_stake_declining,2026-08-07,2026-08-07,0,promoter,medium,"promoter+group down [ 0.6   1.32  2.87  1.99  2.77  1.5   3.26 12.73  1.14  0.88  1.44  2.99
+  5.31  6.66  7.69  1.4   0.78  1.42  2.    2.01  7.    3.94  0.73  0.83
+  1.27  0.59  0.65  5.    2.65  2.45  0.55  0.77  1.34  1.49  0.56  1.75
+  4.91  1.03  2.07  0.82  4.97  1.96  1.44  0.52  1.21  6.01  0.81  2.73
+  6.47  1.36  3.3   2.95  5.45  1.03  2.69  8.77  4.69  2.74  0.89  7.
+  2.31  1.    5.02 21.78  4.61  7.53  5.87  0.98  1.07  1.66 56.11  0.64
+  1.12  1.13] pp QoQ"
+EXCELINDUS,promoter_stake_declining,2026-08-07,2026-08-07,0,promoter,medium,"promoter+group down [ 0.6   1.32  2.87  1.99  2.77  1.5   3.26 12.73  1.14  0.88  1.44  2.99
+  5.31  6.66  7.69  1.4   0.78  1.42  2.    2.01  7.    3.94  0.73  0.83
+  1.27  0.59  0.65  5.    2.65  2.45  0.55  0.77  1.34  1.49  0.56  1.75
+  4.91  1.03  2.07  0.82  4.97  1.96  1.44  0.52  1.21  6.01  0.81  2.73
+  6.47  1.36  3.3   2.95  5.45  1.03  2.69  8.77  4.69  2.74  0.89  7.
+  2.31  1.    5.02 21.78  4.61  7.53  5.87  0.98  1.07  1.66 56.11  0.64
+  1.12  1.13] pp QoQ"
+EXICOM,promoter_stake_declining,2026-08-07,2026-08-07,0,promoter,medium,"promoter+group down [ 0.6   1.32  2.87  1.99  2.77  1.5   3.26 12.73  1.14  0.88  1.44  2.99
+  5.31  6.66  7.69  1.4   0.78  1.42  2.    2.01  7.    3.94  0.73  0.83
+  1.27  0.59  0.65  5.    2.65  2.45  0.55  0.77  1.34  1.49  0.56  1.75
+  4.91  1.03  2.07  0.82  4.97  1.96  1.44  0.52  1.21  6.01  0.81  2.73
+  6.47  1.36  3.3   2.95  5.45  1.03  2.69  8.77  4.69  2.74  0.89  7.
+  2.31  1.    5.02 21.78  4.61  7.53  5.87  0.98  1.07  1.66 56.11  0.64
+  1.12  1.13] pp QoQ"
+FUSION,promoter_stake_declining,2026-08-07,2026-08-07,0,promoter,medium,"promoter+group down [ 0.6   1.32  2.87  1.99  2.77  1.5   3.26 12.73  1.14  0.88  1.44  2.99
+  5.31  6.66  7.69  1.4   0.78  1.42  2.    2.01  7.    3.94  0.73  0.83
+  1.27  0.59  0.65  5.    2.65  2.45  0.55  0.77  1.34  1.49  0.56  1.75
+  4.91  1.03  2.07  0.82  4.97  1.96  1.44  0.52  1.21  6.01  0.81  2.73
+  6.47  1.36  3.3   2.95  5.45  1.03  2.69  8.77  4.69  2.74  0.89  7.
+  2.31  1.    5.02 21.78  4.61  7.53  5.87  0.98  1.07  1.66 56.11  0.64
+  1.12  1.13] pp QoQ"
+GALAPREC,promoter_stake_declining,2026-08-07,2026-08-07,0,promoter,medium,"promoter+group down [ 0.6   1.32  2.87  1.99  2.77  1.5   3.26 12.73  1.14  0.88  1.44  2.99
+  5.31  6.66  7.69  1.4   0.78  1.42  2.    2.01  7.    3.94  0.73  0.83
+  1.27  0.59  0.65  5.    2.65  2.45  0.55  0.77  1.34  1.49  0.56  1.75
+  4.91  1.03  2.07  0.82  4.97  1.96  1.44  0.52  1.21  6.01  0.81  2.73
+  6.47  1.36  3.3   2.95  5.45  1.03  2.69  8.77  4.69  2.74  0.89  7.
+  2.31  1.    5.02 21.78  4.61  7.53  5.87  0.98  1.07  1.66 56.11  0.64
+  1.12  1.13] pp QoQ"
+GICRE,promoter_stake_declining,2026-08-07,2026-08-07,0,promoter,medium,"promoter+group down [ 0.6   1.32  2.87  1.99  2.77  1.5   3.26 12.73  1.14  0.88  1.44  2.99
+  5.31  6.66  7.69  1.4   0.78  1.42  2.    2.01  7.    3.94  0.73  0.83
+  1.27  0.59  0.65  5.    2.65  2.45  0.55  0.77  1.34  1.49  0.56  1.75
+  4.91  1.03  2.07  0.82  4.97  1.96  1.44  0.52  1.21  6.01  0.81  2.73
+  6.47  1.36  3.3   2.95  5.45  1.03  2.69  8.77  4.69  2.74  0.89  7.
+  2.31  1.    5.02 21.78  4.61  7.53  5.87  0.98  1.07  1.66 56.11  0.64
+  1.12  1.13] pp QoQ"
+GNA,promoter_stake_declining,2026-08-07,2026-08-07,0,promoter,medium,"promoter+group down [ 0.6   1.32  2.87  1.99  2.77  1.5   3.26 12.73  1.14  0.88  1.44  2.99
+  5.31  6.66  7.69  1.4   0.78  1.42  2.    2.01  7.    3.94  0.73  0.83
+  1.27  0.59  0.65  5.    2.65  2.45  0.55  0.77  1.34  1.49  0.56  1.75
+  4.91  1.03  2.07  0.82  4.97  1.96  1.44  0.52  1.21  6.01  0.81  2.73
+  6.47  1.36  3.3   2.95  5.45  1.03  2.69  8.77  4.69  2.74  0.89  7.
+  2.31  1.    5.02 21.78  4.61  7.53  5.87  0.98  1.07  1.66 56.11  0.64
+  1.12  1.13] pp QoQ"
+GOODLUCK,promoter_stake_declining,2026-08-07,2026-08-07,0,promoter,medium,"promoter+group down [ 0.6   1.32  2.87  1.99  2.77  1.5   3.26 12.73  1.14  0.88  1.44  2.99
+  5.31  6.66  7.69  1.4   0.78  1.42  2.    2.01  7.    3.94  0.73  0.83
+  1.27  0.59  0.65  5.    2.65  2.45  0.55  0.77  1.34  1.49  0.56  1.75
+  4.91  1.03  2.07  0.82  4.97  1.96  1.44  0.52  1.21  6.01  0.81  2.73
+  6.47  1.36  3.3   2.95  5.45  1.03  2.69  8.77  4.69  2.74  0.89  7.
+  2.31  1.    5.02 21.78  4.61  7.53  5.87  0.98  1.07  1.66 56.11  0.64
+  1.12  1.13] pp QoQ"
+HCC,promoter_stake_declining,2026-08-07,2026-08-07,0,promoter,medium,"promoter+group down [ 0.6   1.32  2.87  1.99  2.77  1.5   3.26 12.73  1.14  0.88  1.44  2.99
+  5.31  6.66  7.69  1.4   0.78  1.42  2.    2.01  7.    3.94  0.73  0.83
+  1.27  0.59  0.65  5.    2.65  2.45  0.55  0.77  1.34  1.49  0.56  1.75
+  4.91  1.03  2.07  0.82  4.97  1.96  1.44  0.52  1.21  6.01  0.81  2.73
+  6.47  1.36  3.3   2.95  5.45  1.03  2.69  8.77  4.69  2.74  0.89  7.
+  2.31  1.    5.02 21.78  4.61  7.53  5.87  0.98  1.07  1.66 56.11  0.64
+  1.12  1.13] pp QoQ"
+HEALTHX,promoter_stake_declining,2026-08-07,2026-08-07,0,promoter,medium,"promoter+group down [ 0.6   1.32  2.87  1.99  2.77  1.5   3.26 12.73  1.14  0.88  1.44  2.99
+  5.31  6.66  7.69  1.4   0.78  1.42  2.    2.01  7.    3.94  0.73  0.83
+  1.27  0.59  0.65  5.    2.65  2.45  0.55  0.77  1.34  1.49  0.56  1.75
+  4.91  1.03  2.07  0.82  4.97  1.96  1.44  0.52  1.21  6.01  0.81  2.73
+  6.47  1.36  3.3   2.95  5.45  1.03  2.69  8.77  4.69  2.74  0.89  7.
+  2.31  1.    5.02 21.78  4.61  7.53  5.87  0.98  1.07  1.66 56.11  0.64
+  1.12  1.13] pp QoQ"
+HIRECT,promoter_stake_declining,2026-08-07,2026-08-07,0,promoter,medium,"promoter+group down [ 0.6   1.32  2.87  1.99  2.77  1.5   3.26 12.73  1.14  0.88  1.44  2.99
+  5.31  6.66  7.69  1.4   0.78  1.42  2.    2.01  7.    3.94  0.73  0.83
+  1.27  0.59  0.65  5.    2.65  2.45  0.55  0.77  1.34  1.49  0.56  1.75
+  4.91  1.03  2.07  0.82  4.97  1.96  1.44  0.52  1.21  6.01  0.81  2.73
+  6.47  1.36  3.3   2.95  5.45  1.03  2.69  8.77  4.69  2.74  0.89  7.
+  2.31  1.    5.02 21.78  4.61  7.53  5.87  0.98  1.07  1.66 56.11  0.64
+  1.12  1.13] pp QoQ"
+INDIASHLTR,promoter_stake_declining,2026-08-07,2026-08-07,0,promoter,medium,"promoter+group down [ 0.6   1.32  2.87  1.99  2.77  1.5   3.26 12.73  1.14  0.88  1.44  2.99
+  5.31  6.66  7.69  1.4   0.78  1.42  2.    2.01  7.    3.94  0.73  0.83
+  1.27  0.59  0.65  5.    2.65  2.45  0.55  0.77  1.34  1.49  0.56  1.75
+  4.91  1.03  2.07  0.82  4.97  1.96  1.44  0.52  1.21  6.01  0.81  2.73
+  6.47  1.36  3.3   2.95  5.45  1.03  2.69  8.77  4.69  2.74  0.89  7.
+  2.31  1.    5.02 21.78  4.61  7.53  5.87  0.98  1.07  1.66 56.11  0.64
+  1.12  1.13] pp QoQ"
+INFY,promoter_stake_declining,2026-08-07,2026-08-07,0,promoter,medium,"promoter+group down [ 0.6   1.32  2.87  1.99  2.77  1.5   3.26 12.73  1.14  0.88  1.44  2.99
+  5.31  6.66  7.69  1.4   0.78  1.42  2.    2.01  7.    3.94  0.73  0.83
+  1.27  0.59  0.65  5.    2.65  2.45  0.55  0.77  1.34  1.49  0.56  1.75
+  4.91  1.03  2.07  0.82  4.97  1.96  1.44  0.52  1.21  6.01  0.81  2.73
+  6.47  1.36  3.3   2.95  5.45  1.03  2.69  8.77  4.69  2.74  0.89  7.
+  2.31  1.    5.02 21.78  4.61  7.53  5.87  0.98  1.07  1.66 56.11  0.64
+  1.12  1.13] pp QoQ"
+IRFC,promoter_stake_declining,2026-08-07,2026-08-07,0,promoter,medium,"promoter+group down [ 0.6   1.32  2.87  1.99  2.77  1.5   3.26 12.73  1.14  0.88  1.44  2.99
+  5.31  6.66  7.69  1.4   0.78  1.42  2.    2.01  7.    3.94  0.73  0.83
+  1.27  0.59  0.65  5.    2.65  2.45  0.55  0.77  1.34  1.49  0.56  1.75
+  4.91  1.03  2.07  0.82  4.97  1.96  1.44  0.52  1.21  6.01  0.81  2.73
+  6.47  1.36  3.3   2.95  5.45  1.03  2.69  8.77  4.69  2.74  0.89  7.
+  2.31  1.    5.02 21.78  4.61  7.53  5.87  0.98  1.07  1.66 56.11  0.64
+  1.12  1.13] pp QoQ"
+JSFB,promoter_stake_declining,2026-08-07,2026-08-07,0,promoter,medium,"promoter+group down [ 0.6   1.32  2.87  1.99  2.77  1.5   3.26 12.73  1.14  0.88  1.44  2.99
+  5.31  6.66  7.69  1.4   0.78  1.42  2.    2.01  7.    3.94  0.73  0.83
+  1.27  0.59  0.65  5.    2.65  2.45  0.55  0.77  1.34  1.49  0.56  1.75
+  4.91  1.03  2.07  0.82  4.97  1.96  1.44  0.52  1.21  6.01  0.81  2.73
+  6.47  1.36  3.3   2.95  5.45  1.03  2.69  8.77  4.69  2.74  0.89  7.
+  2.31  1.    5.02 21.78  4.61  7.53  5.87  0.98  1.07  1.66 56.11  0.64
+  1.12  1.13] pp QoQ"
+JSWSTEEL,promoter_stake_declining,2026-08-07,2026-08-07,0,promoter,medium,"promoter+group down [ 0.6   1.32  2.87  1.99  2.77  1.5   3.26 12.73  1.14  0.88  1.44  2.99
+  5.31  6.66  7.69  1.4   0.78  1.42  2.    2.01  7.    3.94  0.73  0.83
+  1.27  0.59  0.65  5.    2.65  2.45  0.55  0.77  1.34  1.49  0.56  1.75
+  4.91  1.03  2.07  0.82  4.97  1.96  1.44  0.52  1.21  6.01  0.81  2.73
+  6.47  1.36  3.3   2.95  5.45  1.03  2.69  8.77  4.69  2.74  0.89  7.
+  2.31  1.    5.02 21.78  4.61  7.53  5.87  0.98  1.07  1.66 56.11  0.64
+  1.12  1.13] pp QoQ"
+KMEW,promoter_stake_declining,2026-08-07,2026-08-07,0,promoter,medium,"promoter+group down [ 0.6   1.32  2.87  1.99  2.77  1.5   3.26 12.73  1.14  0.88  1.44  2.99
+  5.31  6.66  7.69  1.4   0.78  1.42  2.    2.01  7.    3.94  0.73  0.83
+  1.27  0.59  0.65  5.    2.65  2.45  0.55  0.77  1.34  1.49  0.56  1.75
+  4.91  1.03  2.07  0.82  4.97  1.96  1.44  0.52  1.21  6.01  0.81  2.73
+  6.47  1.36  3.3   2.95  5.45  1.03  2.69  8.77  4.69  2.74  0.89  7.
+  2.31  1.    5.02 21.78  4.61  7.53  5.87  0.98  1.07  1.66 56.11  0.64
+  1.12  1.13] pp QoQ"
+KPITTECH,promoter_stake_declining,2026-08-07,2026-08-07,0,promoter,medium,"promoter+group down [ 0.6   1.32  2.87  1.99  2.77  1.5   3.26 12.73  1.14  0.88  1.44  2.99
+  5.31  6.66  7.69  1.4   0.78  1.42  2.    2.01  7.    3.94  0.73  0.83
+  1.27  0.59  0.65  5.    2.65  2.45  0.55  0.77  1.34  1.49  0.56  1.75
+  4.91  1.03  2.07  0.82  4.97  1.96  1.44  0.52  1.21  6.01  0.81  2.73
+  6.47  1.36  3.3   2.95  5.45  1.03  2.69  8.77  4.69  2.74  0.89  7.
+  2.31  1.    5.02 21.78  4.61  7.53  5.87  0.98  1.07  1.66 56.11  0.64
+  1.12  1.13] pp QoQ"
+LANDSMILL,promoter_stake_declining,2026-08-07,2026-08-07,0,promoter,medium,"promoter+group down [ 0.6   1.32  2.87  1.99  2.77  1.5   3.26 12.73  1.14  0.88  1.44  2.99
+  5.31  6.66  7.69  1.4   0.78  1.42  2.    2.01  7.    3.94  0.73  0.83
+  1.27  0.59  0.65  5.    2.65  2.45  0.55  0.77  1.34  1.49  0.56  1.75
+  4.91  1.03  2.07  0.82  4.97  1.96  1.44  0.52  1.21  6.01  0.81  2.73
+  6.47  1.36  3.3   2.95  5.45  1.03  2.69  8.77  4.69  2.74  0.89  7.
+  2.31  1.    5.02 21.78  4.61  7.53  5.87  0.98  1.07  1.66 56.11  0.64
+  1.12  1.13] pp QoQ"
+LODHA,promoter_stake_declining,2026-08-07,2026-08-07,0,promoter,medium,"promoter+group down [ 0.6   1.32  2.87  1.99  2.77  1.5   3.26 12.73  1.14  0.88  1.44  2.99
+  5.31  6.66  7.69  1.4   0.78  1.42  2.    2.01  7.    3.94  0.73  0.83
+  1.27  0.59  0.65  5.    2.65  2.45  0.55  0.77  1.34  1.49  0.56  1.75
+  4.91  1.03  2.07  0.82  4.97  1.96  1.44  0.52  1.21  6.01  0.81  2.73
+  6.47  1.36  3.3   2.95  5.45  1.03  2.69  8.77  4.69  2.74  0.89  7.
+  2.31  1.    5.02 21.78  4.61  7.53  5.87  0.98  1.07  1.66 56.11  0.64
+  1.12  1.13] pp QoQ"
+MAXIND,promoter_stake_declining,2026-08-07,2026-08-07,0,promoter,medium,"promoter+group down [ 0.6   1.32  2.87  1.99  2.77  1.5   3.26 12.73  1.14  0.88  1.44  2.99
+  5.31  6.66  7.69  1.4   0.78  1.42  2.    2.01  7.    3.94  0.73  0.83
+  1.27  0.59  0.65  5.    2.65  2.45  0.55  0.77  1.34  1.49  0.56  1.75
+  4.91  1.03  2.07  0.82  4.97  1.96  1.44  0.52  1.21  6.01  0.81  2.73
+  6.47  1.36  3.3   2.95  5.45  1.03  2.69  8.77  4.69  2.74  0.89  7.
+  2.31  1.    5.02 21.78  4.61  7.53  5.87  0.98  1.07  1.66 56.11  0.64
+  1.12  1.13] pp QoQ"
+MOSCHIP,promoter_stake_declining,2026-08-07,2026-08-07,0,promoter,medium,"promoter+group down [ 0.6   1.32  2.87  1.99  2.77  1.5   3.26 12.73  1.14  0.88  1.44  2.99
+  5.31  6.66  7.69  1.4   0.78  1.42  2.    2.01  7.    3.94  0.73  0.83
+  1.27  0.59  0.65  5.    2.65  2.45  0.55  0.77  1.34  1.49  0.56  1.75
+  4.91  1.03  2.07  0.82  4.97  1.96  1.44  0.52  1.21  6.01  0.81  2.73
+  6.47  1.36  3.3   2.95  5.45  1.03  2.69  8.77  4.69  2.74  0.89  7.
+  2.31  1.    5.02 21.78  4.61  7.53  5.87  0.98  1.07  1.66 56.11  0.64
+  1.12  1.13] pp QoQ"
+NAZARA,promoter_stake_declining,2026-08-07,2026-08-07,0,promoter,medium,"promoter+group down [ 0.6   1.32  2.87  1.99  2.77  1.5   3.26 12.73  1.14  0.88  1.44  2.99
+  5.31  6.66  7.69  1.4   0.78  1.42  2.    2.01  7.    3.94  0.73  0.83
+  1.27  0.59  0.65  5.    2.65  2.45  0.55  0.77  1.34  1.49  0.56  1.75
+  4.91  1.03  2.07  0.82  4.97  1.96  1.44  0.52  1.21  6.01  0.81  2.73
+  6.47  1.36  3.3   2.95  5.45  1.03  2.69  8.77  4.69  2.74  0.89  7.
+  2.31  1.    5.02 21.78  4.61  7.53  5.87  0.98  1.07  1.66 56.11  0.64
+  1.12  1.13] pp QoQ"
+NHPC,promoter_stake_declining,2026-08-07,2026-08-07,0,promoter,medium,"promoter+group down [ 0.6   1.32  2.87  1.99  2.77  1.5   3.26 12.73  1.14  0.88  1.44  2.99
+  5.31  6.66  7.69  1.4   0.78  1.42  2.    2.01  7.    3.94  0.73  0.83
+  1.27  0.59  0.65  5.    2.65  2.45  0.55  0.77  1.34  1.49  0.56  1.75
+  4.91  1.03  2.07  0.82  4.97  1.96  1.44  0.52  1.21  6.01  0.81  2.73
+  6.47  1.36  3.3   2.95  5.45  1.03  2.69  8.77  4.69  2.74  0.89  7.
+  2.31  1.    5.02 21.78  4.61  7.53  5.87  0.98  1.07  1.66 56.11  0.64
+  1.12  1.13] pp QoQ"
+NIBE,promoter_stake_declining,2026-08-07,2026-08-07,0,promoter,medium,"promoter+group down [ 0.6   1.32  2.87  1.99  2.77  1.5   3.26 12.73  1.14  0.88  1.44  2.99
+  5.31  6.66  7.69  1.4   0.78  1.42  2.    2.01  7.    3.94  0.73  0.83
+  1.27  0.59  0.65  5.    2.65  2.45  0.55  0.77  1.34  1.49  0.56  1.75
+  4.91  1.03  2.07  0.82  4.97  1.96  1.44  0.52  1.21  6.01  0.81  2.73
+  6.47  1.36  3.3   2.95  5.45  1.03  2.69  8.77  4.69  2.74  0.89  7.
+  2.31  1.    5.02 21.78  4.61  7.53  5.87  0.98  1.07  1.66 56.11  0.64
+  1.12  1.13] pp QoQ"
+NLCINDIA,promoter_stake_declining,2026-08-07,2026-08-07,0,promoter,medium,"promoter+group down [ 0.6   1.32  2.87  1.99  2.77  1.5   3.26 12.73  1.14  0.88  1.44  2.99
+  5.31  6.66  7.69  1.4   0.78  1.42  2.    2.01  7.    3.94  0.73  0.83
+  1.27  0.59  0.65  5.    2.65  2.45  0.55  0.77  1.34  1.49  0.56  1.75
+  4.91  1.03  2.07  0.82  4.97  1.96  1.44  0.52  1.21  6.01  0.81  2.73
+  6.47  1.36  3.3   2.95  5.45  1.03  2.69  8.77  4.69  2.74  0.89  7.
+  2.31  1.    5.02 21.78  4.61  7.53  5.87  0.98  1.07  1.66 56.11  0.64
+  1.12  1.13] pp QoQ"
+NRBBEARING,promoter_stake_declining,2026-08-07,2026-08-07,0,promoter,medium,"promoter+group down [ 0.6   1.32  2.87  1.99  2.77  1.5   3.26 12.73  1.14  0.88  1.44  2.99
+  5.31  6.66  7.69  1.4   0.78  1.42  2.    2.01  7.    3.94  0.73  0.83
+  1.27  0.59  0.65  5.    2.65  2.45  0.55  0.77  1.34  1.49  0.56  1.75
+  4.91  1.03  2.07  0.82  4.97  1.96  1.44  0.52  1.21  6.01  0.81  2.73
+  6.47  1.36  3.3   2.95  5.45  1.03  2.69  8.77  4.69  2.74  0.89  7.
+  2.31  1.    5.02 21.78  4.61  7.53  5.87  0.98  1.07  1.66 56.11  0.64
+  1.12  1.13] pp QoQ"
+ORIENTALTL,promoter_stake_declining,2026-08-07,2026-08-07,0,promoter,medium,"promoter+group down [ 0.6   1.32  2.87  1.99  2.77  1.5   3.26 12.73  1.14  0.88  1.44  2.99
+  5.31  6.66  7.69  1.4   0.78  1.42  2.    2.01  7.    3.94  0.73  0.83
+  1.27  0.59  0.65  5.    2.65  2.45  0.55  0.77  1.34  1.49  0.56  1.75
+  4.91  1.03  2.07  0.82  4.97  1.96  1.44  0.52  1.21  6.01  0.81  2.73
+  6.47  1.36  3.3   2.95  5.45  1.03  2.69  8.77  4.69  2.74  0.89  7.
+  2.31  1.    5.02 21.78  4.61  7.53  5.87  0.98  1.07  1.66 56.11  0.64
+  1.12  1.13] pp QoQ"
+PARACABLES,promoter_stake_declining,2026-08-07,2026-08-07,0,promoter,medium,"promoter+group down [ 0.6   1.32  2.87  1.99  2.77  1.5   3.26 12.73  1.14  0.88  1.44  2.99
+  5.31  6.66  7.69  1.4   0.78  1.42  2.    2.01  7.    3.94  0.73  0.83
+  1.27  0.59  0.65  5.    2.65  2.45  0.55  0.77  1.34  1.49  0.56  1.75
+  4.91  1.03  2.07  0.82  4.97  1.96  1.44  0.52  1.21  6.01  0.81  2.73
+  6.47  1.36  3.3   2.95  5.45  1.03  2.69  8.77  4.69  2.74  0.89  7.
+  2.31  1.    5.02 21.78  4.61  7.53  5.87  0.98  1.07  1.66 56.11  0.64
+  1.12  1.13] pp QoQ"
+POCL,promoter_stake_declining,2026-08-07,2026-08-07,0,promoter,medium,"promoter+group down [ 0.6   1.32  2.87  1.99  2.77  1.5   3.26 12.73  1.14  0.88  1.44  2.99
+  5.31  6.66  7.69  1.4   0.78  1.42  2.    2.01  7.    3.94  0.73  0.83
+  1.27  0.59  0.65  5.    2.65  2.45  0.55  0.77  1.34  1.49  0.56  1.75
+  4.91  1.03  2.07  0.82  4.97  1.96  1.44  0.52  1.21  6.01  0.81  2.73
+  6.47  1.36  3.3   2.95  5.45  1.03  2.69  8.77  4.69  2.74  0.89  7.
+  2.31  1.    5.02 21.78  4.61  7.53  5.87  0.98  1.07  1.66 56.11  0.64
+  1.12  1.13] pp QoQ"
+PREMIERENE,promoter_stake_declining,2026-08-07,2026-08-07,0,promoter,medium,"promoter+group down [ 0.6   1.32  2.87  1.99  2.77  1.5   3.26 12.73  1.14  0.88  1.44  2.99
+  5.31  6.66  7.69  1.4   0.78  1.42  2.    2.01  7.    3.94  0.73  0.83
+  1.27  0.59  0.65  5.    2.65  2.45  0.55  0.77  1.34  1.49  0.56  1.75
+  4.91  1.03  2.07  0.82  4.97  1.96  1.44  0.52  1.21  6.01  0.81  2.73
+  6.47  1.36  3.3   2.95  5.45  1.03  2.69  8.77  4.69  2.74  0.89  7.
+  2.31  1.    5.02 21.78  4.61  7.53  5.87  0.98  1.07  1.66 56.11  0.64
+  1.12  1.13] pp QoQ"
+PWL,promoter_stake_declining,2026-08-07,2026-08-07,0,promoter,medium,"promoter+group down [ 0.6   1.32  2.87  1.99  2.77  1.5   3.26 12.73  1.14  0.88  1.44  2.99
+  5.31  6.66  7.69  1.4   0.78  1.42  2.    2.01  7.    3.94  0.73  0.83
+  1.27  0.59  0.65  5.    2.65  2.45  0.55  0.77  1.34  1.49  0.56  1.75
+  4.91  1.03  2.07  0.82  4.97  1.96  1.44  0.52  1.21  6.01  0.81  2.73
+  6.47  1.36  3.3   2.95  5.45  1.03  2.69  8.77  4.69  2.74  0.89  7.
+  2.31  1.    5.02 21.78  4.61  7.53  5.87  0.98  1.07  1.66 56.11  0.64
+  1.12  1.13] pp QoQ"
+REMSONSIND,promoter_stake_declining,2026-08-07,2026-08-07,0,promoter,medium,"promoter+group down [ 0.6   1.32  2.87  1.99  2.77  1.5   3.26 12.73  1.14  0.88  1.44  2.99
+  5.31  6.66  7.69  1.4   0.78  1.42  2.    2.01  7.    3.94  0.73  0.83
+  1.27  0.59  0.65  5.    2.65  2.45  0.55  0.77  1.34  1.49  0.56  1.75
+  4.91  1.03  2.07  0.82  4.97  1.96  1.44  0.52  1.21  6.01  0.81  2.73
+  6.47  1.36  3.3   2.95  5.45  1.03  2.69  8.77  4.69  2.74  0.89  7.
+  2.31  1.    5.02 21.78  4.61  7.53  5.87  0.98  1.07  1.66 56.11  0.64
+  1.12  1.13] pp QoQ"
+RKEC,promoter_stake_declining,2026-08-07,2026-08-07,0,promoter,medium,"promoter+group down [ 0.6   1.32  2.87  1.99  2.77  1.5   3.26 12.73  1.14  0.88  1.44  2.99
+  5.31  6.66  7.69  1.4   0.78  1.42  2.    2.01  7.    3.94  0.73  0.83
+  1.27  0.59  0.65  5.    2.65  2.45  0.55  0.77  1.34  1.49  0.56  1.75
+  4.91  1.03  2.07  0.82  4.97  1.96  1.44  0.52  1.21  6.01  0.81  2.73
+  6.47  1.36  3.3   2.95  5.45  1.03  2.69  8.77  4.69  2.74  0.89  7.
+  2.31  1.    5.02 21.78  4.61  7.53  5.87  0.98  1.07  1.66 56.11  0.64
+  1.12  1.13] pp QoQ"
+ROML,promoter_stake_declining,2026-08-07,2026-08-07,0,promoter,medium,"promoter+group down [ 0.6   1.32  2.87  1.99  2.77  1.5   3.26 12.73  1.14  0.88  1.44  2.99
+  5.31  6.66  7.69  1.4   0.78  1.42  2.    2.01  7.    3.94  0.73  0.83
+  1.27  0.59  0.65  5.    2.65  2.45  0.55  0.77  1.34  1.49  0.56  1.75
+  4.91  1.03  2.07  0.82  4.97  1.96  1.44  0.52  1.21  6.01  0.81  2.73
+  6.47  1.36  3.3   2.95  5.45  1.03  2.69  8.77  4.69  2.74  0.89  7.
+  2.31  1.    5.02 21.78  4.61  7.53  5.87  0.98  1.07  1.66 56.11  0.64
+  1.12  1.13] pp QoQ"
+SALASAR,promoter_stake_declining,2026-08-07,2026-08-07,0,promoter,medium,"promoter+group down [ 0.6   1.32  2.87  1.99  2.77  1.5   3.26 12.73  1.14  0.88  1.44  2.99
+  5.31  6.66  7.69  1.4   0.78  1.42  2.    2.01  7.    3.94  0.73  0.83
+  1.27  0.59  0.65  5.    2.65  2.45  0.55  0.77  1.34  1.49  0.56  1.75
+  4.91  1.03  2.07  0.82  4.97  1.96  1.44  0.52  1.21  6.01  0.81  2.73
+  6.47  1.36  3.3   2.95  5.45  1.03  2.69  8.77  4.69  2.74  0.89  7.
+  2.31  1.    5.02 21.78  4.61  7.53  5.87  0.98  1.07  1.66 56.11  0.64
+  1.12  1.13] pp QoQ"
+SANSERA,promoter_stake_declining,2026-08-07,2026-08-07,0,promoter,medium,"promoter+group down [ 0.6   1.32  2.87  1.99  2.77  1.5   3.26 12.73  1.14  0.88  1.44  2.99
+  5.31  6.66  7.69  1.4   0.78  1.42  2.    2.01  7.    3.94  0.73  0.83
+  1.27  0.59  0.65  5.    2.65  2.45  0.55  0.77  1.34  1.49  0.56  1.75
+  4.91  1.03  2.07  0.82  4.97  1.96  1.44  0.52  1.21  6.01  0.81  2.73
+  6.47  1.36  3.3   2.95  5.45  1.03  2.69  8.77  4.69  2.74  0.89  7.
+  2.31  1.    5.02 21.78  4.61  7.53  5.87  0.98  1.07  1.66 56.11  0.64
+  1.12  1.13] pp QoQ"
+SEPC,promoter_stake_declining,2026-08-07,2026-08-07,0,promoter,medium,"promoter+group down [ 0.6   1.32  2.87  1.99  2.77  1.5   3.26 12.73  1.14  0.88  1.44  2.99
+  5.31  6.66  7.69  1.4   0.78  1.42  2.    2.01  7.    3.94  0.73  0.83
+  1.27  0.59  0.65  5.    2.65  2.45  0.55  0.77  1.34  1.49  0.56  1.75
+  4.91  1.03  2.07  0.82  4.97  1.96  1.44  0.52  1.21  6.01  0.81  2.73
+  6.47  1.36  3.3   2.95  5.45  1.03  2.69  8.77  4.69  2.74  0.89  7.
+  2.31  1.    5.02 21.78  4.61  7.53  5.87  0.98  1.07  1.66 56.11  0.64
+  1.12  1.13] pp QoQ"
+SHAILY,promoter_stake_declining,2026-08-07,2026-08-07,0,promoter,medium,"promoter+group down [ 0.6   1.32  2.87  1.99  2.77  1.5   3.26 12.73  1.14  0.88  1.44  2.99
+  5.31  6.66  7.69  1.4   0.78  1.42  2.    2.01  7.    3.94  0.73  0.83
+  1.27  0.59  0.65  5.    2.65  2.45  0.55  0.77  1.34  1.49  0.56  1.75
+  4.91  1.03  2.07  0.82  4.97  1.96  1.44  0.52  1.21  6.01  0.81  2.73
+  6.47  1.36  3.3   2.95  5.45  1.03  2.69  8.77  4.69  2.74  0.89  7.
+  2.31  1.    5.02 21.78  4.61  7.53  5.87  0.98  1.07  1.66 56.11  0.64
+  1.12  1.13] pp QoQ"
+SJS,promoter_stake_declining,2026-08-07,2026-08-07,0,promoter,medium,"promoter+group down [ 0.6   1.32  2.87  1.99  2.77  1.5   3.26 12.73  1.14  0.88  1.44  2.99
+  5.31  6.66  7.69  1.4   0.78  1.42  2.    2.01  7.    3.94  0.73  0.83
+  1.27  0.59  0.65  5.    2.65  2.45  0.55  0.77  1.34  1.49  0.56  1.75
+  4.91  1.03  2.07  0.82  4.97  1.96  1.44  0.52  1.21  6.01  0.81  2.73
+  6.47  1.36  3.3   2.95  5.45  1.03  2.69  8.77  4.69  2.74  0.89  7.
+  2.31  1.    5.02 21.78  4.61  7.53  5.87  0.98  1.07  1.66 56.11  0.64
+  1.12  1.13] pp QoQ"
+SKIPPER,promoter_stake_declining,2026-08-07,2026-08-07,0,promoter,medium,"promoter+group down [ 0.6   1.32  2.87  1.99  2.77  1.5   3.26 12.73  1.14  0.88  1.44  2.99
+  5.31  6.66  7.69  1.4   0.78  1.42  2.    2.01  7.    3.94  0.73  0.83
+  1.27  0.59  0.65  5.    2.65  2.45  0.55  0.77  1.34  1.49  0.56  1.75
+  4.91  1.03  2.07  0.82  4.97  1.96  1.44  0.52  1.21  6.01  0.81  2.73
+  6.47  1.36  3.3   2.95  5.45  1.03  2.69  8.77  4.69  2.74  0.89  7.
+  2.31  1.    5.02 21.78  4.61  7.53  5.87  0.98  1.07  1.66 56.11  0.64
+  1.12  1.13] pp QoQ"
+SUMEETINDS,promoter_stake_declining,2026-08-07,2026-08-07,0,promoter,medium,"promoter+group down [ 0.6   1.32  2.87  1.99  2.77  1.5   3.26 12.73  1.14  0.88  1.44  2.99
+  5.31  6.66  7.69  1.4   0.78  1.42  2.    2.01  7.    3.94  0.73  0.83
+  1.27  0.59  0.65  5.    2.65  2.45  0.55  0.77  1.34  1.49  0.56  1.75
+  4.91  1.03  2.07  0.82  4.97  1.96  1.44  0.52  1.21  6.01  0.81  2.73
+  6.47  1.36  3.3   2.95  5.45  1.03  2.69  8.77  4.69  2.74  0.89  7.
+  2.31  1.    5.02 21.78  4.61  7.53  5.87  0.98  1.07  1.66 56.11  0.64
+  1.12  1.13] pp QoQ"
+SUVEN,promoter_stake_declining,2026-08-07,2026-08-07,0,promoter,medium,"promoter+group down [ 0.6   1.32  2.87  1.99  2.77  1.5   3.26 12.73  1.14  0.88  1.44  2.99
+  5.31  6.66  7.69  1.4   0.78  1.42  2.    2.01  7.    3.94  0.73  0.83
+  1.27  0.59  0.65  5.    2.65  2.45  0.55  0.77  1.34  1.49  0.56  1.75
+  4.91  1.03  2.07  0.82  4.97  1.96  1.44  0.52  1.21  6.01  0.81  2.73
+  6.47  1.36  3.3   2.95  5.45  1.03  2.69  8.77  4.69  2.74  0.89  7.
+  2.31  1.    5.02 21.78  4.61  7.53  5.87  0.98  1.07  1.66 56.11  0.64
+  1.12  1.13] pp QoQ"
+TORNTPHARM,promoter_stake_declining,2026-08-07,2026-08-07,0,promoter,medium,"promoter+group down [ 0.6   1.32  2.87  1.99  2.77  1.5   3.26 12.73  1.14  0.88  1.44  2.99
+  5.31  6.66  7.69  1.4   0.78  1.42  2.    2.01  7.    3.94  0.73  0.83
+  1.27  0.59  0.65  5.    2.65  2.45  0.55  0.77  1.34  1.49  0.56  1.75
+  4.91  1.03  2.07  0.82  4.97  1.96  1.44  0.52  1.21  6.01  0.81  2.73
+  6.47  1.36  3.3   2.95  5.45  1.03  2.69  8.77  4.69  2.74  0.89  7.
+  2.31  1.    5.02 21.78  4.61  7.53  5.87  0.98  1.07  1.66 56.11  0.64
+  1.12  1.13] pp QoQ"
+UFO,promoter_stake_declining,2026-08-07,2026-08-07,0,promoter,medium,"promoter+group down [ 0.6   1.32  2.87  1.99  2.77  1.5   3.26 12.73  1.14  0.88  1.44  2.99
+  5.31  6.66  7.69  1.4   0.78  1.42  2.    2.01  7.    3.94  0.73  0.83
+  1.27  0.59  0.65  5.    2.65  2.45  0.55  0.77  1.34  1.49  0.56  1.75
+  4.91  1.03  2.07  0.82  4.97  1.96  1.44  0.52  1.21  6.01  0.81  2.73
+  6.47  1.36  3.3   2.95  5.45  1.03  2.69  8.77  4.69  2.74  0.89  7.
+  2.31  1.    5.02 21.78  4.61  7.53  5.87  0.98  1.07  1.66 56.11  0.64
+  1.12  1.13] pp QoQ"
+URJA,promoter_stake_declining,2026-08-07,2026-08-07,0,promoter,medium,"promoter+group down [ 0.6   1.32  2.87  1.99  2.77  1.5   3.26 12.73  1.14  0.88  1.44  2.99
+  5.31  6.66  7.69  1.4   0.78  1.42  2.    2.01  7.    3.94  0.73  0.83
+  1.27  0.59  0.65  5.    2.65  2.45  0.55  0.77  1.34  1.49  0.56  1.75
+  4.91  1.03  2.07  0.82  4.97  1.96  1.44  0.52  1.21  6.01  0.81  2.73
+  6.47  1.36  3.3   2.95  5.45  1.03  2.69  8.77  4.69  2.74  0.89  7.
+  2.31  1.    5.02 21.78  4.61  7.53  5.87  0.98  1.07  1.66 56.11  0.64
+  1.12  1.13] pp QoQ"
+VAISHALI,promoter_stake_declining,2026-08-07,2026-08-07,0,promoter,medium,"promoter+group down [ 0.6   1.32  2.87  1.99  2.77  1.5   3.26 12.73  1.14  0.88  1.44  2.99
+  5.31  6.66  7.69  1.4   0.78  1.42  2.    2.01  7.    3.94  0.73  0.83
+  1.27  0.59  0.65  5.    2.65  2.45  0.55  0.77  1.34  1.49  0.56  1.75
+  4.91  1.03  2.07  0.82  4.97  1.96  1.44  0.52  1.21  6.01  0.81  2.73
+  6.47  1.36  3.3   2.95  5.45  1.03  2.69  8.77  4.69  2.74  0.89  7.
+  2.31  1.    5.02 21.78  4.61  7.53  5.87  0.98  1.07  1.66 56.11  0.64
+  1.12  1.13] pp QoQ"
+VEDL,promoter_stake_declining,2026-08-07,2026-08-07,0,promoter,medium,"promoter+group down [ 0.6   1.32  2.87  1.99  2.77  1.5   3.26 12.73  1.14  0.88  1.44  2.99
+  5.31  6.66  7.69  1.4   0.78  1.42  2.    2.01  7.    3.94  0.73  0.83
+  1.27  0.59  0.65  5.    2.65  2.45  0.55  0.77  1.34  1.49  0.56  1.75
+  4.91  1.03  2.07  0.82  4.97  1.96  1.44  0.52  1.21  6.01  0.81  2.73
+  6.47  1.36  3.3   2.95  5.45  1.03  2.69  8.77  4.69  2.74  0.89  7.
+  2.31  1.    5.02 21.78  4.61  7.53  5.87  0.98  1.07  1.66 56.11  0.64
+  1.12  1.13] pp QoQ"
+VENKEYS,promoter_stake_declining,2026-08-07,2026-08-07,0,promoter,medium,"promoter+group down [ 0.6   1.32  2.87  1.99  2.77  1.5   3.26 12.73  1.14  0.88  1.44  2.99
+  5.31  6.66  7.69  1.4   0.78  1.42  2.    2.01  7.    3.94  0.73  0.83
+  1.27  0.59  0.65  5.    2.65  2.45  0.55  0.77  1.34  1.49  0.56  1.75
+  4.91  1.03  2.07  0.82  4.97  1.96  1.44  0.52  1.21  6.01  0.81  2.73
+  6.47  1.36  3.3   2.95  5.45  1.03  2.69  8.77  4.69  2.74  0.89  7.
+  2.31  1.    5.02 21.78  4.61  7.53  5.87  0.98  1.07  1.66 56.11  0.64
+  1.12  1.13] pp QoQ"
+VIRINCHI,promoter_stake_declining,2026-08-07,2026-08-07,0,promoter,medium,"promoter+group down [ 0.6   1.32  2.87  1.99  2.77  1.5   3.26 12.73  1.14  0.88  1.44  2.99
+  5.31  6.66  7.69  1.4   0.78  1.42  2.    2.01  7.    3.94  0.73  0.83
+  1.27  0.59  0.65  5.    2.65  2.45  0.55  0.77  1.34  1.49  0.56  1.75
+  4.91  1.03  2.07  0.82  4.97  1.96  1.44  0.52  1.21  6.01  0.81  2.73
+  6.47  1.36  3.3   2.95  5.45  1.03  2.69  8.77  4.69  2.74  0.89  7.
+  2.31  1.    5.02 21.78  4.61  7.53  5.87  0.98  1.07  1.66 56.11  0.64
+  1.12  1.13] pp QoQ"
+VOEPL,promoter_stake_declining,2026-08-07,2026-08-07,0,promoter,medium,"promoter+group down [ 0.6   1.32  2.87  1.99  2.77  1.5   3.26 12.73  1.14  0.88  1.44  2.99
+  5.31  6.66  7.69  1.4   0.78  1.42  2.    2.01  7.    3.94  0.73  0.83
+  1.27  0.59  0.65  5.    2.65  2.45  0.55  0.77  1.34  1.49  0.56  1.75
+  4.91  1.03  2.07  0.82  4.97  1.96  1.44  0.52  1.21  6.01  0.81  2.73
+  6.47  1.36  3.3   2.95  5.45  1.03  2.69  8.77  4.69  2.74  0.89  7.
+  2.31  1.    5.02 21.78  4.61  7.53  5.87  0.98  1.07  1.66 56.11  0.64
+  1.12  1.13] pp QoQ"
+WEWORK,promoter_stake_declining,2026-08-07,2026-08-07,0,promoter,medium,"promoter+group down [ 0.6   1.32  2.87  1.99  2.77  1.5   3.26 12.73  1.14  0.88  1.44  2.99
+  5.31  6.66  7.69  1.4   0.78  1.42  2.    2.01  7.    3.94  0.73  0.83
+  1.27  0.59  0.65  5.    2.65  2.45  0.55  0.77  1.34  1.49  0.56  1.75
+  4.91  1.03  2.07  0.82  4.97  1.96  1.44  0.52  1.21  6.01  0.81  2.73
+  6.47  1.36  3.3   2.95  5.45  1.03  2.69  8.77  4.69  2.74  0.89  7.
+  2.31  1.    5.02 21.78  4.61  7.53  5.87  0.98  1.07  1.66 56.11  0.64
+  1.12  1.13] pp QoQ"

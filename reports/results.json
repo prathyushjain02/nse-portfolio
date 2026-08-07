@@ -1,0 +1,847 @@
+{
+  "pit_audit": [
+    {
+      "table": "deals",
+      "rows": 157029,
+      "entities": 3515,
+      "valid_from_min": "2015-01-01 00:00:00",
+      "valid_from_max": "2026-08-07 00:00:00",
+      "missing_known_from": 0,
+      "known_before_valid": 0,
+      "lag_p50": 0.0,
+      "lag_p90": 0.0,
+      "lag_max": 0.0
+    },
+    {
+      "table": "shp",
+      "rows": 36408,
+      "entities": 1982,
+      "valid_from_min": "2015-12-31 00:00:00",
+      "valid_from_max": "2026-07-31 00:00:00",
+      "missing_known_from": 0,
+      "known_before_valid": 0,
+      "lag_p50": 17.0,
+      "lag_p90": 98.0,
+      "lag_max": 2941.0
+    },
+    {
+      "table": "promoter_names",
+      "rows": 52454,
+      "entities": 1904,
+      "valid_from_min": "2022-01-06 00:00:00",
+      "valid_from_max": "2026-08-03 00:00:00",
+      "missing_known_from": 0,
+      "known_before_valid": 0,
+      "lag_p50": 0.0,
+      "lag_p90": 0.0,
+      "lag_max": 0.0
+    },
+    {
+      "table": "insider_pit",
+      "rows": 24141,
+      "entities": 1593,
+      "valid_from_min": "2008-10-19 00:00:00",
+      "valid_from_max": "2026-04-30 00:00:00",
+      "missing_known_from": 0,
+      "known_before_valid": 0,
+      "lag_p50": 3.0,
+      "lag_p90": 8.0,
+      "lag_max": 3656.0
+    },
+    {
+      "table": "announcements",
+      "rows": 358,
+      "entities": 138,
+      "valid_from_min": "2021-01-06 00:00:00",
+      "valid_from_max": "2026-08-05 00:00:00",
+      "missing_known_from": 0,
+      "known_before_valid": 0,
+      "lag_p50": 0.0,
+      "lag_p90": 0.0,
+      "lag_max": 0.0
+    },
+    {
+      "table": "sast",
+      "rows": 40980,
+      "entities": 2156,
+      "valid_from_min": "NaT",
+      "valid_from_max": "NaT",
+      "missing_known_from": 40980,
+      "known_before_valid": 0,
+      "lag_p50": NaN,
+      "lag_p90": NaN,
+      "lag_max": NaN
+    }
+  ],
+  "panel": {
+    "rows": 100630,
+    "entities": 2054,
+    "window": "2021-07..2026-07",
+    "base_rate_3m": 0.06536818046308258,
+    "base_rate_6m": 0.11242174301898042,
+    "base_rate_12m": 0.18228162575772633
+  },
+  "H1": [
+    {
+      "test": "H1a POST-expiry: an expiry fell in the last 90d",
+      "n_treated": 3753,
+      "events_treated": 312,
+      "rate_treated": 0.08313349320543566,
+      "ci_treated": "[0.075, 0.092]",
+      "n_control": 96877,
+      "events_control": 6266,
+      "rate_control": 0.06467995499447754,
+      "ci_control": "[0.063, 0.066]",
+      "lift": 1.2853053656659734,
+      "p_value": 1.3862267879340628e-05
+    },
+    {
+      "test": "H1b POST-expiry, promoter-class lock-in only",
+      "n_treated": 1931,
+      "events_treated": 189,
+      "rate_treated": 0.09787674779906784,
+      "ci_treated": "[0.085, 0.112]",
+      "n_control": 98699,
+      "events_control": 6389,
+      "rate_control": 0.06473216547280114,
+      "ci_control": "[0.063, 0.066]",
+      "lift": 1.5120264722210357,
+      "p_value": 4.668925091991317e-08
+    },
+    {
+      "test": "H1c POST-expiry: an expiry fell in the last 180d",
+      "n_treated": 5579,
+      "events_treated": 491,
+      "rate_treated": 0.088008603692418,
+      "ci_treated": "[0.081, 0.096]",
+      "n_control": 95051,
+      "events_control": 6087,
+      "rate_control": 0.06403930521509506,
+      "ci_control": "[0.063, 0.066]",
+      "lift": 1.3742904204974573,
+      "p_value": 1.6790602195323175e-11
+    },
+    {
+      "test": "H1d PRE-expiry (contrast): expiry falls in next 90d",
+      "n_treated": 3105,
+      "events_treated": 212,
+      "rate_treated": 0.06827697262479872,
+      "ci_treated": "[0.060, 0.078]",
+      "n_control": 97525,
+      "events_control": 6366,
+      "rate_control": 0.06527557036657268,
+      "ci_control": "[0.064, 0.067]",
+      "lift": 1.0459804830715511,
+      "p_value": 0.5067285886113866
+    },
+    {
+      "test": "H1e PRE-expiry, promoter-class only",
+      "n_treated": 2021,
+      "events_treated": 170,
+      "rate_treated": 0.08411677387431965,
+      "ci_treated": "[0.073, 0.097]",
+      "n_control": 98609,
+      "events_control": 6408,
+      "rate_control": 0.06498392641645286,
+      "ci_control": "[0.063, 0.067]",
+      "lift": 1.2944243063315835,
+      "p_value": 0.000888083555456519
+    },
+    {
+      "test": "H1f CONTROLLED post-expiry, within recent-IPO cohort (<=36m)",
+      "n_treated": 3720,
+      "events_treated": 312,
+      "rate_treated": 0.08387096774193549,
+      "ci_treated": "[0.075, 0.093]",
+      "n_control": 15859,
+      "events_control": 1549,
+      "rate_control": 0.0976732454757551,
+      "ci_control": "[0.093, 0.102]",
+      "lift": 0.8586892688310878,
+      "p_value": 0.009913098024794287
+    },
+    {
+      "test": "H1g CONTROLLED pre-expiry, within recent-IPO cohort (<=36m)",
+      "n_treated": 3072,
+      "events_treated": 212,
+      "rate_treated": 0.06901041666666667,
+      "ci_treated": "[0.061, 0.079]",
+      "n_control": 16507,
+      "events_control": 1649,
+      "rate_control": 0.09989701338825953,
+      "ci_control": "[0.095, 0.105]",
+      "lift": 0.6908156142611684,
+      "p_value": 3.067868736438192e-08
+    }
+  ],
+  "H2": {
+    "status": "TESTED",
+    "n_plans_total": 136,
+    "n_plans_complete_window": 95,
+    "n_symbols": 46,
+    "dealtape_insider_sell_LOWER_BOUND": 0.010526315789473684,
+    "dealtape_insider_ci": "[0.002, 0.057]",
+    "any_large_sell_LOWER_BOUND": 0.5789473684210527,
+    "any_ci": "[0.478, 0.673]",
+    "caveat": "The deal tape only observes trades above bulk (0.5% of equity) / block thresholds, and trading plans are typically filed by directors and KMP whose sales fall below them. Deal-tape figures are LOWER BOUNDS. The Reg 7(2) figure below is the meaningful one.",
+    "PIT_uncorrected_followthrough": 0.2,
+    "PIT_uncorrected_ci": "[0.132, 0.291]",
+    "PIT_uncorrected_note": "biased DOWN - counts plans the Reg 7(2) retention window never observed",
+    "n_plans_with_pit_coverage": 24,
+    "PIT_reg7_followthrough_COVERAGE_CORRECTED": 0.25,
+    "PIT_corrected_ci": "[0.120, 0.449]"
+  },
+  "H8": [
+    {
+      "test": "H8: any prior observed sell-down",
+      "n_treated": 46801,
+      "events_treated": 10354,
+      "rate_treated": 0.22123458900450846,
+      "ci_treated": "[0.217, 0.225]",
+      "n_control": 53829,
+      "events_control": 7989,
+      "rate_control": 0.1484144234520426,
+      "ci_control": "[0.145, 0.151]",
+      "lift": 1.4906542360149813,
+      "p_value": 2.8363968740487215e-195
+    },
+    {
+      "test": "H8: exactly 1 prior",
+      "n_treated": 14746,
+      "events_treated": 3061,
+      "rate_treated": 0.20758171707581716,
+      "ci_treated": "[0.201, 0.214]",
+      "n_control": 53829,
+      "events_control": 7989,
+      "rate_control": 0.1484144234520426,
+      "ci_control": "[0.145, 0.151]",
+      "lift": 1.3986626922611292,
+      "p_value": 5.103225474105279e-64
+    },
+    {
+      "test": "H8: 2-3 prior",
+      "n_treated": 15635,
+      "events_treated": 3482,
+      "rate_treated": 0.2227054685001599,
+      "ci_treated": "[0.216, 0.229]",
+      "n_control": 53829,
+      "events_control": 7989,
+      "rate_control": 0.1484144234520426,
+      "ci_control": "[0.145, 0.151]",
+      "lift": 1.5005648596689332,
+      "p_value": 1.176029248661695e-101
+    },
+    {
+      "test": "H8: 4+ prior",
+      "n_treated": 16420,
+      "events_treated": 3811,
+      "rate_treated": 0.23209500609013398,
+      "ci_treated": "[0.226, 0.239]",
+      "n_control": 53829,
+      "events_control": 7989,
+      "rate_control": 0.1484144234520426,
+      "ci_control": "[0.145, 0.151]",
+      "lift": 1.563830527328304,
+      "p_value": 2.939530138562265e-131
+    }
+  ],
+  "backtest": [
+    {
+      "n": 1860.5833333333333,
+      "events": 115.45833333333333,
+      "base_rate": 0.06247492148377426,
+      "p@25": 0.2316666666666667,
+      "lift@25": 3.7292823739748675,
+      "wallet_p@25": 0.0402821365518569,
+      "p@50": 0.21583333333333335,
+      "lift@50": 3.47642877675955,
+      "wallet_p@50": 0.07859306181289699,
+      "p@100": 0.1725,
+      "lift@100": 2.8019947180247167,
+      "wallet_p@100": 0.14923271649140868,
+      "auc": 0.6586054444720217,
+      "cal_error": 0.03819464649569235,
+      "n_train": 49725.0,
+      "n_test": 8718.5,
+      "train_events": 3152.25,
+      "test_events": 570.25,
+      "model": "T1_3m",
+      "n_folds": 4
+    },
+    {
+      "n": 1860.5833333333333,
+      "events": 115.45833333333333,
+      "base_rate": 0.06247492148377426,
+      "p@25": 0.24500000000000002,
+      "lift@25": 3.978782703264038,
+      "wallet_p@25": 0.04192285281889646,
+      "p@50": 0.20750000000000002,
+      "lift@50": 3.2946014841018494,
+      "wallet_p@50": 0.07485808459587867,
+      "p@100": 0.18208333333333332,
+      "lift@100": 2.9064258941739407,
+      "wallet_p@100": 0.10647358298086561,
+      "auc": 0.6536686770033766,
+      "cal_error": 0.0379514571833062,
+      "n_train": 49725.0,
+      "n_test": 8718.5,
+      "train_events": 3152.25,
+      "test_events": 570.25,
+      "model": "T2_3m",
+      "n_folds": 4
+    },
+    {
+      "n": 1860.5833333333333,
+      "events": 115.45833333333333,
+      "base_rate": 0.06247492148377426,
+      "p@25": 0.2066666666666667,
+      "lift@25": 3.207437165601548,
+      "wallet_p@25": 0.04059232526687403,
+      "p@50": 0.19916666666666666,
+      "lift@50": 3.115008038377143,
+      "wallet_p@50": 0.0749707966893517,
+      "p@100": 0.18708333333333332,
+      "lift@100": 3.0020011581622734,
+      "wallet_p@100": 0.11379825500428999,
+      "auc": 0.6563543787579219,
+      "cal_error": 0.03738139359403426,
+      "n_train": 49725.0,
+      "n_test": 8718.5,
+      "train_events": 3152.25,
+      "test_events": 570.25,
+      "model": "T3_3m",
+      "n_folds": 4
+    },
+    {
+      "n": 1859.111111111111,
+      "events": 201.33333333333334,
+      "base_rate": 0.10881239156868759,
+      "p@25": 0.3422222222222222,
+      "lift@25": 3.135040233885057,
+      "wallet_p@25": 0.049097773167015045,
+      "p@50": 0.31222222222222223,
+      "lift@50": 2.833836342803616,
+      "wallet_p@50": 0.0701912711148039,
+      "p@100": 0.2505555555555556,
+      "lift@100": 2.29883238827976,
+      "wallet_p@100": 0.1469022788673006,
+      "auc": 0.6463173621281091,
+      "cal_error": 0.06254252872693156,
+      "n_train": 44692.0,
+      "n_test": 7943.0,
+      "train_events": 4946.333333333333,
+      "test_events": 918.0,
+      "model": "T1_6m",
+      "n_folds": 3
+    },
+    {
+      "n": 1859.111111111111,
+      "events": 201.33333333333334,
+      "base_rate": 0.10881239156868759,
+      "p@25": 0.3466666666666667,
+      "lift@25": 3.189128427423744,
+      "wallet_p@25": 0.046390500232174024,
+      "p@50": 0.3022222222222222,
+      "lift@50": 2.7775001512179944,
+      "wallet_p@50": 0.06787857833670899,
+      "p@100": 0.2511111111111111,
+      "lift@100": 2.2610456707727478,
+      "wallet_p@100": 0.11949475741425504,
+      "auc": 0.6448872327630613,
+      "cal_error": 0.061828330851501745,
+      "n_train": 44692.0,
+      "n_test": 7943.0,
+      "train_events": 4946.333333333333,
+      "test_events": 918.0,
+      "model": "T2_6m",
+      "n_folds": 3
+    },
+    {
+      "n": 1859.111111111111,
+      "events": 201.33333333333334,
+      "base_rate": 0.10881239156868759,
+      "p@25": 0.3422222222222222,
+      "lift@25": 3.14979999804833,
+      "wallet_p@25": 0.05521776989190805,
+      "p@50": 0.29444444444444445,
+      "lift@50": 2.682589789183911,
+      "wallet_p@50": 0.10936212893503176,
+      "p@100": 0.24500000000000002,
+      "lift@100": 2.2075437673310856,
+      "wallet_p@100": 0.12632158433320909,
+      "auc": 0.6418850262140163,
+      "cal_error": 0.05988767662731814,
+      "n_train": 44692.0,
+      "n_test": 7943.0,
+      "train_events": 4946.333333333333,
+      "test_events": 918.0,
+      "model": "T3_6m",
+      "n_folds": 3
+    },
+    {
+      "n": 1814.0,
+      "events": 332.0,
+      "base_rate": 0.18302094818081588,
+      "p@25": 0.52,
+      "lift@25": 2.8412048192771087,
+      "wallet_p@25": 0.0723364067925281,
+      "p@50": 0.46,
+      "lift@50": 2.513373493975904,
+      "wallet_p@50": 0.09231886576767644,
+      "p@100": 0.4,
+      "lift@100": 2.185542168674699,
+      "wallet_p@100": 0.21837546758950868,
+      "auc": 0.6467245500219501,
+      "cal_error": 0.1456299200885144,
+      "n_train": 34996.0,
+      "n_test": 1814.0,
+      "train_events": 6396.0,
+      "test_events": 332.0,
+      "model": "T1_12m",
+      "n_folds": 1
+    },
+    {
+      "n": 1814.0,
+      "events": 332.0,
+      "base_rate": 0.18302094818081588,
+      "p@25": 0.48,
+      "lift@25": 2.6226506024096383,
+      "wallet_p@25": 0.06878468045847443,
+      "p@50": 0.42,
+      "lift@50": 2.2948192771084335,
+      "wallet_p@50": 0.0703319410265216,
+      "p@100": 0.39,
+      "lift@100": 2.1309036144578313,
+      "wallet_p@100": 0.20863723982510277,
+      "auc": 0.6408122368014568,
+      "cal_error": 0.1526292020105563,
+      "n_train": 34996.0,
+      "n_test": 1814.0,
+      "train_events": 6396.0,
+      "test_events": 332.0,
+      "model": "T2_12m",
+      "n_folds": 1
+    },
+    {
+      "n": 1814.0,
+      "events": 332.0,
+      "base_rate": 0.18302094818081588,
+      "p@25": 0.52,
+      "lift@25": 2.8412048192771087,
+      "wallet_p@25": 0.06879228806459997,
+      "p@50": 0.44,
+      "lift@50": 2.404096385542169,
+      "wallet_p@50": 0.1757465326651985,
+      "p@100": 0.38,
+      "lift@100": 2.076265060240964,
+      "wallet_p@100": 0.220704376760594,
+      "auc": 0.6403285205599727,
+      "cal_error": 0.15299040123466776,
+      "n_train": 34996.0,
+      "n_test": 1814.0,
+      "train_events": 6396.0,
+      "test_events": 332.0,
+      "model": "T3_12m",
+      "n_folds": 1
+    }
+  ],
+  "baselines": [
+    {
+      "model": "MODEL T2_6m",
+      "base_rate": 0.10881239156868759,
+      "p@25": 0.3466666666666667,
+      "p@50": 0.3022222222222222,
+      "p@100": 0.2511111111111111,
+      "lift@50": 2.7775001512179944,
+      "wallet_p@50": 0.06787857833670899,
+      "auc": 0.6448872327630613
+    },
+    {
+      "model": "2_largest",
+      "base_rate": 0.11593415887395707,
+      "p@25": 0.24307692307692316,
+      "p@50": 0.22769230769230772,
+      "p@100": 0.18307692307692308,
+      "lift@50": 1.9534149719163436,
+      "wallet_p@50": 0.30727191062750897,
+      "auc": 0.545453154494196
+    },
+    {
+      "model": "6_promoter_declining",
+      "base_rate": 0.11593415887395707,
+      "p@25": 0.1938461538461539,
+      "p@50": 0.1830769230769231,
+      "p@100": 0.19461538461538463,
+      "lift@50": 1.5769900569491502,
+      "wallet_p@50": 0.08652182334503171,
+      "auc": 0.5789003275743461
+    },
+    {
+      "model": "3_recent_listing",
+      "base_rate": 0.11593415887395707,
+      "p@25": 0.16,
+      "p@50": 0.17692307692307693,
+      "p@100": 0.1692307692307692,
+      "lift@50": 1.564506803930102,
+      "wallet_p@50": 0.06338454967266002,
+      "auc": 0.5474278855842841
+    },
+    {
+      "model": "5_lockin_90d",
+      "base_rate": 0.11593415887395707,
+      "p@25": 0.16,
+      "p@50": 0.16153846153846155,
+      "p@100": 0.15692307692307692,
+      "lift@50": 1.4170433081750384,
+      "wallet_p@50": 0.08989551427856543,
+      "auc": 0.509258340766731
+    },
+    {
+      "model": "5b_lockin_promoter_90d",
+      "base_rate": 0.11593415887395707,
+      "p@25": 0.17230769230769233,
+      "p@50": 0.15692307692307692,
+      "p@100": 0.1369230769230769,
+      "lift@50": 1.3899762696422722,
+      "wallet_p@50": 0.07875085682351143,
+      "auc": 0.515566158468767
+    },
+    {
+      "model": "4_confirmatory_disclosure",
+      "base_rate": 0.11593415887395707,
+      "p@25": 0.15076923076923074,
+      "p@50": 0.14,
+      "p@100": 0.1253846153846154,
+      "lift@50": 1.2062874962655359,
+      "wallet_p@50": 0.05226561642519711,
+      "auc": 0.5066548139993963
+    },
+    {
+      "model": "1_random",
+      "base_rate": 0.11593415887395707,
+      "p@25": 0.10461538461538464,
+      "p@50": 0.10923076923076924,
+      "p@100": 0.11769230769230773,
+      "lift@50": 0.9568949422831824,
+      "wallet_p@50": 0.03557964120489812,
+      "auc": 0.4974890058532758
+    }
+  ],
+  "lead_time": [
+    {
+      "threshold": "top decile",
+      "n_events_with_prior_flag": 468,
+      "median_lead_months": 6.011826544021025,
+      "p25": 3.350854139290407,
+      "p75": 10.980617608409986
+    },
+    {
+      "threshold": "top 5%",
+      "n_events_with_prior_flag": 325,
+      "median_lead_months": 5.913272010512483,
+      "p25": 2.9894875164257555,
+      "p75": 9.264126149802891
+    },
+    {
+      "threshold": "top 1%",
+      "n_events_with_prior_flag": 137,
+      "median_lead_months": 6.504599211563732,
+      "p25": 3.9750328515111693,
+      "p75": 10.775295663600525
+    }
+  ],
+  "calibration": [
+    {
+      "bin": 0,
+      "n": 2383,
+      "predicted": 0.06143295600589671,
+      "realised": 0.04741921947125472,
+      "abs_error": 0.01401373653464199
+    },
+    {
+      "bin": 1,
+      "n": 2383,
+      "predicted": 0.08655533350842828,
+      "realised": 0.055392362568191356,
+      "abs_error": 0.031162970940236928
+    },
+    {
+      "bin": 2,
+      "n": 2383,
+      "predicted": 0.10652278260670524,
+      "realised": 0.07175828787242972,
+      "abs_error": 0.03476449473427552
+    },
+    {
+      "bin": 3,
+      "n": 2383,
+      "predicted": 0.12617959476462087,
+      "realised": 0.08938313050776332,
+      "abs_error": 0.03679646425685755
+    },
+    {
+      "bin": 4,
+      "n": 2383,
+      "predicted": 0.14779908596087352,
+      "realised": 0.10239194292908099,
+      "abs_error": 0.045407143031792524
+    },
+    {
+      "bin": 5,
+      "n": 2382,
+      "predicted": 0.17153135799208016,
+      "realised": 0.12048698572628044,
+      "abs_error": 0.05104437226579972
+    },
+    {
+      "bin": 6,
+      "n": 2383,
+      "predicted": 0.19897530203116218,
+      "realised": 0.1200167855644146,
+      "abs_error": 0.07895851646674758
+    },
+    {
+      "bin": 7,
+      "n": 2383,
+      "predicted": 0.2341838014543945,
+      "realised": 0.15232899706252623,
+      "abs_error": 0.08185480439186826
+    },
+    {
+      "bin": 8,
+      "n": 2383,
+      "predicted": 0.27773233772657546,
+      "realised": 0.16030214015946287,
+      "abs_error": 0.11743019756711259
+    },
+    {
+      "bin": 9,
+      "n": 2383,
+      "predicted": 0.3661888572311609,
+      "realised": 0.23625681913554344,
+      "abs_error": 0.12993203809561746
+    }
+  ],
+  "deciles": [
+    {
+      "decile": 0,
+      "n": 2383,
+      "events": 563,
+      "realised_rate": 0.23625681913554344,
+      "predicted_rate": 0.3661888572311609,
+      "lift": 2.0442134143721367,
+      "wallet_cr": 202096.686926576
+    },
+    {
+      "decile": 1,
+      "n": 2383,
+      "events": 382,
+      "realised_rate": 0.16030214015946287,
+      "predicted_rate": 0.27773233772657546,
+      "lift": 1.387015140835091,
+      "wallet_cr": 223545.098848182
+    },
+    {
+      "decile": 2,
+      "n": 2383,
+      "events": 363,
+      "realised_rate": 0.15232899706252623,
+      "predicted_rate": 0.2341838014543945,
+      "lift": 1.3180274767621414,
+      "wallet_cr": 214975.44507491
+    },
+    {
+      "decile": 3,
+      "n": 2383,
+      "events": 286,
+      "realised_rate": 0.1200167855644146,
+      "predicted_rate": 0.19897530203116218,
+      "lift": 1.0384458907822933,
+      "wallet_cr": 84579.305266532
+    },
+    {
+      "decile": 4,
+      "n": 2383,
+      "events": 287,
+      "realised_rate": 0.12043642467477969,
+      "predicted_rate": 0.17152635559014442,
+      "lift": 1.0420768204703432,
+      "wallet_cr": 153297.077296863
+    },
+    {
+      "decile": 5,
+      "n": 2382,
+      "events": 244,
+      "realised_rate": 0.10243492863140219,
+      "predicted_rate": 0.14779412729243593,
+      "lift": 0.8863187779076553,
+      "wallet_cr": 57082.069315013
+    },
+    {
+      "decile": 6,
+      "n": 2383,
+      "events": 213,
+      "realised_rate": 0.08938313050776332,
+      "predicted_rate": 0.12617959476462087,
+      "lift": 0.773388023554645,
+      "wallet_cr": 50649.645718441
+    },
+    {
+      "decile": 7,
+      "n": 2383,
+      "events": 171,
+      "realised_rate": 0.07175828787242972,
+      "predicted_rate": 0.10652278260670524,
+      "lift": 0.6208889766565461,
+      "wallet_cr": 37281.888663198
+    },
+    {
+      "decile": 8,
+      "n": 2383,
+      "events": 132,
+      "realised_rate": 0.055392362568191356,
+      "predicted_rate": 0.08655533350842828,
+      "lift": 0.4792827188225969,
+      "wallet_cr": 27407.145041852
+    },
+    {
+      "decile": 9,
+      "n": 2383,
+      "events": 113,
+      "realised_rate": 0.04741921947125472,
+      "predicted_rate": 0.06143295600589671,
+      "lift": 0.41029505474964734,
+      "wallet_cr": 77247.6556517
+    }
+  ],
+  "leakage": [
+    {
+      "join": "PIT (known_from = broadcast date)",
+      "p@50": 0.3022222222222222,
+      "lift@50": 2.7775001512179944,
+      "auc": 0.6448872327630613
+    },
+    {
+      "join": "NAIVE (known_from = quarter end)",
+      "p@50": 0.30666666666666664,
+      "lift@50": 2.8104533880519678,
+      "auc": 0.6461759724273091
+    }
+  ],
+  "pit_exposure": {
+    "rows_compared": 100630,
+    "pct_rows_value_differs": 11.280019586458636,
+    "pct_rows_known_only_to_naive": 6.597436152240882,
+    "mean_abs_diff_pp": 1.4370175611681137
+  },
+  "revision_exposure": {
+    "n_records": 36408,
+    "n_revisions": 4631,
+    "pct_revisions": 12.719731927048999,
+    "revision_lag_days_p50": 102.0,
+    "revision_lag_days_p90": 749.0,
+    "revision_lag_days_max": 2941.0
+  },
+  "embargo": [
+    {
+      "embargo_months": 0,
+      "folds": 5,
+      "p@50": 0.35000000000000003,
+      "lift@50": 2.8313638917791244,
+      "auc": 0.653463315331485
+    },
+    {
+      "embargo_months": 6,
+      "folds": 4,
+      "p@50": 0.3075,
+      "lift@50": 2.657443766536819,
+      "auc": 0.6402702267027119
+    },
+    {
+      "embargo_months": 12,
+      "folds": 3,
+      "p@50": 0.3022222222222222,
+      "lift@50": 2.7775001512179944,
+      "auc": 0.6448872327630613
+    }
+  ],
+  "ranking_objectives": [
+    {
+      "objective": "rank_prob",
+      "p@25": 0.37230769230769234,
+      "p@50": 0.3184615384615385,
+      "p@100": 0.2784615384615385,
+      "wallet_p@25": 0.053253447559982924,
+      "wallet_p@50": 0.07741264647020965,
+      "wallet_p@100": 0.1085147492306883
+    },
+    {
+      "objective": "rank_expected_proceeds",
+      "p@25": 0.22461538461538463,
+      "p@50": 0.19538461538461543,
+      "p@100": 0.15692307692307692,
+      "wallet_p@25": 0.32145087888707813,
+      "wallet_p@50": 0.34467165361252494,
+      "wallet_p@100": 0.4412241438906733
+    },
+    {
+      "objective": "rank_sqrt_size",
+      "p@25": 0.2676923076923077,
+      "p@50": 0.22461538461538463,
+      "p@100": 0.19846153846153847,
+      "wallet_p@25": 0.29056083659377674,
+      "wallet_p@50": 0.36831515115185376,
+      "wallet_p@100": 0.44213972919333344
+    }
+  ],
+  "wallet_examples": [
+    {
+      "gross_cr_input": 10,
+      "gross_cr": 10,
+      "tax_cr": 1.34363125,
+      "effective_tax_rate_on_proceeds": 0.134363125,
+      "net_cr": 8.65636875,
+      "addressable_aum_cr": 3.4625475000000003,
+      "propensity_assumed": 0.4
+    },
+    {
+      "gross_cr_input": 50,
+      "gross_cr": 50,
+      "tax_cr": 6.725631249999999,
+      "effective_tax_rate_on_proceeds": 0.134512625,
+      "net_cr": 43.27436875,
+      "addressable_aum_cr": 17.3097475,
+      "propensity_assumed": 0.4
+    },
+    {
+      "gross_cr_input": 100,
+      "gross_cr": 100,
+      "tax_cr": 13.453131249999998,
+      "effective_tax_rate_on_proceeds": 0.13453131249999997,
+      "net_cr": 86.54686875,
+      "addressable_aum_cr": 34.618747500000005,
+      "propensity_assumed": 0.4
+    },
+    {
+      "gross_cr_input": 500,
+      "gross_cr": 500,
+      "tax_cr": 67.27313125,
+      "effective_tax_rate_on_proceeds": 0.1345462625,
+      "net_cr": 432.72686875,
+      "addressable_aum_cr": 173.09074750000002,
+      "propensity_assumed": 0.4
+    }
+  ],
+  "t3_alerts_n": 389,
+  "family_coverage": {
+    "1_structural_readiness": "NOT AVAILABLE - requires MCA21 (MGT-14, PAS-3, ADT-1, DIR-12)",
+    "2_financial_trajectory": "NOT AVAILABLE - requires MCA AOC-4 financials",
+    "3_cap_table": "PARTIAL - promoter aggregate % from exchange shareholding patterns",
+    "4_investor_clock": "NOT AVAILABLE - requires AIF registration / fund vintage data",
+    "5_personnel": "NOT AVAILABLE - requires MCA DIR-12 / licensed LinkedIn",
+    "6_advisor": "NOT AVAILABLE - requires MCA ADT-1 / RTA disclosures",
+    "7_market_regime": "AVAILABLE - built from the deal tape and IPO calendar",
+    "8_text_nlp": "PARTIAL - announcement subject taxonomy only, no rationale NLP",
+    "D_track_d": "AVAILABLE - lock-in calendar, deal tape, pledge, insider history"
+  }
+}

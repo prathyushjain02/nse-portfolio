@@ -1,0 +1,328 @@
+
+==============================================================================
+L1/L2  Load + point-in-time audit
+==============================================================================
+         table   rows  entities valid_from_min valid_from_max  missing_known_from  known_before_valid  lag_p50  lag_p90  lag_max
+         deals 157029      3515     2015-01-01     2026-08-07                   0                   0      0.0      0.0      0.0
+           shp  36408      1982     2015-12-31     2026-07-31                   0                   0     17.0     98.0   2941.0
+promoter_names  52454      1904     2022-01-06     2026-08-03                   0                   0      0.0      0.0      0.0
+   insider_pit  24141      1593     2008-10-19     2026-04-30                   0                   0      3.0      8.0   3656.0
+ announcements    358       138     2021-01-06     2026-08-05                   0                   0      0.0      0.0      0.0
+          sast  40980      2156            NaT            NaT               40980                   0      NaN      NaN      NaN
+
+deals 157,029 | shp 36,408 | ipos 1,346 | universe 2,075
+announcements 358 (trading plans: 136)
+
+==============================================================================
+L0  Entity resolution + promoter registry
+==============================================================================
+insider/promoter identities resolved: 50,342 across 1,957 symbols
+  of which from PIT Reg 7(2) (point-in-time, incl. directors/KMP): 18,052
+deals tagged: 2,935 insider-matched of 157,029
+
+counterparty type mix:
+holder_type
+corporate      54724
+broker         46120
+individual     41451
+institution    14734
+
+==============================================================================
+L3  Event register (cash-dated)
+==============================================================================
+                 n      first       last       gross_cr
+event_source                                           
+deal_tape     1344 2015-01-14 2026-08-07  355532.047506
+holding_drop  1494 2016-06-30 2026-06-30       0.000000
+pit_reg7      1909 2015-11-17 2026-04-27  598604.947301
+
+deal-tape events: 1,344  |  total gross Rs 355,532 cr
+median event size: Rs 28.2 cr   p90: Rs 562.3 cr
+distinct beneficiaries: 992
+
+lock-in calendar: 8,076 dated expiries for 1,296 companies
+
+==============================================================================
+L3  PIT panel construction
+==============================================================================
+promoter-identity median known_from: 2022-01-07
+panel window: 2021-07 .. 2026-07  (61 months)
+    panel 2022-01: 1,420 entities
+    panel 2023-01: 1,523 entities
+    panel 2024-01: 1,636 entities
+    panel 2025-01: 1,768 entities
+    panel 2026-01: 1,927 entities
+
+panel: 100,630 entity-months, 2,054 entities
+  base rate y_3m: 6.54%  (6,578 positive entity-months)
+  base rate y_6m: 11.24%  (11,313 positive entity-months)
+  base rate y_12m: 18.23%  (18,343 positive entity-months)
+
+==============================================================================
+Section 10  Hypothesis tests on real data
+==============================================================================
+
+H1 - lock-in expiry raises P(sell within 90 days):
+                                                        test  n_treated  rate_treated     ci_treated  rate_control     lift      p_value
+             H1a POST-expiry: an expiry fell in the last 90d       3753      0.083133 [0.075, 0.092]      0.064680 1.285305 1.386227e-05
+                H1b POST-expiry, promoter-class lock-in only       1931      0.097877 [0.085, 0.112]      0.064732 1.512026 4.668925e-08
+            H1c POST-expiry: an expiry fell in the last 180d       5579      0.088009 [0.081, 0.096]      0.064039 1.374290 1.679060e-11
+         H1d PRE-expiry (contrast): expiry falls in next 90d       3105      0.068277 [0.060, 0.078]      0.065276 1.045980 5.067286e-01
+                         H1e PRE-expiry, promoter-class only       2021      0.084117 [0.073, 0.097]      0.064984 1.294424 8.880836e-04
+H1f CONTROLLED post-expiry, within recent-IPO cohort (<=36m)       3720      0.083871 [0.075, 0.093]      0.097673 0.858689 9.913098e-03
+ H1g CONTROLLED pre-expiry, within recent-IPO cohort (<=36m)       3072      0.069010 [0.061, 0.079]      0.099897 0.690816 3.067869e-08
+
+H2 - disclosed trading plan is followed by actual selling:
+  status: TESTED
+  n_plans_total: 136
+  n_plans_complete_window: 95
+  n_symbols: 46
+  dealtape_insider_sell_LOWER_BOUND: 0.010526315789473684
+  dealtape_insider_ci: [0.002, 0.057]
+  any_large_sell_LOWER_BOUND: 0.5789473684210527
+  any_ci: [0.478, 0.673]
+  caveat: The deal tape only observes trades above bulk (0.5% of equity) / block thresholds, and trading plans are typically filed by directors and KMP whose sales fall below them. Deal-tape figures are LOWER BOUNDS. The Reg 7(2) figure below is the meaningful one.
+  PIT_uncorrected_followthrough: 0.2
+  PIT_uncorrected_ci: [0.132, 0.291]
+  PIT_uncorrected_note: biased DOWN - counts plans the Reg 7(2) retention window never observed
+  n_plans_with_pit_coverage: 24
+  PIT_reg7_followthrough_COVERAGE_CORRECTED: 0.25
+  PIT_corrected_ci: [0.120, 0.449]
+
+H8 - prior liquidity history predicts repeat events:
+                            test  n_treated  rate_treated     ci_treated  rate_control     lift       p_value
+H8: any prior observed sell-down      46801      0.221235 [0.217, 0.225]      0.148414 1.490654 2.836397e-195
+             H8: exactly 1 prior      14746      0.207582 [0.201, 0.214]      0.148414 1.398663  5.103225e-64
+                   H8: 2-3 prior      15635      0.222705 [0.216, 0.229]      0.148414 1.500565 1.176029e-101
+                    H8: 4+ prior      16420      0.232095 [0.226, 0.239]      0.148414 1.563831 2.939530e-131
+
+NOT TESTABLE with available data:
+  - H3 (Pvt->Public + auditor upgrade + IPO-experienced CFO -> DRHP in 24m)
+      Requires MCA21 filings (name change, ADT-1, DIR-12) and licensed LinkedIn. MCA is not machine-accessible from this environment (403). Track A pre-IPO is entirely unbacked here.
+  - H4 (lead-investor fund vintage 8+ years raises Track-C hazard)
+      Requires private-market fund formation / AIF registration data (Tracxn / VCCEdge / Venture Intelligence). Not accessible.
+  - H5 (rating-rationale intent language leads press by 4+ months)
+      Requires CRISIL/ICRA/CARE rationale corpus + NLP pipeline. Agency sites reachable but the rationale corpus was not licensed or ingested here.
+  - H6 (4-6 quarters margin uplift -> Track-B sale)
+      Requires MCA AOC-4 financials for unlisted companies. Not accessible.
+  - H7 (ESOP buyback announcement -> founder secondary within 6m)
+      Track C is private-market; secondary transactions are not in exchange data.
+  - H9 (promoter age 58+ without next-gen board induction)
+      Requires MCA DIR-12 director data with dates of birth. Not accessible.
+  - H10 (real-estate / philanthropic vehicle activity precedes events)
+      Requires property registry and trust registration data. Not accessible.
+
+==============================================================================
+Section 8.3  Walk-forward backtest (expanding window, 12m embargo)
+==============================================================================
+
+--- T1 / horizon 3m / 15 features
+    fold test 2024-10 | train<2023-07 n=34,996/10,548 ev=1916/699 p@50=0.123 lift@50=1.84 auc=0.604
+    fold test 2025-04 | train<2024-01 n=44,562/10,895 ev=2669/867 p@50=0.330 lift@50=4.10 auc=0.690
+    fold test 2025-10 | train<2024-07 n=54,518/11,475 ev=3543/617 p@50=0.150 lift@50=2.77 auc=0.630
+    fold test 2026-04 | train<2025-01 n=64,824/1,956 ev=4481/98 p@50=0.260 lift@50=5.19 auc=0.711
+    MEAN over 4 folds: p@25=0.232 p@50=0.216 p@100=0.172 lift@50=3.48 auc=0.659 cal_err=0.0382 wallet_p@50=0.079
+
+--- T2 / horizon 3m / 24 features
+    fold test 2024-10 | train<2023-07 n=34,996/10,548 ev=1916/699 p@50=0.117 lift@50=1.75 auc=0.599
+    fold test 2025-04 | train<2024-01 n=44,562/10,895 ev=2669/867 p@50=0.340 lift@50=4.22 auc=0.685
+    fold test 2025-10 | train<2024-07 n=54,518/11,475 ev=3543/617 p@50=0.153 lift@50=2.81 auc=0.630
+    fold test 2026-04 | train<2025-01 n=64,824/1,956 ev=4481/98 p@50=0.220 lift@50=4.39 auc=0.700
+    MEAN over 4 folds: p@25=0.245 p@50=0.208 p@100=0.182 lift@50=3.29 auc=0.654 cal_err=0.0380 wallet_p@50=0.075
+
+--- T3 / horizon 3m / 30 features
+    fold test 2024-10 | train<2023-07 n=34,996/10,548 ev=1916/699 p@50=0.130 lift@50=1.94 auc=0.601
+    fold test 2025-04 | train<2024-01 n=44,562/10,895 ev=2669/867 p@50=0.333 lift@50=4.12 auc=0.687
+    fold test 2025-10 | train<2024-07 n=54,518/11,475 ev=3543/617 p@50=0.153 lift@50=2.81 auc=0.636
+    fold test 2026-04 | train<2025-01 n=64,824/1,956 ev=4481/98 p@50=0.180 lift@50=3.59 auc=0.702
+    MEAN over 4 folds: p@25=0.207 p@50=0.199 p@100=0.187 lift@50=3.12 auc=0.656 cal_err=0.0374 wallet_p@50=0.075
+
+--- T1 / horizon 6m / 15 features
+    fold test 2025-01 | train<2023-07 n=34,996/10,733 ev=3540/1383 p@50=0.410 lift@50=3.17 auc=0.661
+    fold test 2025-07 | train<2024-01 n=44,562/11,169 ev=4863/1197 p@50=0.287 lift@50=2.67 auc=0.631
+    fold test 2026-01 | train<2024-07 n=54,518/1,927 ev=6436/174 p@50=0.240 lift@50=2.66 auc=0.647
+    MEAN over 3 folds: p@25=0.342 p@50=0.312 p@100=0.251 lift@50=2.83 auc=0.646 cal_err=0.0625 wallet_p@50=0.070
+
+--- T2 / horizon 6m / 24 features
+    fold test 2025-01 | train<2023-07 n=34,996/10,733 ev=3540/1383 p@50=0.370 lift@50=2.87 auc=0.655
+    fold test 2025-07 | train<2024-01 n=44,562/11,169 ev=4863/1197 p@50=0.277 lift@50=2.59 auc=0.632
+    fold test 2026-01 | train<2024-07 n=54,518/1,927 ev=6436/174 p@50=0.260 lift@50=2.88 auc=0.647
+    MEAN over 3 folds: p@25=0.347 p@50=0.302 p@100=0.251 lift@50=2.78 auc=0.645 cal_err=0.0618 wallet_p@50=0.068
+
+    top coefficients (last fold, standardised):
+                feature      coef  odds_ratio
+months_since_last_event -7.151469    0.000784
+              ever_sold -6.716846    0.001210
+   months_since_listing -0.386253    0.679599
+      regime_event_rate  0.195181    1.215531
+      deal_activity_12m  0.105794    1.111593
+   prior_event_value_cr -0.095452    0.908962
+    lockin_expired_180d  0.091063    1.095338
+       deal_activity_3m  0.089414    1.093533
+          promoter_high -0.078933    0.924101
+               tenure_6 -0.068413    0.933875
+           promoter_pct  0.067018    1.069315
+     lockin_expired_90d -0.060302    0.941481
+
+--- T3 / horizon 6m / 30 features
+    fold test 2025-01 | train<2023-07 n=34,996/10,733 ev=3540/1383 p@50=0.380 lift@50=2.94 auc=0.654
+    fold test 2025-07 | train<2024-01 n=44,562/11,169 ev=4863/1197 p@50=0.263 lift@50=2.45 auc=0.632
+    fold test 2026-01 | train<2024-07 n=54,518/1,927 ev=6436/174 p@50=0.240 lift@50=2.66 auc=0.640
+    MEAN over 3 folds: p@25=0.342 p@50=0.294 p@100=0.245 lift@50=2.68 auc=0.642 cal_err=0.0599 wallet_p@50=0.109
+
+--- T1 / horizon 12m / 15 features
+    fold test 2025-07 | train<2023-07 n=34,996/1,814 ev=6396/332 p@50=0.460 lift@50=2.51 auc=0.647
+    MEAN over 1 folds: p@25=0.520 p@50=0.460 p@100=0.400 lift@50=2.51 auc=0.647 cal_err=0.1456 wallet_p@50=0.092
+
+--- T2 / horizon 12m / 24 features
+    fold test 2025-07 | train<2023-07 n=34,996/1,814 ev=6396/332 p@50=0.420 lift@50=2.29 auc=0.641
+    MEAN over 1 folds: p@25=0.480 p@50=0.420 p@100=0.390 lift@50=2.29 auc=0.641 cal_err=0.1526 wallet_p@50=0.070
+
+--- T3 / horizon 12m / 30 features
+    fold test 2025-07 | train<2023-07 n=34,996/1,814 ev=6396/332 p@50=0.440 lift@50=2.40 auc=0.640
+    MEAN over 1 folds: p@25=0.520 p@50=0.440 p@100=0.380 lift@50=2.40 auc=0.640 cal_err=0.1530 wallet_p@50=0.176
+
+==============================================================================
+Section 8.5  Baselines the model must beat
+==============================================================================
+                    model  base_rate     p@25     p@50    p@100  lift@50  wallet_p@50      auc
+              MODEL T2_6m   0.108812 0.346667 0.302222 0.251111 2.777500     0.067879 0.644887
+                2_largest   0.115934 0.243077 0.227692 0.183077 1.953415     0.307272 0.545453
+     6_promoter_declining   0.115934 0.193846 0.183077 0.194615 1.576990     0.086522 0.578900
+         3_recent_listing   0.115934 0.160000 0.176923 0.169231 1.564507     0.063385 0.547428
+             5_lockin_90d   0.115934 0.160000 0.161538 0.156923 1.417043     0.089896 0.509258
+   5b_lockin_promoter_90d   0.115934 0.172308 0.156923 0.136923 1.389976     0.078751 0.515566
+4_confirmatory_disclosure   0.115934 0.150769 0.140000 0.125385 1.206287     0.052266 0.506655
+                 1_random   0.115934 0.104615 0.109231 0.117692 0.956895     0.035580 0.497489
+
+==============================================================================
+Section 8.4  Lead-time distribution (the metric the business cares about)
+==============================================================================
+ threshold  n_events_with_prior_flag  median_lead_months      p25       p75
+top decile                       468            6.011827 3.350854 10.980618
+    top 5%                       325            5.913272 2.989488  9.264126
+    top 1%                       137            6.504599 3.975033 10.775296
+
+==============================================================================
+Section 8.4  Calibration + decile lift
+==============================================================================
+
+calibration (predicted vs realised):
+ bin    n  predicted  realised  abs_error
+   0 2383   0.061433  0.047419   0.014014
+   1 2383   0.086555  0.055392   0.031163
+   2 2383   0.106523  0.071758   0.034764
+   3 2383   0.126180  0.089383   0.036796
+   4 2383   0.147799  0.102392   0.045407
+   5 2382   0.171531  0.120487   0.051044
+   6 2383   0.198975  0.120017   0.078959
+   7 2383   0.234184  0.152329   0.081855
+   8 2383   0.277732  0.160302   0.117430
+   9 2383   0.366189  0.236257   0.129932
+
+decile lift:
+ decile    n  events  realised_rate  predicted_rate     lift     wallet_cr
+      0 2383     563       0.236257        0.366189 2.044213 202096.686927
+      1 2383     382       0.160302        0.277732 1.387015 223545.098848
+      2 2383     363       0.152329        0.234184 1.318027 214975.445075
+      3 2383     286       0.120017        0.198975 1.038446  84579.305267
+      4 2383     287       0.120436        0.171526 1.042077 153297.077297
+      5 2382     244       0.102435        0.147794 0.886319  57082.069315
+      6 2383     213       0.089383        0.126180 0.773388  50649.645718
+      7 2383     171       0.071758        0.106523 0.620889  37281.888663
+      8 2383     132       0.055392        0.086555 0.479283  27407.145042
+      9 2383     113       0.047419        0.061433 0.410295  77247.655652
+
+==============================================================================
+Section 8.1  Leakage demonstration: PIT vs naive join
+==============================================================================
+                             join     p@50  lift@50      auc
+PIT (known_from = broadcast date) 0.302222 2.777500 0.644887
+ NAIVE (known_from = quarter end) 0.306667 2.810453 0.646176
+
+direct leakage exposure (what a naive join actually hands the model):
+  rows_compared: 100630
+  pct_rows_value_differs: 11.280
+  pct_rows_known_only_to_naive: 6.597
+  mean_abs_diff_pp: 1.437
+
+restatement exposure in the shareholding feed:
+  n_records: 36408
+  n_revisions: 4631
+  pct_revisions: 12.72
+  revision_lag_days_p50: 102.00
+  revision_lag_days_p90: 749.00
+  revision_lag_days_max: 2,941.00
+
+embargo sensitivity (T2 / 6m):
+ embargo_months  folds     p@50  lift@50      auc
+              0      5 0.350000 2.831364 0.653463
+              6      4 0.307500 2.657444 0.640270
+             12      3 0.302222 2.777500 0.644887
+
+==============================================================================
+L5  Wallet sizing
+==============================================================================
+ gross_cr_input  gross_cr  tax_cr  effective_tax_rate_on_proceeds  net_cr  addressable_aum_cr  propensity_assumed
+             10        10   1.344                           0.134   8.656               3.463                 0.4
+             50        50   6.726                           0.135  43.274              17.310                 0.4
+            100       100  13.453                           0.135  86.547              34.619                 0.4
+            500       500  67.273                           0.135 432.727             173.091                 0.4
+
+==============================================================================
+L6  Ranking objective: probability vs expected proceeds
+==============================================================================
+             objective     p@25     p@50    p@100  wallet_p@25  wallet_p@50  wallet_p@100
+             rank_prob 0.372308 0.318462 0.278462     0.053253     0.077413      0.108515
+rank_expected_proceeds 0.224615 0.195385 0.156923     0.321451     0.344672      0.441224
+        rank_sqrt_size 0.267692 0.224615 0.198462     0.290561     0.368315      0.442140
+
+realised deal-tape event sizes: n=1,344 median Rs 28.2 cr, mean Rs 264.5 cr, total Rs 355,532 cr
+propensity_to_externalise assumed at 40% - NOT fitted; must be calibrated from the firm's own conversions.
+
+==============================================================================
+T3  Rules engine - live alert list
+==============================================================================
+alerts as of 2026-08-07: 389
+rule
+promoter_stake_declining            74
+lockin_expiry_anchor_90d            60
+lockin_expiry_non_promoter_6m       53
+lockin_expiry_promoter_excess_6m    53
+lockin_expiry_aif_vcf_6m            53
+trading_plan_disclosed              41
+lockin_expiry_mpc                   28
+lockin_expiry_anchor_30d            27
+
+highest-confidence alerts:
+    symbol                   rule signal_date eligible_date  days_to_eligible holder_class confidence                                                  basis
+  RAMCOCEM trading_plan_disclosed  2025-04-10    2025-08-08              -364      insider  very_high SEBI PIT Reg 5 - 120-day cooling off, plan irrevocable
+  RAMCOSYS trading_plan_disclosed  2025-04-16    2025-08-14              -358      insider  very_high SEBI PIT Reg 5 - 120-day cooling off, plan irrevocable
+  RAMCOSYS trading_plan_disclosed  2025-04-21    2025-08-19              -353      insider  very_high SEBI PIT Reg 5 - 120-day cooling off, plan irrevocable
+  RELIANCE trading_plan_disclosed  2025-05-02    2025-08-30              -342      insider  very_high SEBI PIT Reg 5 - 120-day cooling off, plan irrevocable
+  RAMCOSYS trading_plan_disclosed  2025-05-05    2025-09-02              -339      insider  very_high SEBI PIT Reg 5 - 120-day cooling off, plan irrevocable
+     TRENT trading_plan_disclosed  2025-05-05    2025-09-02              -339      insider  very_high SEBI PIT Reg 5 - 120-day cooling off, plan irrevocable
+ INTELLECT trading_plan_disclosed  2025-05-09    2025-09-06              -335      insider  very_high SEBI PIT Reg 5 - 120-day cooling off, plan irrevocable
+ INTELLECT trading_plan_disclosed  2025-05-13    2025-09-10              -331      insider  very_high SEBI PIT Reg 5 - 120-day cooling off, plan irrevocable
+     ABREL trading_plan_disclosed  2025-05-16    2025-09-13              -328      insider  very_high SEBI PIT Reg 5 - 120-day cooling off, plan irrevocable
+   DPSCLTD trading_plan_disclosed  2025-06-05    2025-10-03              -308      insider  very_high SEBI PIT Reg 5 - 120-day cooling off, plan irrevocable
+ASIANPAINT trading_plan_disclosed  2025-06-09    2025-10-07              -304      insider  very_high SEBI PIT Reg 5 - 120-day cooling off, plan irrevocable
+       KSB trading_plan_disclosed  2025-08-19    2025-12-17              -233      insider  very_high SEBI PIT Reg 5 - 120-day cooling off, plan irrevocable
+SONATSOFTW trading_plan_disclosed  2025-08-26    2025-12-24              -226      insider  very_high SEBI PIT Reg 5 - 120-day cooling off, plan irrevocable
+DCMSHRIRAM trading_plan_disclosed  2025-08-26    2025-12-24              -226      insider  very_high SEBI PIT Reg 5 - 120-day cooling off, plan irrevocable
+  RAMCOSYS trading_plan_disclosed  2025-08-29    2025-12-27              -223      insider  very_high SEBI PIT Reg 5 - 120-day cooling off, plan irrevocable
+
+==============================================================================
+Feature family coverage (section 6)
+==============================================================================
+  1_structural_readiness     NOT AVAILABLE - requires MCA21 (MGT-14, PAS-3, ADT-1, DIR-12)
+  2_financial_trajectory     NOT AVAILABLE - requires MCA AOC-4 financials
+  3_cap_table                PARTIAL - promoter aggregate % from exchange shareholding patterns
+  4_investor_clock           NOT AVAILABLE - requires AIF registration / fund vintage data
+  5_personnel                NOT AVAILABLE - requires MCA DIR-12 / licensed LinkedIn
+  6_advisor                  NOT AVAILABLE - requires MCA ADT-1 / RTA disclosures
+  7_market_regime            AVAILABLE - built from the deal tape and IPO calendar
+  8_text_nlp                 PARTIAL - announcement subject taxonomy only, no rationale NLP
+  D_track_d                  AVAILABLE - lock-in calendar, deal tape, pledge, insider history
+
+wrote reports/results.json
