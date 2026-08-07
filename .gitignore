@@ -3,3 +3,4 @@ data/raw/
 __pycache__/
 *.pyc
 reports/panel.parquet
+reports/company_scores_backtest.csv

@@ -1,0 +1,30 @@
+loading...
+scoring backtest folds by company...
+  wrote company_backtest_results.csv (1,927 companies)
+fitting live model...
+  wrote company_live_ranking.csv (as of 2026-07, 2,054 companies)
+
+TOP 20 BY EXPECTED WALLET (live, as of 2026-07):
+    symbol                           company  score  expected_gross_cr  expected_addressable_aum_cr  months_since_last_event
+ AADHARHFC    Aadhar Housing Finance Limited  0.094          13863.133                      452.596                    3.022
+       VMM          Vishal Mega Mart Limited  0.137           5101.628                      242.439                    3.022
+BHARTIARTL             Bharti Airtel Limited  0.099           7261.500                      249.948                    5.979
+    ANTHEM        Anthem Biosciences Limited  0.216           1274.696                       95.126                    0.427
+     ENRIN      Siemens Energy India Limited  0.134           2928.290                      135.775                    6.472
+  SAGILITY                  SAGILITY LIMITED  0.111           3660.440                      140.122                    5.979
+  JSWSTEEL                 JSW Steel Limited  0.116           3150.000                      126.036                    1.445
+  BAJAJHFL     Bajaj Housing Finance Limited  0.130           2293.932                      103.595                    5.979
+     LODHA          Lodha Developers Limited  0.168           1100.049                       63.799                    0.197
+    CORONA           CORONA Remedies Limited  0.193            748.907                       50.029                    0.460
+ADANIGREEN        Adani Green Energy Limited  0.087           3518.857                      106.460                   36.038
+   COHANCE      Cohance Lifesciences Limited  0.088           3093.809                       94.546                    9.001
+  ADANIENT         Adani Enterprises Limited  0.075           4140.000                      106.911                   17.970
+      VEDL                   Vedanta Limited  0.084           2939.533                       85.456                    0.263
+   MPHASIS                   MphasiS Limited  0.062           4726.065                      100.800                    5.979
+    EMCURE    Emcure Pharmaceuticals Limited  0.200            426.087                       29.460                    0.197
+   OLAELEC     Ola Electric Mobility Limited  0.221            321.919                       24.655                    0.887
+ PATANJALI           Patanjali Foods Limited  0.092           1815.678                       57.809                    5.979
+   MAZDOCK Mazagon Dock Shipbuilders Limited  0.064           3677.784                       81.819                   12.024
+    INDIGO       InterGlobe Aviation Limited  0.114           1156.113                       45.657                    9.001
+
+model: T2, horizon 6m, trained on 88,653 entity-months (10,645 events) through 2026-01
