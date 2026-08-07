@@ -28,7 +28,9 @@ from liquidity.config import BACKTEST, EVENT_DEF, REPORT_DIR, WALLET
 from liquidity import l1_load, leakage
 from liquidity.backtest import score_baselines_walk_forward, walk_forward
 from liquidity.baselines import baseline_scores
-from liquidity.hypotheses import NOT_TESTABLE, test_H1_lockin, test_H2_trading_plans, test_H8_repeat
+from liquidity.hypotheses import (
+    NOT_TESTABLE, test_H1_lockin, test_H2_trading_plans, test_H8_mechanism, test_H8_repeat,
+)
 from liquidity.l3_events import (
     build_event_register, build_promoter_registry, label_deals, lockin_calendar,
 )
@@ -143,6 +145,21 @@ def main():
     print("\nH8 - prior liquidity history predicts repeat events:")
     print(h8[["test", "n_treated", "rate_treated", "ci_treated", "rate_control", "lift", "p_value"]].to_string(index=False))
     h8.to_csv(f"{REPORT_DIR}/H8_repeat.csv", index=False)
+
+    h8m = test_H8_mechanism(panel, events, "y_6m")
+    print("\nH8 mechanism - dribble-out vs clustering vs persistent type:")
+    print(f"  never-sold baseline y_6m: {h8m['never_sold_baseline']:.4f}")
+    print(h8m["hazard_by_recency"].round(4).to_string(index=False))
+    print(f"\n  repeat person-company sellers: {h8m.get('n_repeat_seller_pairs', 0):,}")
+    print(f"  inter-event gap: median {h8m.get('gap_days_median', float('nan')):.0f}d "
+          f"IQR {h8m.get('gap_days_iqr', '-')}  CV={h8m.get('gap_cv', float('nan')):.2f}")
+    print(f"  -> {h8m.get('gap_interpretation', '')}")
+    print("\n  conditioned on remaining promoter stake:")
+    print(h8m["conditioned_on_remaining_stake"].round(4).to_string(index=False))
+    h8m["hazard_by_recency"].to_csv(f"{REPORT_DIR}/H8_hazard_by_recency.csv", index=False)
+    OUT["H8_mechanism"] = {
+        k: (v.to_dict("records") if isinstance(v, pd.DataFrame) else v) for k, v in h8m.items()
+    }
 
     print("\nNOT TESTABLE with available data:")
     for k, v in NOT_TESTABLE.items():

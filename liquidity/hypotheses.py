@@ -243,6 +243,73 @@ def test_H8_repeat(panel: pd.DataFrame, label_col: str = "y_12m") -> pd.DataFram
     return pd.DataFrame(rows)
 
 
+def test_H8_mechanism(panel: pd.DataFrame, events: pd.DataFrame, label_col: str = "y_6m") -> dict:
+    """H8 refinement: is it a dribble-out process, or just persistent type?
+
+    The headline H8 test ("has this entity ever sold?") cannot distinguish
+    three very different stories, which have different consequences for how the
+    feature should be used:
+
+      (a) DRIBBLE-OUT   selling proceeds in regular tranches, so a past sale
+                        predicts the next one at a predictable spacing
+      (b) CLUSTERING    selling comes in bursts, so a past sale predicts only
+                        the near term and the signal decays
+      (c) PERSISTENT TYPE
+                        some holders are simply sellers, so the flag is a
+                        standing attribute with no time structure
+
+    Three diagnostics separate them, all runnable on already-collected data:
+      1. empirical hazard as a function of months since last event
+         - flat => (c), decaying => (b), humped => (a)
+      2. coefficient of variation of inter-event gaps
+         - CV < 1 => more regular than random => (a)
+         - CV > 1 => over-dispersed / bursty  => (b)
+      3. the same comparison conditioned on remaining stake, since "never sold"
+         partly means "has nothing left to sell"
+    """
+    out = {}
+    q = panel[panel["ever_sold"] == 1].copy()
+    base = panel.loc[panel["ever_sold"] == 0, label_col].mean()
+    bins = [0, 3, 6, 9, 12, 18, 24, 36, 60, 10_000]
+    q["bin"] = pd.cut(q["months_since_last_event"], bins=bins, right=False)
+    haz = q.groupby("bin", observed=True).agg(n=(label_col, "size"), rate=(label_col, "mean"))
+    haz["lift_vs_never_sold"] = haz["rate"] / base if base else np.nan
+    out["never_sold_baseline"] = float(base)
+    out["hazard_by_recency"] = haz.reset_index().astype({"bin": str})
+
+    d = events[events["event_source"].isin(["deal_tape", "pit_reg7"])].dropna(
+        subset=["beneficiary_key", "cash_date"]
+    )
+    d = d.sort_values(["beneficiary_key", "symbol", "cash_date"])
+    g = d.groupby(["beneficiary_key", "symbol"])
+    gaps = g["cash_date"].diff().dt.days.dropna()
+    gaps = gaps[gaps > 0]
+    out["n_repeat_seller_pairs"] = int((g.size() > 1).sum())
+    if len(gaps):
+        out["gap_days_median"] = float(gaps.median())
+        out["gap_days_iqr"] = f"[{gaps.quantile(.25):.0f}, {gaps.quantile(.75):.0f}]"
+        out["gap_cv"] = float(gaps.std() / gaps.mean())
+        out["gap_interpretation"] = (
+            "CV > 1: over-dispersed, i.e. bursty rather than regular. The Rule-144 "
+            "dribble-out analogy does NOT transfer - India imposes no equivalent "
+            "volume cap, and sellers execute in campaigns."
+            if out["gap_cv"] > 1
+            else "CV < 1: more regular than random - consistent with dribble-out."
+        )
+
+    rows = []
+    for lo, hi, lbl in [(0, 20, "<20%"), (20, 50, "20-50%"), (50, 101, ">50%")]:
+        a = panel[panel["promoter_pct"].between(lo, hi, inclusive="left")]
+        if not len(a):
+            continue
+        t1 = a.loc[a["ever_sold"] == 1, label_col].mean()
+        t0 = a.loc[a["ever_sold"] == 0, label_col].mean()
+        rows.append(dict(promoter_stake=lbl, n=len(a), ever_sold_rate=t1,
+                         never_sold_rate=t0, lift=t1 / t0 if t0 else np.nan))
+    out["conditioned_on_remaining_stake"] = pd.DataFrame(rows)
+    return out
+
+
 # ---------------------------------------------------------------------------
 # Hypotheses that this data CANNOT test
 # ---------------------------------------------------------------------------

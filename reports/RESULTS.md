@@ -315,9 +315,28 @@ entity-level signal available** — it dominates the fitted model. The framework
 rated it "Medium" and rated H1/H2 "High"; on this evidence that ordering should
 be inverted.
 
-Caveat: partly mechanical. Entities that sell are entities with sellable stakes
-and a disposition to sell, so this is closer to "persistent type" than
-"causal trigger". It is still the most useful thing in the model.
+**Mechanism (added):** the "ever sold" flag is the wrong shape for this signal.
+Event rate by months since last event, against an 8.35% never-sold baseline:
+**3.99×** at 0–3 months, 1.58× at 12–18 months, 1.11× at 24–36 months, and
+**0.65× at 60+ months** — a holder who sold five years ago is *less* likely to
+sell than one who never sold. It is a **recency** signal with a ~3-year
+half-life that crosses below baseline at 36–60 months, which is why the fitted
+model prefers `months_since_last_event` to `ever_sold`.
+
+It is also **not** Rule-144-style dribble-out. Across 532 repeat person-company
+sellers, inter-event gaps have median 101 days and a **coefficient of variation
+of 1.56** — over-dispersed, i.e. bursty rather than regular. The framework
+imports the US dribble-out logic while noting India has no equivalent volume
+constraint; the data shows exactly that. Sellers execute in campaigns, then
+stop. **There are no predictable tranches to calendar.**
+
+It is not merely "who still has stock to sell" either: conditioning on remaining
+promoter stake, lift survives at 1.66–1.67× in the 20–50% and >50% bands (and
+4.29× below 20%).
+
+Remaining caveat: this could still be persistent *type* rather than a causal
+trigger. Within-person fixed effects would settle it — see
+`HYPOTHESIS_TEST_DESIGN.md` §7.
 
 ### Not testable with accessible data
 
