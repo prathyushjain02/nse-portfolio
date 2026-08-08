@@ -1,0 +1,162 @@
+    universe: 2075 EQ symbols
+[shp] per-symbol shareholding for 2075 symbols
+    shp 100/2075 rows=1,612
+    shp 200/2075 rows=3,418
+    shp 300/2075 rows=5,250
+    shp 400/2075 rows=6,968
+    shp 500/2075 rows=8,638
+    shp 600/2075 rows=10,282
+    shp 700/2075 rows=12,025
+    shp 800/2075 rows=13,886
+    shp 900/2075 rows=15,674
+    shp 1000/2075 rows=17,518
+    shp 1100/2075 rows=19,171
+    shp 1200/2075 rows=20,888
+    shp 1300/2075 rows=22,765
+    shp 1400/2075 rows=24,538
+    shp 1500/2075 rows=26,237
+    shp 1600/2075 rows=27,951
+    shp 1700/2075 rows=29,604
+    shp 1800/2075 rows=31,430
+    shp 1900/2075 rows=33,267
+    shp 2000/2075 rows=35,085
+  -> shareholding: 36,408 rows x 34 cols
+INGEST COMPLETE
+    universe: 2075 EQ symbols
+[xbrl] promoter names from 1982 earliest SHP filings
+    ! give up https://nsearchives.nseindia.com/corporate/xbrl/-: 404 Client Error: Not Found for url: https://nsearchives.nseindia.com/corporate/xbrl/-
+    ! give up https://nsearchives.nseindia.com/corporate/xbrl/-: 404 Client Error: Not Found for url: https://nsearchives.nseindia.com/corporate/xbrl/-
+    ! give up https://nsearchives.nseindia.com/corporate/xbrl/-: 404 Client Error: Not Found for url: https://nsearchives.nseindia.com/corporate/xbrl/-
+    ! give up https://nsearchives.nseindia.com/corporate/xbrl/-: 404 Client Error: Not Found for url: https://nsearchives.nseindia.com/corporate/xbrl/-
+    ! give up https://nsearchives.nseindia.com/corporate/xbrl/-: 404 Client Error: Not Found for url: https://nsearchives.nseindia.com/corporate/xbrl/-
+    ! give up https://nsearchives.nseindia.com/corporate/xbrl/-: 404 Client Error: Not Found for url: https://nsearchives.nseindia.com/corporate/xbrl/-
+    ! give up https://nsearchives.nseindia.com/corporate/xbrl/-: 404 Client Error: Not Found for url: https://nsearchives.nseindia.com/corporate/xbrl/-
+    ! give up https://nsearchives.nseindia.com/corporate/xbrl/-: 404 Client Error: Not Found for url: https://nsearchives.nseindia.com/corporate/xbrl/-
+    ! give up https://nsearchives.nseindia.com/corporate/xbrl/-: 404 Client Error: Not Found for url: https://nsearchives.nseindia.com/corporate/xbrl/-
+    ! give up https://nsearchives.nseindia.com/corporate/xbrl/-: 404 Client Error: Not Found for url: https://nsearchives.nseindia.com/corporate/xbrl/-
+    ! give up https://nsearchives.nseindia.com/corporate/xbrl/-: 404 Client Error: Not Found for url: https://nsearchives.nseindia.com/corporate/xbrl/-
+    ! give up https://nsearchives.nseindia.com/corporate/xbrl/-: 404 Client Error: Not Found for url: https://nsearchives.nseindia.com/corporate/xbrl/-
+    ! give up https://nsearchives.nseindia.com/corporate/xbrl/-: 404 Client Error: Not Found for url: https://nsearchives.nseindia.com/corporate/xbrl/-
+    ! give up https://nsearchives.nseindia.com/corporate/xbrl/-: 404 Client Error: Not Found for url: https://nsearchives.nseindia.com/corporate/xbrl/-
+    ! give up https://nsearchives.nseindia.com/corporate/xbrl/-: 404 Client Error: Not Found for url: https://nsearchives.nseindia.com/corporate/xbrl/-
+    ! give up https://nsearchives.nseindia.com/corporate/xbrl/-: 404 Client Error: Not Found for url: https://nsearchives.nseindia.com/corporate/xbrl/-
+    ! give up https://nsearchives.nseindia.com/corporate/xbrl/-: 404 Client Error: Not Found for url: https://nsearchives.nseindia.com/corporate/xbrl/-
+    ! give up https://nsearchives.nseindia.com/corporate/xbrl/-: 404 Client Error: Not Found for url: https://nsearchives.nseindia.com/corporate/xbrl/-
+    ! give up https://nsearchives.nseindia.com/corporate/xbrl/-: 404 Client Error: Not Found for url: https://nsearchives.nseindia.com/corporate/xbrl/-
+    ! give up https://nsearchives.nseindia.com/corporate/xbrl/-: 404 Client Error: Not Found for url: https://nsearchives.nseindia.com/corporate/xbrl/-
+    ! give up https://nsearchives.nseindia.com/corporate/xbrl/-: 404 Client Error: Not Found for url: https://nsearchives.nseindia.com/corporate/xbrl/-
+    ! give up https://nsearchives.nseindia.com/corporate/xbrl/-: 404 Client Error: Not Found for url: https://nsearchives.nseindia.com/corporate/xbrl/-
+    ! give up https://nsearchives.nseindia.com/corporate/xbrl/-: 404 Client Error: Not Found for url: https://nsearchives.nseindia.com/corporate/xbrl/-
+    ! give up https://nsearchives.nseindia.com/corporate/xbrl/-: 404 Client Error: Not Found for url: https://nsearchives.nseindia.com/corporate/xbrl/-
+    ! give up https://nsearchives.nseindia.com/corporate/xbrl/-: 404 Client Error: Not Found for url: https://nsearchives.nseindia.com/corporate/xbrl/-
+    ! give up https://nsearchives.nseindia.com/corporate/xbrl/-: 404 Client Error: Not Found for url: https://nsearchives.nseindia.com/corporate/xbrl/-
+    ! give up https://nsearchives.nseindia.com/corporate/xbrl/-: 404 Client Error: Not Found for url: https://nsearchives.nseindia.com/corporate/xbrl/-
+    ! give up https://nsearchives.nseindia.com/corporate/xbrl/-: 404 Client Error: Not Found for url: https://nsearchives.nseindia.com/corporate/xbrl/-
+    ! give up https://nsearchives.nseindia.com/corporate/xbrl/-: 404 Client Error: Not Found for url: https://nsearchives.nseindia.com/corporate/xbrl/-
+    ! give up https://nsearchives.nseindia.com/corporate/xbrl/-: 404 Client Error: Not Found for url: https://nsearchives.nseindia.com/corporate/xbrl/-
+    ! give up https://nsearchives.nseindia.com/corporate/xbrl/-: 404 Client Error: Not Found for url: https://nsearchives.nseindia.com/corporate/xbrl/-
+    ! give up https://nsearchives.nseindia.com/corporate/xbrl/-: 404 Client Error: Not Found for url: https://nsearchives.nseindia.com/corporate/xbrl/-
+    xbrl 100/1982 rows=1,794
+    ! give up https://nsearchives.nseindia.com/corporate/xbrl/-: 404 Client Error: Not Found for url: https://nsearchives.nseindia.com/corporate/xbrl/-
+    ! give up https://nsearchives.nseindia.com/corporate/xbrl/-: 404 Client Error: Not Found for url: https://nsearchives.nseindia.com/corporate/xbrl/-
+    ! give up https://nsearchives.nseindia.com/corporate/xbrl/-: 404 Client Error: Not Found for url: https://nsearchives.nseindia.com/corporate/xbrl/-
+    xbrl 200/1982 rows=4,358
+    ! give up https://nsearchives.nseindia.com/corporate/xbrl/-: 404 Client Error: Not Found for url: https://nsearchives.nseindia.com/corporate/xbrl/-
+    ! give up https://nsearchives.nseindia.com/corporate/xbrl/-: 404 Client Error: Not Found for url: https://nsearchives.nseindia.com/corporate/xbrl/-
+    ! give up https://nsearchives.nseindia.com/corporate/xbrl/SHP_161943_533567_14102021064010_WEB.xml: 404 Client Error: Not Found for url: https://nsearchives.nseindia.com/corporate/xbrl/SHP_161943_533567_14102021064010_WEB.xml
+    ! give up https://nsearchives.nseindia.com/corporate/xbrl/SHP_162712_565199_30112021100058_WEB.xml: 404 Client Error: Not Found for url: https://nsearchives.nseindia.com/corporate/xbrl/SHP_162712_565199_30112021100058_WEB.xml
+    xbrl 300/1982 rows=6,436
+    ! give up https://nsearchives.nseindia.com/corporate/xbrl/SHP_161933_533462_14102021061101_WEB.xml: 404 Client Error: Not Found for url: https://nsearchives.nseindia.com/corporate/xbrl/SHP_161933_533462_14102021061101_WEB.xml
+    ! give up https://nsearchives.nseindia.com/corporate/xbrl/-: 404 Client Error: Not Found for url: https://nsearchives.nseindia.com/corporate/xbrl/-
+    xbrl 400/1982 rows=8,752
+    ! give up https://nsearchives.nseindia.com/corporate/xbrl/-: 404 Client Error: Not Found for url: https://nsearchives.nseindia.com/corporate/xbrl/-
+    xbrl 500/1982 rows=11,164
+    ! give up https://nsearchives.nseindia.com/corporate/xbrl/-: 404 Client Error: Not Found for url: https://nsearchives.nseindia.com/corporate/xbrl/-
+    ! give up https://nsearchives.nseindia.com/corporate/xbrl/-: 404 Client Error: Not Found for url: https://nsearchives.nseindia.com/corporate/xbrl/-
+    ! give up https://nsearchives.nseindia.com/corporate/xbrl/SHP_162929_541898_20102021081010_WEB.xml: 404 Client Error: Not Found for url: https://nsearchives.nseindia.com/corporate/xbrl/SHP_162929_541898_20102021081010_WEB.xml
+    ! give up https://nsearchives.nseindia.com/corporate/xbrl/SHP_162841_540865_20102021051027_WEB.xml: 404 Client Error: Not Found for url: https://nsearchives.nseindia.com/corporate/xbrl/SHP_162841_540865_20102021051027_WEB.xml
+    ! give up https://nsearchives.nseindia.com/corporate/xbrl/-: 404 Client Error: Not Found for url: https://nsearchives.nseindia.com/corporate/xbrl/-
+    ! give up https://nsearchives.nseindia.com/corporate/xbrl/-: 404 Client Error: Not Found for url: https://nsearchives.nseindia.com/corporate/xbrl/-
+    xbrl 600/1982 rows=13,349
+    ! give up https://nsearchives.nseindia.com/corporate/xbrl/-: 404 Client Error: Not Found for url: https://nsearchives.nseindia.com/corporate/xbrl/-
+    xbrl 700/1982 rows=15,934
+    ! give up https://nsearchives.nseindia.com/corporate/xbrl/-: 404 Client Error: Not Found for url: https://nsearchives.nseindia.com/corporate/xbrl/-
+    ! give up https://nsearchives.nseindia.com/corporate/xbrl/SHP_163545_577172_06012022022635_WEB.xml: 404 Client Error: Not Found for url: https://nsearchives.nseindia.com/corporate/xbrl/SHP_163545_577172_06012022022635_WEB.xml
+    ! give up https://nsearchives.nseindia.com/corporate/xbrl/-: HTTPSConnectionPool(host='nsearchives.nseindia.com', port=443): Max retries exceeded with url: /corporate/xbrl/- (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))
+    xbrl 800/1982 rows=18,371
+    ! give up https://nsearchives.nseindia.com/corporate/xbrl/-: 404 Client Error: Not Found for url: https://nsearchives.nseindia.com/corporate/xbrl/-
+    ! give up https://nsearchives.nseindia.com/corporate/xbrl/SHP_162560_538356_19102021044017_WEB.xml: 404 Client Error: Not Found for url: https://nsearchives.nseindia.com/corporate/xbrl/SHP_162560_538356_19102021044017_WEB.xml
+    ! give up https://nsearchives.nseindia.com/corporate/xbrl/-: 404 Client Error: Not Found for url: https://nsearchives.nseindia.com/corporate/xbrl/-
+    xbrl 900/1982 rows=20,518
+    ! give up https://nsearchives.nseindia.com/corporate/xbrl/-: 404 Client Error: Not Found for url: https://nsearchives.nseindia.com/corporate/xbrl/-
+    ! give up https://nsearchives.nseindia.com/corporate/xbrl/-: 404 Client Error: Not Found for url: https://nsearchives.nseindia.com/corporate/xbrl/-
+    xbrl 1000/1982 rows=23,003
+    ! give up https://nsearchives.nseindia.com/corporate/xbrl/-: 404 Client Error: Not Found for url: https://nsearchives.nseindia.com/corporate/xbrl/-
+    ! give up https://nsearchives.nseindia.com/corporate/xbrl/-: 404 Client Error: Not Found for url: https://nsearchives.nseindia.com/corporate/xbrl/-
+    ! give up https://nsearchives.nseindia.com/corporate/xbrl/-: 404 Client Error: Not Found for url: https://nsearchives.nseindia.com/corporate/xbrl/-
+    ! give up https://nsearchives.nseindia.com/corporate/xbrl/-: 404 Client Error: Not Found for url: https://nsearchives.nseindia.com/corporate/xbrl/-
+    xbrl 1100/1982 rows=26,488
+    ! give up https://nsearchives.nseindia.com/corporate/xbrl/-: 404 Client Error: Not Found for url: https://nsearchives.nseindia.com/corporate/xbrl/-
+    ! give up https://nsearchives.nseindia.com/corporate/xbrl/-: 404 Client Error: Not Found for url: https://nsearchives.nseindia.com/corporate/xbrl/-
+    ! give up https://nsearchives.nseindia.com/corporate/xbrl/SHP_163425_576056_05012022112443_WEB.xml: 404 Client Error: Not Found for url: https://nsearchives.nseindia.com/corporate/xbrl/SHP_163425_576056_05012022112443_WEB.xml
+    ! give up https://nsearchives.nseindia.com/corporate/xbrl/-: 404 Client Error: Not Found for url: https://nsearchives.nseindia.com/corporate/xbrl/-
+    xbrl 1200/1982 rows=29,157
+    ! give up https://nsearchives.nseindia.com/corporate/xbrl/SHP_162217_535748_18102021031003_WEB.xml: 404 Client Error: Not Found for url: https://nsearchives.nseindia.com/corporate/xbrl/SHP_162217_535748_18102021031003_WEB.xml
+    ! give up https://nsearchives.nseindia.com/corporate/xbrl/-: 404 Client Error: Not Found for url: https://nsearchives.nseindia.com/corporate/xbrl/-
+    xbrl 1300/1982 rows=31,587
+    ! give up https://nsearchives.nseindia.com/corporate/xbrl/-: 404 Client Error: Not Found for url: https://nsearchives.nseindia.com/corporate/xbrl/-
+    ! give up https://nsearchives.nseindia.com/corporate/xbrl/-: 404 Client Error: Not Found for url: https://nsearchives.nseindia.com/corporate/xbrl/-
+    ! give up https://nsearchives.nseindia.com/corporate/xbrl/-: 404 Client Error: Not Found for url: https://nsearchives.nseindia.com/corporate/xbrl/-
+    ! give up https://nsearchives.nseindia.com/corporate/xbrl/-: 404 Client Error: Not Found for url: https://nsearchives.nseindia.com/corporate/xbrl/-
+    ! give up https://nsearchives.nseindia.com/corporate/xbrl/-: 404 Client Error: Not Found for url: https://nsearchives.nseindia.com/corporate/xbrl/-
+    xbrl 1400/1982 rows=33,858
+    ! give up https://nsearchives.nseindia.com/corporate/xbrl/SHP_163552_577237_06012022030041_WEB.xml: 404 Client Error: Not Found for url: https://nsearchives.nseindia.com/corporate/xbrl/SHP_163552_577237_06012022030041_WEB.xml
+    ! give up https://nsearchives.nseindia.com/corporate/xbrl/SHP_163496_577636_06012022052011_WEB.xml: 404 Client Error: Not Found for url: https://nsearchives.nseindia.com/corporate/xbrl/SHP_163496_577636_06012022052011_WEB.xml
+    ! give up https://nsearchives.nseindia.com/corporate/xbrl/SHP_163370_577768_06012022063056_WEB.xml: 404 Client Error: Not Found for url: https://nsearchives.nseindia.com/corporate/xbrl/SHP_163370_577768_06012022063056_WEB.xml
+    xbrl 1500/1982 rows=35,835
+    ! give up https://nsearchives.nseindia.com/corporate/xbrl/SHP_168319_647358_22042022110057_WEB.xml: 404 Client Error: Not Found for url: https://nsearchives.nseindia.com/corporate/xbrl/SHP_168319_647358_22042022110057_WEB.xml
+    xbrl 1600/1982 rows=37,778
+    ! give up https://nsearchives.nseindia.com/corporate/xbrl/-: 404 Client Error: Not Found for url: https://nsearchives.nseindia.com/corporate/xbrl/-
+    xbrl 1700/1982 rows=39,742
+    xbrl 1800/1982 rows=43,504
+    xbrl 1900/1982 rows=49,111
+    ! give up https://nsearchives.nseindia.com/corporate/xbrl/SHP_1477321_04072025040249_WEB.xml: 404 Client Error: Not Found for url: https://nsearchives.nseindia.com/corporate/xbrl/SHP_1477321_04072025040249_WEB.xml
+  -> promoter_names: 52,457 rows x 6 cols
+[sast] Reg 29 (104 months)
+    sast 100/104 rows=39,150
+  -> sast_reg29: 40,980 rows x 25 cols
+[pledge] Reg 31 (104 months)
+    pledge 100/104 rows=0
+  -> pledge: 1,690 rows x 21 cols
+[ann] 748 subject-months
+    ann 100/748 rows=124
+    ann 200/748 rows=136
+    ann 300/748 rows=325
+    ann 400/748 rows=325
+    ann 500/748 rows=325
+    ann 600/748 rows=338
+    ann 700/748 rows=358
+  -> announcements: 358 rows x 21 cols
+[pit] insider disclosures for 2075 symbols
+    pit 100/2075 rows=1,059
+    pit 200/2075 rows=2,397
+    pit 300/2075 rows=3,603
+    pit 400/2075 rows=4,620
+    pit 500/2075 rows=5,606
+    pit 600/2075 rows=6,666
+    pit 700/2075 rows=7,889
+    pit 800/2075 rows=9,024
+    pit 900/2075 rows=10,197
+    pit 1000/2075 rows=11,526
+    pit 1100/2075 rows=12,641
+    pit 1200/2075 rows=13,816
+    pit 1300/2075 rows=15,064
+    pit 1400/2075 rows=16,213
+    pit 1500/2075 rows=17,289
+    pit 1600/2075 rows=18,522
+    pit 1700/2075 rows=19,709
+    pit 1800/2075 rows=21,043
+    pit 1900/2075 rows=22,141
+    pit 2000/2075 rows=23,366
+  -> insider_pit: 24,262 rows x 32 cols
+INGEST COMPLETE

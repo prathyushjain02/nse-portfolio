@@ -1,0 +1,20 @@
+                                            hypothesis track  panel_rows  events  base_rate  n_treated  mde_lift_a05  mde_lift_bonferroni
+             H3 pre-IPO conjunction -> DRHP within 24m     A      200000    1500      0.007       4000         1.554                1.721
+H4 lead-investor fund vintage 8+ yrs -> Track C hazard     C       60000    1200      0.020      10800         1.216                1.283
+         H6 margin uplift 4-6 quarters -> Track B sale     B      200000      80      0.000      20000         2.229                2.619
+        H7 ESOP buyback -> founder secondary within 6m     C       30000     600      0.020        300         2.312                2.700
+         H9 promoter age 58+ w/o next-gen -> Track B/E   B/E       30000     300      0.010      10500         1.363                1.481
+ H8 prior liquidity history -> repeat event (MEASURED)     D      100630   18347      0.148      46801         1.043                1.056
+
+- H3 pre-IPO conjunction -> DRHP within 24m
+    Conjunction is rare by design; that is what limits power.
+- H4 lead-investor fund vintage 8+ yrs -> Track C hazard
+    Vintage is cleanly observable; the label is the weak link.
+- H6 margin uplift 4-6 quarters -> Track B sale
+    Framework itself flags small-N. This is the binding constraint.
+- H7 ESOP buyback -> founder secondary within 6m
+    Treated group is tiny AND the framework notes the two are often bundled, so causal direction is unidentified even if powered.
+- H9 promoter age 58+ w/o next-gen -> Track B/E
+    Well-powered on paper; the problem is confounding, not N.
+- H8 prior liquidity history -> repeat event (MEASURED)
+    Already run on real data: lift 1.49, p=2.8e-195. Listed only.
